@@ -19,7 +19,9 @@ Add ons (aka packages) are docker images that are run by the Server.exe componen
 
 ### File_edit
 An add on that allows you to edit text files. It is chunked under the hood meaning you can make infinite edits with a constant amount of lag (because each chunk has a small size and adding edits just adds more chunks)
+
 Specification:
+
 /CreateChunk/{file_name]
 Type: GET
 Description: Creates a new chunk
