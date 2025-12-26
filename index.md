@@ -11,6 +11,7 @@ Welcome to my research archive. This site collects my work on social chaos theor
 ## Texts
 
 ###1. A brief history of datacentral
+
 **Status:** Live
 A brief history of datacentral to provide context on what it is and why it was created
 **PDF:** _no_
