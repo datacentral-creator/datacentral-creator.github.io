@@ -26,7 +26,8 @@ An analysis of how ancient societies used textual traditions to regulate social 
 **Status:** In preparation  
 A systems‑level description of datacentral, a modular, privacy‑first platform for converting unstructured personal data into meaningful, interconnected knowledge structures. This paper outlines the architecture, design principles, and theoretical motivations behind the system.
 
-**PDF:** _Coming soon_
+**PDF:**  _Coming soon_
+
 ---
 
 ## About This Archive
