@@ -24,18 +24,9 @@ An analysis of how ancient societies used textual traditions to regulate social 
 
 ### 3. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
 **Status:** In preparation  
-A systems‑level description of Project X, a modular, privacy‑first platform for converting unstructured personal data into meaningful, interconnected knowledge structures. This paper outlines the architecture, design principles, and theoretical motivations behind the system.
+A systems‑level description of datacentral, a modular, privacy‑first platform for converting unstructured personal data into meaningful, interconnected knowledge structures. This paper outlines the architecture, design principles, and theoretical motivations behind the system.
 
 **PDF:** _Coming soon_
-
----
-
-### 4. Future Directions: Quantum Networks, Entanglement, and the Evolution of Cultural Transmission  
-**Status:** Concept note  
-A speculative exploration of how quantum networking and non‑classical communication channels might reshape the future of personal data sovereignty, cultural formation, and distributed knowledge systems.
-
-**PDF:** _Coming soon_
-
 ---
 
 ## About This Archive
@@ -43,7 +34,3 @@ A speculative exploration of how quantum networking and non‑classical communic
 This site serves as a central index for my research output. Each paper will be available here as a PDF, accompanied by supplementary notes, diagrams, and extended commentary where relevant. Drafts, updates, and related essays may also appear on associated platforms such as LessWrong or GitHub repositories.
 
 ---
-
-## Contact
-
-If you are interested in discussing any of this work — particularly the intersections of hermeneutics, complex systems, AI, or self‑hosted knowledge architectures — feel free to reach out through the channels listed on the **About** page.
