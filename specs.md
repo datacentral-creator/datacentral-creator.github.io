@@ -36,6 +36,10 @@ Description: Returns a file from the local directory
 Type: GET
 Description: Returns a list of files from the local directory
 
+/Recieve_file/{file_name}
+Type: POST(with the file embedded in the post request directly)
+Description: Adds the file to the local directory
+
 ### File_read
 
 ### File_set
