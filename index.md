@@ -4,46 +4,42 @@ layout: default
 
 # Research Papers
 
-Welcome to my research archive. This site collects my work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge ecosystems. Each paper explores a different facet of how humans create, interpret, and transform information — from ancient languages to modern AI systems.
+This archive presents my ongoing work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge infrastructures. The papers collected here examine how humans create, interpret, and transform information across historical, technological, and computational contexts.
 
 ---
 
 ## Texts
 
-###1. A brief history of datacentral
-
-**Status:** Live
-A brief history of datacentral to provide context on what it is and why it was created
-**PDF:** _no_
+### 1. A Brief History of Datacentral  
+**Status:** Live  
+A historical and conceptual overview of Datacentral, outlining its origins, motivations, and the intellectual trajectory that led to its development.  
+**PDF:** _Not available_
 
 ---
 
 ### 2. Social Chaos, Cultural Attractors, and Algorithmic Mediation  
 **Status:** In preparation  
-A theoretical framework for understanding how algorithmic systems (recommendation engines, LLMs, generative models) influence the structure of social chaos and cultural formation. This paper develops a comparative model drawing on ancient hermeneutic traditions and modern computational dynamics.
-
+A theoretical investigation into the ways algorithmic systems—such as recommendation engines, LLMs, and generative models—shape the dynamics of social chaos and cultural formation. The paper develops a comparative framework informed by ancient hermeneutic traditions and contemporary computational paradigms.  
 **PDF:** _Coming soon_
 
 ---
 
 ### 3. Ancient Texts as Cultural Algorithms: Hermeneutics, Meaning, and Social Order  
 **Status:** Drafting  
-An analysis of how ancient societies used textual traditions to regulate social chaos, transmit norms, and generate cultural coherence. This paper compares ancient interpretive systems with modern algorithmic mediation, highlighting structural parallels between sacred texts and computational filters.
-
+An analysis of how ancient societies employed textual traditions to regulate social behaviour, transmit norms, and generate cultural coherence. The paper draws structural parallels between hermeneutic interpretation and modern algorithmic mediation, examining both as systems for producing and constraining meaning.  
 **PDF:** _Coming soon_
 
 ---
 
 ### 4. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
 **Status:** In preparation  
-A systems‑level description of datacentral, a modular, privacy‑first platform for converting unstructured personal data into meaningful, interconnected knowledge structures. This paper outlines the architecture, design principles, and theoretical motivations behind the system.
-
-**PDF:**  _Coming soon_
+A systems‑level exposition of Datacentral, a modular and privacy‑oriented platform designed to convert unstructured personal data into structured, interconnected knowledge representations. The paper outlines the architecture, design principles, and theoretical motivations underlying the system.  
+**PDF:** _Coming soon_
 
 ---
 
 ## About This Archive
 
-This site serves as a central index for my research output. Each paper will be available here as a PDF, accompanied by supplementary notes, diagrams, and extended commentary where relevant. Drafts, updates, and related essays may also appear on associated platforms such as LessWrong or GitHub repositories.
+This site functions as a central index for my research output. Each paper will be made available here in PDF format, accompanied where appropriate by supplementary notes, diagrams, and extended commentary. Related essays and preliminary explorations may also appear on platforms such as LessWrong or within associated GitHub repositories.
 
 ---
