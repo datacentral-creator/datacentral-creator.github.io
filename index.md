@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Research Papers
 
 Welcome to my research archive. This site collects my work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge ecosystems. Each paper explores a different facet of how humans create, interpret, and transform information — from ancient languages to modern AI systems.
