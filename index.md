@@ -22,7 +22,7 @@ An analysis of how ancient societies used textual traditions to regulate social 
 
 ---
 
-### 3. Project X: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
+### 3. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
 **Status:** In preparation  
 A systems‑level description of Project X, a modular, privacy‑first platform for converting unstructured personal data into meaningful, interconnected knowledge structures. This paper outlines the architecture, design principles, and theoretical motivations behind the system.
 
