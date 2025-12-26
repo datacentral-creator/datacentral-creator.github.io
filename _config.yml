@@ -1,0 +1,7 @@
+title: "J’s Research"
+description: "Papers on social chaos, hermeneutics, computational culture, and personal knowledge ecosystems."
+theme: jekyll-theme-slate
+
+markdown: kramdown
+kramdown:
+  math_engine: katex
