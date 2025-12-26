@@ -2,7 +2,7 @@
 
 ## Extensions
 
-Extensions are external programs integrated directly into the Server component (Server.exe)
+Extensions are (locally run) external programs integrated directly into the Server component (Server.exe)
 
 ### [The solid project](https://solidproject.org/)
 The solid project is used to store the data. The add ons File_read and File_set are interfaces to the solid project. All data should flow throgh these interfaces allowing you to terminate any given add-ons acess to your data from within the solid project. 
@@ -44,8 +44,26 @@ Description: Adds the file to the local directory
 
 ### File_read
 
+An add on that allows you to upload files to the solid database 
+
+Specification:
+/Download_files/chunks
+Type: POST(with the file embedded in form data)
+Description: Uploads the file to the local directory
+
+/Get_files
+Type: GET
+Description: Returns a list of files in the local directory
+
+/Reference_index/{file_name}
+Type: GET
+Description: 
+
 ### File_set
+
+An add on that allows you to view the files in your solid database and send them to the text editor add on
 
 ### Package_manager
 
+An add on that allows you to view the details of packages, remove packages and add new packages (by pulling new images)
 
