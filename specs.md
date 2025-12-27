@@ -15,7 +15,7 @@ Docker is integrated into the Server.exe file and it is the back bone that runs 
 
 ## Add ons
 
-Add ons (aka packages) are docker images that are run by the Server.exe component through the docker extension however in the future I will introduce the capability to run add ons on a kubernete instead. Conceptually add ons are such that they aren't neccessarily open source however the specification of a given add on should be provided such that you can create a new add on with the same specification and it will work the same within the datacentral ecosystem. 
+Add ons (aka packages) are typically docker images that are run by the Server.exe component through the docker extension however in the future I will introduce the capability to run add ons on a kubernete instead. Conceptually add ons are such that they aren't neccessarily open source however the specification of a given add on should be provided such that you can create a new add on with the same specification and it will work the same within the datacentral ecosystem. 
 
 ### File_edit
 An add on that allows you to edit text files. It is chunked under the hood meaning you can make infinite edits with a constant amount of lag (because each chunk has a small size and adding edits just adds more chunks)
@@ -57,13 +57,29 @@ Description: Returns a list of files in the local directory
 
 /Reference_index/{file_name}
 Type: GET
-Description: 
+Description: Returns a list of reference indices of a file (Basically if you choose to "encrypt" a file the file is actually stored within solid in an encrypted form and a reference index is generated which is a list of all the words in the file and this is required to de-encrypt the file providing an extra layer of security however reference indices are going to have a special use in the future as well). 
+
+/Reference_index/{file_name}/{Chunk_no}
+Type: GET 
+Description: Returns the file index of a given chunk
 
 ### File_set
 
 An add on that allows you to view the files in your solid database and send them to the text editor add on
 
+Specification:
+
+/download/{file_name}
+Type: GET
+Description: Returns the corresponding file from the local directory
+
+/sendFile/{file_name}
+Type: GET
+Description: Sends the file from solid to the text editor
+
 ### Package_manager
 
 An add on that allows you to view the details of packages, remove packages and add new packages (by pulling new images)
 
+Specification:
+This add on does not have a specification as such as it is independent from all other add ons so there are no routes used by other add ons
