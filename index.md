@@ -11,7 +11,8 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 
 ### [1. A Brief History of Datacentral](history.md)
 **Status:** Live  
-A historical and conceptual overview of Datacentral, outlining its origins, motivations, and the intellectual trajectory that led to its development.  
+A historical and conceptual overview of Datacentral, outlining its origins, motivations, and the intellectual trajectory that led to its development. 
+
 **PDF:** _Not available_
 
 ---
@@ -19,6 +20,7 @@ A historical and conceptual overview of Datacentral, outlining its origins, moti
 ### [2. Datacentral specifications](specs.md)
 **Status:** Live  
 A specification for datacentral
+
 **PDF:** _Not available_
 
 ---
@@ -34,6 +36,7 @@ An essay proposing a theoretical structure of ideas as intelligent agents and ex
 ### 4. Ancient Texts as Cultural Algorithms: Hermeneutics, Meaning, and Social Order  
 **Status:** Drafting  
 An analysis of how ancient societies employed textual traditions to regulate social behaviour, transmit norms, and generate cultural coherence. The paper draws structural parallels between hermeneutic interpretation and modern algorithmic mediation, examining both as systems for producing and constraining meaning.  
+
 **PDF:** _Coming soon_
 
 ---
@@ -41,6 +44,7 @@ An analysis of how ancient societies employed textual traditions to regulate soc
 ### 5. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
 **Status:** In preparation  
 A systems‑level exposition of Datacentral, a modular and privacy‑oriented platform designed to convert unstructured personal data into structured, interconnected knowledge representations. The paper outlines the architecture, design principles, and theoretical motivations underlying the system.  
+
 **PDF:** _Coming soon_
 
 ---
