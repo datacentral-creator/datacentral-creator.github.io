@@ -23,9 +23,9 @@ A specification for datacentral
 
 ---
 
-### 3. Social Chaos, Cultural Attractors, and Algorithmic Mediation  
-**Status:** In preparation  
-A theoretical investigation into the ways algorithmic systems—such as recommendation engines, LLMs, and generative models—shape the dynamics of social chaos and cultural formation. The paper develops a comparative framework informed by ancient hermeneutic traditions and contemporary computational paradigms.  
+### 3. [Are ideas alive? How history was governed by ideas](essay.md)  
+**Status:** First draft released
+An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
 **PDF:** _Coming soon_
 
 ---
