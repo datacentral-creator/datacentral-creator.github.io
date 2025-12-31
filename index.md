@@ -26,7 +26,7 @@ A specification for datacentral
 ---
 
 ### 3. [Are ideas alive? How history was governed by ideas](essay.md)  
-**Status:** First draft released
+**Status:** First full draft released
 An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
 
 **PDF:** _Coming soon_
