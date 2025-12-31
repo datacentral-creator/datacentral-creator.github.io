@@ -95,7 +95,9 @@ thoughtform = loop
 egregore = network of loops
 archetype = recurrent network across many texts
 godform = interface node connecting an egregore to behaviour or ritual
-3.2 Quantifying Strength: Probabilities and Attractors
+
+## 3.2 Quantifying Strength: Probabilities and Attractors
+
 To measure the strength of a thoughtform, we consider:
 frequency (how often it appears in the sequence)
 recurrence distance (how many tokens are in a cycle)
