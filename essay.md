@@ -33,9 +33,12 @@ Rosicrucianism, emerging in the early modern period, blended the traditions of C
 
 ## 2.2 Egregores 
 
-Origins in the Book of Enoch
+### Origins in the Book of Enoch
+
 The term egregore originates in the Book of Enoch, where the Greek egregoroi refers to “the watchers”—angels tasked with observing humanity. In the book of enoch, some watchers become corrupted, presenting themselves as gods and teaching forbidden knowledge (magic). This story shaped early Christian attitudes toward pagan deities and magic, associating egregores with powerful, idea‑like entities.
-Transformation in Western Esotericism
+
+### Transformation in Western Esotericism
+
 In later esoteric traditions, the egregore evolved into a symbol of collective psychic energy—an entity formed by the shared beliefs and emotions of a group. Detached from its original mythological context, the egregore became a way to describe how ideas can take on a life of their own.
 In this essay, the egregore is abstracted further: it becomes a memetic structure as described earlier. 
 Thoughtforms, Godforms, and Tulpas
