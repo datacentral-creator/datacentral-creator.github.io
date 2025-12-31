@@ -30,11 +30,12 @@ A specification for datacentral
 **Status:** First edition released
 
 **Document type:** Essay
+
 An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
 
 ---
 
-### 4. How do reccomendation algorithms effect the formation of culture?
+### 4. [How do reccomendation algorithms effect the formation of culture?](algorithms.md)
 
 A research paper that analyses how reccomendation algorithms effect the formation of culture through the parameter of "social chaos" which effects the divergence in a person's habits over time
 
