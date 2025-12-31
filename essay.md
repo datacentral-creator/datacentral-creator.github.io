@@ -1,4 +1,3 @@
-$\frac{a}{b}$
 
 # Section 1 - What are ideas
 
@@ -83,13 +82,17 @@ with a dictionary mapping:
 {"I":1, "have":2, "an":3, "apple":4, ".":5, "The":6, "is":7, "red":8}
 Where this dictionary is called a “reference index”
 The meaning of the numbers is irrelevant; what matters is the pattern of recurrence and adjacency. To analyse this it is better to represent the tokens as a sequence where we can think of each token as “inducing” the next token IE we have 1 → 2 → 3 → 4 → 5 → 6 → 4 → 7 → 8 where this is considered the “graph” representation of the reference index
-Thoughtforms as Cycles
+
+### Thoughtforms as Cycles
+
 A thoughtform can be defined as a token that participates in a cycle within the sequence graph.
  In the example above:
 4 → 5 → 6 → 4 is a cycle
 therefore 4 (“apple”) is a thoughtform
 Cycles represent self‑reinforcing ideas: concepts that return to themselves through interpretation. This also makes sense intuitively as “apple” was the theme of the sentence.
-Egregores as Networks of Memes
+
+### Egregores as Networks of Memes
+
 In mathematics a set is simply a collection of things and are represented by enclosing a list of these things in curly brackets “{“ and “}” for instance our dictionary earlier was a set of definitions - each definition would be considered a “member” of the set.
 I previously described an egregore as a network of memes. We can represent this as an “egregore set” - a set of memes. 
 So to summarise:
