@@ -1,4 +1,4 @@
-\frac{a}{b}
+$\frac{a}{b}$
 
 # Section 1 - What are ideas
 
