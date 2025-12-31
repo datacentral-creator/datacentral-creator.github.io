@@ -1,4 +1,4 @@
-### Section 1 - What are ideas
+# Section 1 - What are ideas
 
 ## Introduction
 
