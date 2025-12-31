@@ -27,17 +27,16 @@ A specification for datacentral
 ---
 
 ### [3. Are ideas alive? How history was governed by ideas](essay.md)  
-**Status:** First full draft released
+**Status:** First edition released
 
 **Document type:** Essay
 An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
 
 ---
 
-### 4. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
-**Status:** In preparation  
+### 4. How do reccomendation algorithms effect the formation of culture?
 
-A systems‑level exposition of Datacentral, a modular and privacy‑oriented platform designed to convert unstructured personal data into structured, interconnected knowledge representations. The paper outlines the architecture, design principles, and theoretical motivations underlying the system.  
+A research paper that analyses how reccomendation algorithms effect the formation of culture through the parameter of "social chaos" which effects the divergence in a person's habits over time
 
 ---
 
