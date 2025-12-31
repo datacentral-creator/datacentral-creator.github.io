@@ -75,3 +75,6 @@ Hegel’s view of history as a self‑developing process anticipates modern theo
 Why are memetic entities unique to humans? One answer lies in language. The Sapir‑Whorf hypothesis suggests that language influences how individuals categorise and interpret the world. While people can perceive colours regardless of vocabulary, linguistic categories shape how they conceptualise and remember them. A culture without a distinct word for “orange,” for example, may classify it as a shade of red or yellow, altering the conceptual boundaries within which ideas form.
 
 Language, therefore, provides the medium in which interpretation occurs. It structures the memetic landscape, determining which distinctions are salient, which ideas can be expressed, and how they can evolve. In this sense, language is not merely a tool for communication but a substrate for the replication and transformation of ideas.
+
+**Section 3 \- Modelling: A deep dive **
+Coming soon
