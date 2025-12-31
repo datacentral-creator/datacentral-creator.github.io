@@ -12,6 +12,7 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 ### [1. A Brief History of Datacentral](history.md)
 
 **Status:** Live  
+
 **Document type**: Record 
 A historical and conceptual overview of Datacentral, outlining its origins, motivations, and the intellectual trajectory that led to its development. 
 
@@ -19,6 +20,7 @@ A historical and conceptual overview of Datacentral, outlining its origins, moti
 
 ### [2. Datacentral specifications](specs.md)
 **Status:** Live  
+
 **Document type**: Specification document
 A specification for datacentral
 
@@ -26,6 +28,7 @@ A specification for datacentral
 
 ### [3. Are ideas alive? How history was governed by ideas](essay.md)  
 **Status:** First full draft released
+
 **Document type:** Essay
 An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
 
@@ -33,6 +36,7 @@ An essay proposing a theoretical structure of ideas as intelligent agents and ex
 
 ### 4. Datacentral: A Self‑Hosted Ecosystem for Transforming Personal Data into Structured Knowledge  
 **Status:** In preparation  
+
 A systems‑level exposition of Datacentral, a modular and privacy‑oriented platform designed to convert unstructured personal data into structured, interconnected knowledge representations. The paper outlines the architecture, design principles, and theoretical motivations underlying the system.  
 
 ---
