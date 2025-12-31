@@ -35,7 +35,7 @@ An essay proposing a theoretical structure of ideas as intelligent agents and ex
 
 ---
 
-### 4. [How do reccomendation algorithms effect the formation of culture?](algorithms.md)
+### [4.How do reccomendation algorithms effect the formation of culture?](algorithms.md)
 
 A research paper that analyses how reccomendation algorithms effect the formation of culture through the parameter of "social chaos" which effects the divergence in a person's habits over time
 
