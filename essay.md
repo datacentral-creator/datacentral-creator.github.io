@@ -4,7 +4,7 @@
 
 This section explores multiple perspectives of what ideas are in the context of “living ideas” to synthesise a comprehensive model to use throughout the essay as well as evaluating whether ideas are “alive”?
 
-##1.1 The selfish gene
+## 1.1 The selfish gene
 
 The modern conception of ideas changed dramatically in 1976 with Richard Dawkins’ The Selfish Gene. Dawkins reframed evolution by arguing that natural selection acts not on organisms or species, but on genes—sections of chromosomes stable enough to persist across generations. Organisms, in this view, are “survival machines” built by genes to ensure their own replication. This shift introduced the broader category of the replicator: any structure capable of making copies of itself and enduring through time.
 In chapter 11, Dawkins extends this logic beyond biology. He proposes the meme as a cultural replicator—an idea, behaviour, or symbol that spreads from mind to mind through imitation. Ideas do not pass between people as fixed objects; each person interprets and reshapes them. What persists is not the exact form of an idea, but a pattern stable enough to survive repeated reinterpretation. If ideas behave like replicators—transmitted, transformed, and preserved across minds—then they can be studied as dynamic participants in cultural evolution, competing for limited cognitive and social resources. Additionally, similar to genes memes evolve in meme complexes of memes that act to mutually reinforce each other. I will also propose throughout this essay that just as genes create organisms as survival machines memes create their own memetic structures. 
