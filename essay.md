@@ -103,7 +103,9 @@ frequency (how often it appears in the sequence)
 recurrence distance (how many tokens are in a cycle)
 Sequence length (how many tokens are in the sequence)
 A simple measure is:
-strengtht=$\frac{frequencyt}{sequence length × average return distance)}$
+
+strengtht = $\frac{frequencyt}{sequence length × average return distance)}$
+
 Which gives us:
 Strong attractors: Occur frequently relative to the sequence length and near to each other
 Weak attractors: Occur few times relative to the sequence length and away from each other
