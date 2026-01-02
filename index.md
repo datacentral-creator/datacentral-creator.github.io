@@ -37,13 +37,17 @@ An essay proposing a theoretical structure of ideas as intelligent agents and ex
 
 ### [4.How do reccomendation algorithms effect the formation of culture?](algorithms.md)
 
-**Status**: In progress
+**Status**: First edition published
 
 **Document type:** Research paper
 
 A research paper that analyses how reccomendation algorithms effect the formation of culture through the parameter of "social chaos" which effects the divergence in a person's habits over time
 
 ---
+### [5. The tagger component - theory](tagger.md)
+**Status**: In progress
+**Document type**: Unkown
+A concept document that synthesises the work of "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture" to synthesise a new kind of reccomendation algorithm that reccomends meaning
 
 ## About This Archive
 
