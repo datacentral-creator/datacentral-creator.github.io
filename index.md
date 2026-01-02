@@ -45,8 +45,9 @@ A research paper that analyses how reccomendation algorithms effect the formatio
 
 ---
 ### [5. The tagger component - theory](tagger.md)
-**Status**: In progress
-**Document type**: Unkown
+**Status**: First draft released
+
+**Document type**: Conceptual
 A concept document that synthesises the work of "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture" to synthesise a new kind of reccomendation algorithm that reccomends meaning
 
 ## About This Archive
