@@ -61,7 +61,7 @@ In this case I chose youtube's recommendation algorithm arbitrarily.
 
 In this context social chaos would be represented by the \# of videos of a specific type a user interacts with \- this acts as a representation of the variance in what a user watches.
 
-Originally I was going to create an experiment where we model the users behaviour as probabilistic and model the number of different categories a user is presented with using a statistical distribution called a binomial distribution which would allow us to make claims about the algorithm that are statistically significant however I soon realised that this is largely unnecessary. The general method is like this:
+This allows us to create the method:
 
 1. Search for a category of video with a fresh account  
 2. Watch a video from that category from start to finish  
@@ -71,7 +71,11 @@ Originally I was going to create an experiment where we model the users behaviou
 6. Repeat steps 2-5 using a video from the homepage of results until the number recorded in steps 4 converges on a specific value  
 7. Delete the youtube history to reset the account to be effectively a fresh account and repeat steps 1-6 using an increasing number of categories from 1-n1 in steady increments
 
-The values of n1 and n2 were going to be obtained statistically however what I realised is that ultimately I don’t need to use rigorous statistical analysis to test that the results are statistically significant and representative. The reason for this is the law of large numbers which states that the average of a sample approaches the true average, if it exists for a large sample. The only thing that matters in this experiment is the general form of the trend that emerges. This is also the reason I felt rigorous statistical testing was excessive. It means that I can repeat the experiment with the same method but increasing values of n1 and n2 until the trend stabilises. As the trend begins to stabilise I can say that it is approaching the true trend so the form of the trend should be approximately true. I also don’t need to perform step 5 because as step 4 increases and you scroll down the page fresh content is loaded anyway
+In a fully rigorous design, the values of n₁ (the number of videos inspected per iteration) and n₂ (the number of page reloads) would be chosen using statistical power analysis to ensure representativeness. However, the purpose of this pilot study is not to estimate population parameters but to identify qualitative trends in algorithmic behaviour.
+
+Because YouTube continuously loads new recommendations as the user scrolls, increasing n₁ effectively simulates the effect of multiple reloads. Thus n₁ and n₂ collapse into a single parameter: the total number of recommendations observed.
+
+By incrementally increasing n₁, the experiment leverages the law of large numbers: as the number of observed recommendations grows, the running mean converges toward the algorithm’s stable behaviour. This allows the study to focus on emergent patterns rather than precise statistical estimates.
 
 ## 3.3 Algorithmic analysis
 
@@ -122,7 +126,8 @@ Something else which is important to consider when analysing the algorithm is a 
 
 ## 4.4 Social analysis
 
-In this section we analyse what it actually means to be in any of the 3 strata (high social chaos, medium social chaos and low social chaos). This results in the following framework. 
+Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion.
+This results in the following framework. 
 
 1. **Upper Strata – The Domain of Cultural Architects:**  
    Individuals positioned above the top critical point exhibit extremely high levels of social chaos, where their exposure to diverse and rapidly changing digital content induces a state of cognitive overload. Drawing on Goffman’s (1959) concept of dramaturgy, these users perform multiple, often conflicting social roles simultaneously. This divergent role behavior results in high "role entropy" (as discussed by Prigogine, 1984), where predictable patterns break down and novel cultural expressions emerge. In this stratum, the individuals—I will term “cultural architects”—synthesize new cultural forms by navigating and even exploiting the boundaries of algorithmically driven content recommendations. Their capacity to combine diverse inputs fosters the creation of subcultures that remain accessible only to those operating at or above this critical threshold.  
