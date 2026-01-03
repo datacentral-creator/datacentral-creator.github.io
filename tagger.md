@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+
 # What is the tagger component?
 The tagger component is the solution to a question. The question is “how can I create a system that allows you to extract form from information?”. I intend to answer this question by synthesising the work of my essay “Are ideas alive? How historical civilisations were governed by ideas”(text A) and my research paper “How do recommendation algorithms affect the formation of culture”(text B). The tagger component in it’s most primitive form should extract egregores (as defined in text A) from a piece of text using the methodology set out in text A and act kind of like a recommendation algorithm recommending new texts using the egregores embedded inside of them except avoiding the errors of the current recommendation algorithm architecture laid out in text B.
 
