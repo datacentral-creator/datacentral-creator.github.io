@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+
 # 1\. Introduction
 
 Since 2020, many people have expressed a sense that society has become more predictable, less spontaneous, and increasingly fragmented. Conversations about “NPCs,” “echo chambers,” and “algorithmic culture” have entered mainstream discourse. These intuitions raise a deeper question: has the structure of culture itself changed?
