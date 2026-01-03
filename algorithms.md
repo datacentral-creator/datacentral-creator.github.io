@@ -1,7 +1,9 @@
 **Navigation:**  
 [Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
 
-# 1\. Introduction
+# 1\. Abstract
+
+## Introduction
 
 Since 2020, many people have expressed a sense that society has become more predictable, less spontaneous, and increasingly fragmented. Conversations about “NPCs,” “echo chambers,” and “algorithmic culture” have entered mainstream discourse. These intuitions raise a deeper question: has the structure of culture itself changed?
 
@@ -22,6 +24,10 @@ The analysis draws on two pillars:
 * cross‑validation with existing academic literature
 
 The goal is not only to understand how algorithms influence culture, but also to situate these findings within a broader theory of how ideas evolve in digital environments
+
+## Scope & Limitations
+
+This study is exploratory rather than conclusive. Its goal is to identify qualitative patterns in algorithmic behaviour and situate them within broader sociological and memetic frameworks. The pilot experiment is intentionally minimal, serving as a conceptual probe rather than a statistically generalisable test
 
 # 2\. Background & Theory
 
