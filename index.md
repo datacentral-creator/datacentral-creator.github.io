@@ -3,7 +3,7 @@
 
 # Research Papers
 
-This archive presents my ongoing work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge infrastructures. The papers collected here examine how humans create, interpret, and transform information across historical, technological, and computational contexts.
+This archive presents my ongoing work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge infrastructures. The papers collected here examine how humans create, interpret, and transform information across historical, technological, and computational contexts in chronological order.
 
 ---
 
