@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+
 # Section 1 \- What are ideas
 
 ## Introduction
