@@ -16,6 +16,12 @@ Kubernetes are integrated into the Server.exe file however currently the kuberne
 ## [Docker](https://www.docker.com/)
 Docker is integrated into the Server.exe file and it is the back bone that runs add ons. 
 
+## [Scheduling_project](https://github.com/datacentral-creator/Scheduling-project)
+A side project I created as an add on however it ended up becoming an extension instead. It acts as a statistical inference engine optimised for revision.
+
+## My tagger component
+The basis of my simulatrix system which intends to act as a multimodal AI for bidirectional media interaction and potentially a new approach to computational physics in the future. It is the brain that extracts form from information.
+
 ## Add ons
 
 Add ons (aka packages) are typically docker images that are run by the Server.exe component through the docker extension however in the future I will introduce the capability to run add ons on a kubernete instead. Conceptually add ons are such that they aren't neccessarily open source however the specification of a given add on should be provided such that you can create a new add on with the same specification and it will work the same within the datacentral ecosystem. 
