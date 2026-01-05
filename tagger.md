@@ -208,38 +208,267 @@ Next I will integrate the youtube-transcript-api I can then perform a second exp
 
 # 8\. Speculative ontological framework
 
-Additionally, a concept that emerged in text B was that users are pushed into echo chambers more so due to psychology than the direct effect of the youtube recommendation algorithm. Ultimately youtube is a collection of videos. Videos on youtube are made by people and every video ultimately expresses some kind of idea \- whether this is directly in terms of perhaps documentary videos or commentary videos or videos that are expressions of culture for example gaming videos are ultimately expressing the ideas embedded in the game. Therefore we can say that the collection of videos on youtube will likely form an egregore. Ultimately our notion of social interaction is typically conceived of people interacting with people however we could easily replace this with an egregore interacting with an egregore and the methodology would be the same (in the terms of an interaction as an exchange of memes). In this perspective we can classify watching youtube as a kind of social interaction. In our typical conception of a social interaction \- a conversation, the typical format people think of is one where we take turns speaking. There are two people, one person says something and the other person listens, then the person responds to the thing the first person said and vice versa. If we think of this in terms of memes when the first person is speaking and the second person is listening the first person is effectively inducing memes in the second person's head and then vice versa when the second person replies. Visually, we can conceive this as the meme “moving” from the head of one person to the other. In reality, a conversation isn’t typically perfectly balanced though. Typically one person tends to dominate the conversation \- that is one person will speak more than the other. Returning to our memetic visualisation we can say the person who is dominant in the conversation is doing the thinking and generating the ideas and the person who is listening is internalising these ideas in the sense described in Text A when talking about internalising patterns. We can think about interacting with youtube not just as a social interaction but a conversation. We “talk” to youtube by providing it with engagement patterns and it “replies” to us by recommending content. The problem with the conversation with youtube is that youtube is the dominant agent of this conversation kind of “pushing” it’s memes onto us and causing us to internalise what youtube is “saying” to us becoming **passive** recipients of memes as shown by decreasing social chaos in Text B.This is also embodied by phenomena such as parasocial relationships.This is the core idea that datacentral tries to overcome embodied by the tagger component \- it seeks to push the act of meme generation onto the user \- extracting form from information. 
+## 8.1 Overview
 
-This also links into a theory I’ve heard called “breeze theory”. Breeze theory is a theory that reality has an inescapable recursive nature. It actually echoes the themes of gnosticism whilst being \- as far as I know \- completely uninspired by it which I find fundamentally compelling. I will not regard breeze theory as an academic source as it has not been peer reviewed however I will consider it as a philosophical argument. Additionally, truth be told I haven’t extensively investigated breeze theory however I am aware of it on a superficial level. 
+The tagger component is designed to extract structural patterns—egregores—from media.  
+ This section proposes a speculative ontology that situates these structures within a broader theory of how ideas, minds, and physical systems interact.
 
-It echoes a notion I conceived personally. If we refer back to text A we can conceive ideas in terms of cortical columns however ultimately the evolutionary purpose of cortical columns is to model the reality around us \- in this biological sense we can conceive ideas as expressions of models of the world around us built off internalisations of these external qualities. If we think about ideas in terms of those qualities \- these qualities are ultimately expressions of physical systems \- if we conceive these physical systems as recursive as proposed in breeze theory, or at least simply hierarchical we can conceive a kind of “inverse idea”. If an idea is a construction of internalised patterns an “inverse idea” is simply the same thing except instead of being internalised it’s externalised. Ideas and inverse ideas fundamentally work in exactly the same way except inverse ideas don’t propagate through minds they propagate through physical systems. In the same way as we have memes we could then have “inverse memes” and even “inverse egregores” which are simply the systems themselves. We can think of “inverse egregores” as the patterns that multitudes of cultures across the world independently conceived of as deities or spirits. Returning to this hierarchical view we can conceive complex inverse egregores → qualities → Internalised qualities → Internalised egregores. 
+The goal is not to assert metaphysical truth, but to provide a conceptual scaffold that:
 
-There exists an idea that biological life exists as a catalyst of entropy \- perhaps this hierarchy I have conceived is an expression of systematic symmetry and throughout time the symmetry moves towards the mental side. The question becomes is there a way to accelerate this movement?
+* explains why egregores behave like living systems  
+* clarifies how users interact with them  
+* motivates the design of the tagger as a tool for conscious memetic agency
 
-Case study: Tulpamancy 
+## 8.2 Ideas as Bidirectional Structures
 
-# 9\. Future Vision: The Simulatrix
+In the memetic framework developed earlier, ideas propagate through minds by inducing stable neural configurations of cortical columns.  
+ However, fundamentally cortical columns model *external* structures—physical systems, cultural artefacts, and technological environments.
+
+This suggests a dual ontology:
+
+| Internal domain | External domain |
+| :---- | :---- |
+| Ideas | Inverse ideas |
+| Memes | Inverse memes |
+| Egregores | Inverse egregores |
+
+D**efinition:**
+
+* **Ideas**: internalised patterns encoded in cortical columns  
+* **Inverse ideas**: externalised patterns encoded in physical or social systems  
+* **Memes:** Quantitised ideas \- units of culture  
+* **Inverse memes:** Quantised external patterns  
+* **Egregores**: networks of internalised memes  
+* **Inverse egregores**: networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits.
+
+## 8.3 The youtube experiment analysis
+
+### Videos as memetic structures
+
+Every video on YouTube ultimately expresses some kind of idea.  
+ Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content—gaming, lifestyle vlogs, reaction videos—encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.
+
+In memetic terms, each video is a **bundle of memes**: reproducible units of culture that can be internalised, imitated, remixed, or resisted. When a user watches a video, these memes are not just “seen”—they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.
+
+The YouTube platform thus becomes a dense archive of memetic structures: each video a local configuration, all of them participating in a larger, evolving pattern
+
+### Youtube as an egregore
+
+YouTube is not simply a collection of independent videos.  
+ It is a **superstructure** composed of:
+
+* user‑generated videos (memetic artefacts)  
+* interaction patterns (likes, watch time, comments, shares)  
+* recommendation algorithms (selection and reinforcement mechanisms)  
+* platform norms and affordances (what is easy, what is rewarded, what is suppressed)
+
+Taken together, these components form a **self‑organising network of memes** that adapts to user behaviour and shapes it in return. This is exactly the definition of an egregore used earlier: a network of mutually reinforcing memes organised around one or more thoughtforms.
+
+For YouTube, one core thoughtform is **engagement**. Videos, thumbnails, titles, creator identities, and trends orbit this thoughtform: they persist and proliferate insofar as they capture and sustain attention. The pilot experiment we conducted on recommendation behaviour shows this egregoric nature empirically: the system tends toward stable attractors of content homogeneity and reduced social chaos, regardless of the user’s starting point.
+
+In this sense, YouTube can be conceived as an **inverse egregore**—an egregore instantiated in a technological and social substrate rather than inside a single human mind.
+
+### Social interaction
+
+We usually imagine “social interaction” as people talking to people. But if culture is ultimately an exchange of memes, we can generalise: **any interaction where memes move, are transformed, or stabilised is social in a structural sense**, even if the “partner” is not a biological person.
+
+In a human conversation:
+
+* Person A speaks → induces memes in Person B  
+* Person B responds → induces memes in Person A  
+* The conversation is a bidirectional memetic flow, but not necessarily balanced
+
+Memetically, the dominant speaker is the dominant **source of memes**.  
+ They generate new configurations; the listener primarily internalises them. Over time, this shapes the listener’s internal egregores—their stable clusters of ideas and narratives—as described in Text A in terms of internalising patterns.
+
+Now consider YouTube:
+
+* The user “speaks” to the system through engagement patterns (clicks, watch time, likes, skips)  
+* YouTube “replies” through recommendations—curated configurations of memes  
+* The exchange repeats, but with an overwhelming asymmetry
+
+Where a human conversation can, in principle, be balanced, the YouTube interaction structurally favours the platform. The platform has an enormous memetic inventory and an optimising algorithm; the user has finite attention and limited visibility into the system’s logic. The memetic flow is thus heavily **top‑down**: YouTube induces memes; the user mainly internalises.
+
+From this perspective, watching YouTube is a form of **social interaction between a human egregore (a person) and a large‑scale inverse egregore (the platform)**—one in which the latter typically dominates.
+
+### Egregore interaction
+
+We can now describe YouTube interaction explicitly as **egregore–egregore conversation**:
+
+* On one side: the user’s internal egregores (belief systems, aesthetic preferences, identities, archetypes)  
+* On the other: the YouTube egregore (the platform’s memetic superstructure)
+
+The “language” of this conversation is engagement:
+
+* The user provides **engagement patterns** → an externalised trace of their internal egregores  
+* The platform decodes this trace using its algorithms, and then  
+* It “speaks back” by recommending content that fits or slightly perturbs the inferred structure
+
+The pilot experiment in Text B shows that this conversation tends to:
+
+* decrease the user’s social chaos over time  
+* stabilise their viewing into narrower bands of content  
+* nudge them toward the lower‑strata role of passive absorber
+
+In memetic terms, the YouTube egregore is **doing most of the thinking**. It is generating, selecting, and sequencing memes; the user is largely **receiving and internalising**. Parasocial relationships are an extreme case of this: the user’s internal egregores become tightly coupled to specific external memetic personas, often with minimal reciprocity.
+
+The core idea of Datacentral—and specifically the tagger component—is to **reverse this asymmetry**. Instead of the platform dictating which egregores dominate the user’s attention, the tagger:
+
+* extracts structural form (egregores) from information  
+* makes the user’s own pattern landscape visible  
+* enables the user to generate, manipulate, and recombine memes intentionally
+
+In other words, the tagger aims to **push the act of meme generation onto the user**.  
+ Rather than being passively shaped by inverse egregores like YouTube, the user gains tools to actively shape their own memetic ecosystem.
+
+### Reality as a hierarchy of physical systems
+
+This line of thought connects to a recent theory referred to as *breeze theory*: the idea that reality possesses an inescapable recursive nature. Although not a peer‑reviewed academic source, breeze theory is philosophically compelling because it echoes themes found in gnostic traditions—cycles, emanations, and self‑similar structures—while emerging independently of them. I treat it here as a philosophical argument rather than an empirical claim.
+
+The resonance with my own framework is striking. As discussed in Text A, cortical columns evolved to model external reality. Ideas, in this biological sense, are internalised expressions of external qualities. They are not arbitrary abstractions but structured reflections of the world’s recursive organisation. Breeze theory provides a language for this: the same recursive dynamics that shape physical systems also shape the mental systems that internalise them.
+
+From this perspective, we can sketch a hierarchy:
+
+* **Complex inverse egregores** (external systems such as platforms, institutions, ecosystems)  
+* → **Qualities** (emergent properties of those systems)  
+* → **Internalised qualities** (patterns absorbed into cortical columns and cognitive structures)  
+* → **Internal egregores** (stable networks of memes within the mind)
+
+This hierarchy suggests a symmetry between external and internal domains. Biological life may function as a catalyst of entropy, accelerating the transformation of external complexity into internal models. Over time, the balance appears to shift toward the mental side: minds increasingly reorganise and reinterpret the structures they internalise.
+
+The speculative question that follows is: **can this movement be accelerated?**  
+ If ideas are recursive models of external systems, and egregores are higher‑order stabilisations of those models, then a methodology like the tagger might serve as a technological catalyst—making the recursive flow visible, manipulable, and consciously directed rather than passively absorbed.
+
+## 8.4 Tulpamancy
+
+### What is tulpamancy and how does it relate to this framework?
+
+Something briefly mentioned in Text A was a “tulpa” \- an intentional thoughtform created for sustained interaction. This idea comes from the same branch of esotericism as egregores and survives to this day in a practice called “tulpamancy”. It seamlessly integrates with the question asked above as we can see the practice of tulpamancy as turning an internalised egregore into an external egregore for a new recursive neurological subsystem. This section will take a deep dive into the practices of tulpamancy from an ethnographical perspective to explore how this happens. 
+
+### Contemporary tulpamancy research review
+
+One of the most influential empirical studies in tulpamancy is Jacob J. Isler’s “Tulpas and Mental Health: A Study of Non-Traumagenic Plural Experiences”. Isler’s work is grounded in a survey-based methodology, targeting registered users of tulpa-specific forums and IRC channels. The survey, distributed to 365 users, yielded 63 responses (17% response rate), with 62 valid entries. The questionnaire comprised 58 questions across four domains: relationship to the tulpa community, experiences in tulpamancy, mental health, and demographic information. The survey design included Likert scales, polar questions, and open-ended fields for elaboration
+
+Isler’s research objectives were threefold: to investigate associations between tulpamancy and mental health, to identify stabilization techniques and their perceived effects, and to examine alternate causation hypotheses such as the role of meditation and community involvement. The study’s exclusion of Reddit and Discord communities is a notable limitation, as these platforms host large and active tulpa populations.
+
+Samuel Veissière’s “Varieties of Tulpa Experiences” represents a landmark in ethnographic research, employing ten months of experimental cyberethnography. Veissière’s methodology included large-scale surveys (sample sizes ranging from n=74 to n=141), qualitative interviews, forum analysis, and psychological testing (e.g., Theory of Mind, Empathy Quotient, Tellegen Absorption Scale). The study received Research Ethics Board approval from McGill University, with explicit attention to the anonymity and protection of both hosts and tulpas.
+
+Elizabeth Hale’s comparative ethnography draws on participant observation and content analysis of the r/Tulpas subreddit, integrating Tanya Luhrmann’s theory of “attentional learning” as a comparative framework. Hale’s work situates tulpamancy alongside evangelical Christian prayer practices, highlighting parallels in mental imagery and internal conversation.
+
+### Tulpamancy practitioner demographics
+
+Demographic analysis reveals that tulpamancy is predominantly practiced by young, educated, urban individuals, with a notable overrepresentation of males and neurodiverse populations.
+
+**Age and Gender**
+
+* **Isler (2017):** 88% of participants were aged 16–25, with an average age of 21\. Gender distribution was 59% male, 29% female, and 12% other.  
+* **Veissière (2015):** Age range 14–34, majority between 19–23. Gender: \~75% male, \~25% female, \~10% gender-fluid.  
+* **Tulpa Census 2015:** Age range 16–24 is most common; gender and sexuality are notably diverse, with high LGBT representation.
+
+**Ethnicity and Socioeconomic Status**
+
+* Predominantly white, middle to upper-middle class, urban youth. Few participants identified as African American or Asian.  
+* Geographic distribution includes the US, Canada, UK, Australia, Western Europe, and Russia. Russian-speaking communities have in-person meetups.
+
+**Psychological and Neurodevelopmental Profiles**
+
+* High prevalence of neurodevelopmental and mental health diagnoses: Asperger’s syndrome (25%), ADHD (21%), general anxiety (18%), depression (14%), OCD (10%).  
+* Participants score above average on theory of mind and empathy tests, even among those on the autism spectrum.
+
+These demographic trends suggest that tulpamancy is especially attractive to imaginative, cerebral, and socially shy individuals, many of whom seek companionship and self-improvement. 
+
+We can interpret these demographics in terms of our three tiered system created in Text B.
+
+There is high LGBT representation in tulpa users \- this suggests a large representation of sexual minority groups. On the other hand, there is a high representation of ethnic majority groups for their geographic distributions. This suggests a high variation in social normative patterns implying high levels of social chaos placing tulpamancers as a demographic in the upper strata (social architects). This is reinforced by the high representation of neurodivergence.
+
+### Documented Stabilization Techniques
+
+Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources.
+
+**Meditation and Hypnosis**
+
+Meditation is the most frequently reported technique, used by 54% of Isler’s respondents. Hypnosis is employed by 25%, with 21% using both practices. These practices are designed to focus attention, facilitate tulpa interaction, and deepen suggestibility.
+
+**Visualization**
+
+Visualization involves creating vivid mental images of the tulpa, often in a “wonderland” or mindscape. Veissière’s ethnography and community guides emphasize both “hallucinatory visualization” (perceiving the tulpa as a solid object in physical space) and “mind’s eye visualization” (overlaying the tulpa’s image in imagination).
+
+**Sensory Immersion and Imposition**
+
+Sensory immersion engages multiple senses—auditory, tactile, visual, olfactory—to enhance the realism of the tulpa. Imposition refers to projecting the tulpa into external reality, training the senses to perceive the tulpa as external. Community guides detail exercises for presence imposition, environmental immersion, and endurance training.
+
+**Narration and Conversational Maintenance**
+
+Narration is the practice of talking to the tulpa regularly, treating them as present and autonomous. This technique is considered foundational, with guides and ethnographies describing it as the “single most important aspect of tulpa creation”. Parroting—simulating the tulpa’s responses—is sometimes used to train vocality and independence.
+
+**Forcing**
+
+Forcing is a general term for intentional creation and interaction practices, encompassing meditation, visualization, narration, and personality development. Active forcing involves direct engagement in imagination; passive forcing refers to maintaining awareness of the tulpa throughout daily life.
+
+**Possession and Switching**
+
+Possession allows the tulpa to temporarily control the host’s body, often starting with a single limb and progressing to full-body control. Switching is a more advanced technique, in which the host dissociates and the tulpa assumes full control, sometimes resulting in the host becoming a passive observer.
+
+**Wonderland/Mindscape Creation**
+
+Wonderlands are persistent, imagined environments where hosts and tulpas interact. These spaces facilitate immersive experiences, autonomy, and parallel processing.
+
+**Meditation and Absorption**
+
+Meditative practices in tulpamancy often draw on mindfulness, focused attention, and trance induction. Absorption—the trait of losing oneself in an activity—is correlated with success in tulpa stabilization. The Tellegen Absorption Scale is used in research to measure hypnotizability and imaginative engagement.
+
+**Visualization Phases**
+
+Malfael’s Guide to Visual Imposition outlines a phased approach:
+
+* **Phase One: Still Life**—Creating a detailed, static 3D model of the tulpa using reference images and closed-eye visualization.  
+* **Phase Two: Motion**—Animating the tulpa’s form through exercises like “Plug N Chug” and “The Short Film.”  
+* **Phase Three: Finishing Touches**—Enhancing realism by visualizing the tulpa under varied lighting, weather, and focus conditions; endurance training for sustained presence.
+
+**Sensory Modalities**
+
+Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communication (e.g., “raw thought,” “intuitive thinking,” “images, feelings, and music”). Sensory immersion is achieved through exercises that simulate physical sensations, such as feeling warmth when a tulpa places an imaginary coat on the host’s shoulders.
+
+Community-authored guides, such as those found on Tulpanomicon, Tulpa.io, and Tulpa.info, provide detailed, fieldwork-style documentation of stabilization techniques. These guides blend instructional and experiential modes, drawing on collective practices and peer feedback.
+
+Key Community Practices
+
+* **Presence Imposition:** Exercises to maintain awareness of the tulpa’s presence, even when not visually perceived.  
+* **Visualization Strategies:** Top-down (silhouette to detail) and bottom-up (detail to whole) modeling; environmental immersion; endurance training.  
+* **Motion Integration:** Animating the tulpa’s form through collaborative exercises; encouraging tulpa autonomy in movement.  
+* **Recontextualizing Activities:** Involving the tulpa in daily tasks, conversations, and hobbies to reinforce presence.  
+* **Collaborative Agency:** Tulpa involvement in choosing forms, movements, and visualization styles; cognitive flexibility and symbolic transfer.
+
+**Analysis**
+
+All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention.
+
+### 8.5 Directed attention \+ Social chaos
+
+So what is so special about crossmodal detected attention and social chaos that can allow it to have such diverse effects? Well \- allow us to introduce a mixed parameter. Stimulation. Returning to a phenomenological/meditational perspective we can regard stimulation as a set of events that occur in the mind crossmodally \- fundamentally when we interpret a physical object we are experiencing sound,colour,texture and smell all within a spatiotemporal context \- these aspects of the object are its mental stimulation. We can see social chaos,stimulation and directed attention as fundamentally linked. Social chaos and attention are both parameters of stimulation \- social chaos refers to how dynamically someone responds to stimulation \- users with high social chaos will internalise new stimulational patterns leading to new patterns of behaviour whereas users with low social chaos will not internalise these patterns. Additionally, directed attention can be seen as how much the user intentionally focuses this stimulation \- in terms of the thousand brains hypothesis we could see this “focus” as scaling the stimulation up to exist in a larger set of cortical columns (thereby taking up a larger portion of our consciousness) or alternatively a change in the way cortical columns are integrated in our mind to form our conscious experience. Either way this “scaling up” of stimulation makes emerging patterns easier to detect thereby effectively increasing the effect of social chaos acting like a catalyst of social chaos.
+
+We can also interpret stimulation in terms of memes \- memes are patterns of stimulation that get internalised (where these patterns themselves are inverse memes). In this context we can say that when focusing on a meme it acts like an egregore \- we “scale up” the meme into it’s component ideas (the underlying cortical columns). 
+
+This scaling mechanism is the key answer to our question.
+
+# 9\. Expansion of methodology
+
+In this new speculative ontology our current methodology aligns with the inverse memes → memes translation segment specifically for digital media. We can expand this by embedding digital representations of cortical columns and what I call the simulatrix.
+
+# 10\. Future Vision: The Simulatrix
 
 In the long term, the tagger will be extended with:
 
-## 1\. Computational cortical columns
-
-A model inspired by the Thousand Brains Theory, enabling the system to interpret egregores as literal neural‑like activations.
-
-## 2\. Unified multimodal mapping
-
-Text, images, and video mapped into the same structural space.
-
-## 3\. Bidirectional interaction
+## 1\. Bidirectional interaction
 
 * Input media → ask questions about it  
 * Input text → generate media
 
-## 4\. Research assistant capabilities
+## 2\. Research assistant capabilities
 
 A system capable of analysing, synthesising, and generating structured knowledge.
 
-## 5\. Computational physics
+## 3\. Computational physics
 
 A speculative goal: using structural extraction to identify patterns in physical systems.
 
