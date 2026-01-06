@@ -492,178 +492,194 @@ The tagger is the first step toward a general system for extracting, comparing, 
 `import json`  
 `import math`  
 `import os`  
-`import numpy as np`
+`import numpy as np`  
+`from functools import lru_cache`  
+`from collections import Counter`
 
-`def get_uploads(files):`  
-   `uploads = [json.load(open("uploads/"+file.split(".")[0]+".json")) for file in files]`  
-   `return uploads`
+`# ------------------------------`  
+`# Cached file loading`  
+`# ------------------------------`  
+`@lru_cache(maxsize=None)`  
+`def load_json(path):`  
+   `with open(path, "r") as f:`  
+       `return json.load(f)`
 
-`def create_unified_reference_index(files=os.listdir("uploads")):`  
-   `indices = [sorted(index,key=index.get) for index in get_uploads(files)]`  
-   `unified_index = []`  
-   `for index in indices:`  
-       `for el in index:`  
-           `if el not in unified_index:`  
-               `unified_index.append(el)`  
-   `return dict(zip(unified_index,range(0,len(unified_index))))`
-
+`# ------------------------------`  
+`# Token utilities`  
+`# ------------------------------`  
 `def parse_tokens(tokens):`  
-   `return [int(token) for token in tokens.split(",")]`  
-`def Extract_thoughtforms_from_tokens(tokens):`  
-   `tokens =parse_tokens(tokens)`  
-   `indexes = set([(tokens.count(token) >= 2)*token for token in tokens])`  
-   `indexes.discard(0)`  
-   `return list(indexes)`
+   `return list(map(int, tokens.split(",")))`
 
-`def Calculate_strengths(tokens,file):`  
-   `file_output = file.split(".")[0]+"_thoughtforms"+".json"`  
-   `thoughtforms = Extract_thoughtforms_from_tokens(tokens)`  
-   `if file_output not in os.listdir("uploads"):`  
-       `thoughtforms_reference_index = dict(zip(range(0,len(thoughtforms)),thoughtforms))`  
-       `open("uploads/"+file_output,"w").write(json.dumps(thoughtforms_reference_index))`  
-   `return [tokens.count(str(thoughtform))/len(parse_tokens(tokens)) for thoughtform in thoughtforms]`
+`def extract_thoughtforms(tokens):`  
+   `seq = parse_tokens(tokens)`  
+   `counts = Counter(seq)`  
+   `return [tok for tok, c in counts.items() if c >= 2]`
 
-`def Extract_egregore_sets_from_tokens(tokens,file):`  
-   `Strengths = Calculate_strengths(tokens,file)`  
-   `Sequence = parse_tokens(tokens)`  
-   `Distances = [len(Sequence)*strength for strength in Strengths]`  
-   `Positions = json.load(open("uploads/"+file.split(".")[0]+"_thoughtforms"+".json","r"))`  
-   `Ranges = [[math.floor(Positions[str(Distances.index(distance))]-distance),math.ceil(Positions[str(Distances.index(distance))]+distance)] for distance in Distances]`  
-   `Egregore_sets = [[Sequence[el] for el in list(range(range_set[0],range_set[1]))] for range_set in Ranges]`  
-   `return Egregore_sets`
+`# ------------------------------`  
+`# Upload utilities`  
+`# ------------------------------`  
+`def get_uploads(files):`  
+   `return [load_json(f"uploads/{file.split('.')[0]}.json") for file in files]`
 
-`def remap_tensor_to_unified_index(tensor, old_index, unified_index):`  
-   `"""`  
-   *`Remap an egregore tensor from the old reference index into the unified reference index.`*
+`def create_unified_reference_index(files):`  
+   `seen = set()`  
+   `unified = []`
 
-   *`tensor: list of strengths (length = len(old_index))`*  
-   *`old_index: dict mapping token -> old_position`*  
-   *`unified_index: dict mapping token -> unified_position`*
+   `for index in get_uploads(files):`  
+       `# index is dict token → pos`  
+       `for token in sorted(index, key=index.get):`  
+           `if token not in seen:`  
+               `seen.add(token)`  
+               `unified.append(token)`
 
-   *`returns: new tensor aligned to unified index`*  
-   *`"""`*
+   `return {tok: i for i, tok in enumerate(unified)}`
 
-   `# Create a new tensor full of zeros, sized to the unified index`  
-   `new_tensor = [0] * len(unified_index)`
+`# ------------------------------`  
+`# Strength calculations`  
+`# ------------------------------`  
+`def calculate_strengths(tokens, file):`  
+   `seq = parse_tokens(tokens)`  
+   `counts = Counter(seq)`
 
-   `# Reverse old_index so we can map positions back to tokens`  
-   `# old_index maps token -> pos, so we invert it to pos -> token`  
-   `pos_to_token = {pos: token for token, pos in old_index.items()}`
+   `thoughtforms = extract_thoughtforms(tokens)`  
+   `file_output = f"uploads/{file.split('.')[0]}_thoughtforms.json"`
 
-   `# For each position in the old tensor`  
-   `for old_pos, strength in enumerate(tensor):`
+   `if not os.path.exists(file_output):`  
+       `tf_index = {i: tf for i, tf in enumerate(thoughtforms)}`  
+       `with open(file_output, "w") as f:`  
+           `json.dump(tf_index, f)`
 
-       `# Find which token this position corresponds to`  
-       `token = pos_to_token.get(old_pos)`
+   `total = len(seq)`  
+   `return [counts[tf] / total for tf in thoughtforms]`
 
-       `# If the token exists in the unified index, remap it`  
-       `if token in unified_index:`  
-           `new_pos = unified_index[token]`  
-           `new_tensor[new_pos] = strength`
+`# ------------------------------`  
+`# Egregore extraction`  
+`# ------------------------------`  
+`def extract_egregore_sets(tokens, file):`  
+   `strengths = calculate_strengths(tokens, file)`  
+   `seq = parse_tokens(tokens)`  
+   `n = len(seq)`
 
-   `return new_tensor`
+   `distances = [n * s for s in strengths]`
 
-`def Calculate_egregore_tensors(tokens,file):`  
-   `Egregore_sets = Extract_egregore_sets_from_tokens(tokens,file)`  
-   `Thoughtforms = [json.load(open("uploads/"+file.split(".")[0]+"_thoughtforms.json"))[str(el)] for el in list(range(0,len(Egregore_sets)))]`  
-   `Sequence = parse_tokens(tokens)`  
-   `for i, eg_set in enumerate(Egregore_sets):`  
-       `tf = Thoughtforms[i]`  
-       `if tf not in eg_set:`  
-           `eg_set.insert(0, tf)`  
-   `Strength_precursors = [[abs(set.index(Thoughtforms[Egregore_sets.index(set)])-set.index(el))*len(Sequence) for el in set] for set in Egregore_sets]`  
-   `Strengths = []`  
-   `for i, precursors in enumerate(Strength_precursors):`  
-       `# Find the anchor position (where precursor == 0)`  
-       `anchor_index = precursors.index(0)`
+   `positions = load_json(f"uploads/{file.split('.')[0]}_thoughtforms.json")`
 
-       `# Remove the zero so we don't divide by it`  
-       `filtered = [p for p in precursors if p != 0]`
+   `eg_sets = []`  
+   `for i, dist in enumerate(distances):`  
+       `pos = positions[str(i)]  # correct mapping: thoughtform index → position`  
+       `lo = max(0, math.floor(pos - dist))`  
+       `hi = min(n, math.ceil(pos + dist))`  
+       `eg_sets.append(seq[lo:hi])`
 
-       `# Compute strengths for non-anchor tokens`  
-       `strengths = [Sequence.count(Egregore_sets[i][precursors.index(p)]) / p for p in filtered]`
+   `return eg_sets`
 
-       `# Insert 0 back at the anchor position`  
-       `strengths.insert(anchor_index, 0)`
+`# ------------------------------`  
+`# Tensor remapping`  
+`# ------------------------------`  
+`def remap_tensor(tensor, old_index, unified_index):`  
+   `new = [0] * len(unified_index)`
 
-       `Strengths.append(strengths)`  
-   `return Strengths`
+   `# Reverse lookup once`  
+   `pos_to_token = {pos: tok for tok, pos in old_index.items()}`
 
-`def align_egregores_by_thoughtform(Egregores, Thoughtforms):`  
-   `"""`  
-   *`Convert list-based egregores into a dict mapping thoughtform -> tensor.`*  
-   *`"""`*  
-   `return {Thoughtforms[i]: Egregores[i] for i in range(len(Egregores))}`
+   `for old_pos, strength in enumerate(tensor):`  
+       `tok = pos_to_token.get(old_pos)`  
+       `if tok in unified_index:`  
+           `new[unified_index[tok]] = strength`
 
-`def Calculate_egregore_strength(tokens1, file1, tokens2, file2):`  
-   `# Step 1: Compute egregore tensors for each text (using original indices)`  
-   `E1 = Calculate_egregore_tensors(tokens1, file1)`  
-   `E2 = Calculate_egregore_tensors(tokens2, file2)`
+   `return new`
 
-   `# Step 2: Load the original reference indices`  
-   `idx1 = json.load(open("uploads/" + file1.split(".")[0] + ".json"))`  
-   `idx2 = json.load(open("uploads/" + file2.split(".")[0] + ".json"))`
+`# ------------------------------`  
+`# Egregore tensor calculation`  
+`# ------------------------------`  
+`def calculate_egregore_tensors(tokens, file):`  
+   `eg_sets = extract_egregore_sets(tokens, file)`  
+   `seq = parse_tokens(tokens)`
 
-   `# Step 3: Load thoughtforms for each text`  
-   `TF1 = json.load(open("uploads/" + file1.split(".")[0] + "_thoughtforms.json"))`  
-   `TF2 = json.load(open("uploads/" + file2.split(".")[0] + "_thoughtforms.json"))`
+   `tf_path = f"uploads/{file.split('.')[0]}_thoughtforms.json"`  
+   `thoughtforms = load_json(tf_path)`  
+   `tf_list = [thoughtforms[str(i)] for i in range(len(eg_sets))]`
 
-   `# Convert thoughtform index->token into a list of tokens`  
+   `# Ensure anchor is included`  
+   `for i, eg in enumerate(eg_sets):`  
+       `if tf_list[i] not in eg:`  
+           `eg.insert(0, tf_list[i])`
+
+   `strengths = []`  
+   `for i, eg in enumerate(eg_sets):`  
+       `anchor = tf_list[i]`  
+       `anchor_pos = eg.index(anchor)`
+
+       `precursors = [abs(anchor_pos - j) * len(seq) for j in range(len(eg))]`
+
+       `# Compute strengths`  
+       `s = []`  
+       `for j, p in enumerate(precursors):`  
+           `if p == 0:`  
+               `s.append(0)`  
+           `else:`  
+               `s.append(seq.count(eg[j]) / p)`
+
+       `strengths.append(s)`
+
+   `return strengths`
+
+`# ------------------------------`  
+`# Main similarity function`  
+`# ------------------------------`  
+`def calculate_egregore_strength(tokens1, file1, tokens2, file2):`  
+   `E1 = calculate_egregore_tensors(tokens1, file1)`  
+   `E2 = calculate_egregore_tensors(tokens2, file2)`
+
+   `idx1 = load_json(f"uploads/{file1.split('.')[0]}.json")`  
+   `idx2 = load_json(f"uploads/{file2.split('.')[0]}.json")`
+
+   `TF1 = load_json(f"uploads/{file1.split('.')[0]}_thoughtforms.json")`  
+   `TF2 = load_json(f"uploads/{file2.split('.')[0]}_thoughtforms.json")`
+
    `TF1_list = [TF1[str(i)] for i in range(len(TF1))]`  
    `TF2_list = [TF2[str(i)] for i in range(len(TF2))]`
 
-   `# Step 4: Align egregores by thoughtform`  
-   `def align(E, TF_list):`  
-       `return {TF_list[i]: E[i] for i in range(len(E))}`
+   `E1_dict = dict(zip(TF1_list, E1))`  
+   `E2_dict = dict(zip(TF2_list, E2))`
 
-   `E1_dict = align(E1, TF1_list)`  
-   `E2_dict = align(E2, TF2_list)`
-
-   `# Step 5: Find shared thoughtforms`  
-   `shared = set(E1_dict.keys()) & set(E2_dict.keys())`  
+   `shared = set(E1_dict) & set(E2_dict)`  
    `if not shared:`  
-       `return 0  # no shared thoughtforms → zero similarity`
+       `return 0`
 
-   `# Step 6: Build unified reference index (runtime only)`  
-   `unified_index = create_unified_reference_index([file1, file2])`
+   `unified = create_unified_reference_index([file1, file2])`
 
-   `# Step 7: Remap tensors into unified index`  
-   `def remap_tensor(tensor, old_index, unified_index):`  
-       `new_tensor = [0] * len(unified_index)`  
-       `pos_to_token = {pos: token for token, pos in old_index.items()}`  
-       `for old_pos, strength in enumerate(tensor):`  
-           `token = pos_to_token.get(old_pos)`  
-           `if token in unified_index:`  
-               `new_pos = unified_index[token]`  
-               `new_tensor[new_pos] = strength`  
-       `return new_tensor`
-
-   `# Step 8: Compute dot products for each shared thoughtform`  
    `total = 0`  
    `for tf in shared:`  
-       `t1 = remap_tensor(E1_dict[tf], idx1, unified_index)`  
-       `t2 = remap_tensor(E2_dict[tf], idx2, unified_index)`  
+       `t1 = remap_tensor(E1_dict[tf], idx1, unified)`  
+       `t2 = remap_tensor(E2_dict[tf], idx2, unified)`  
        `total += np.dot(t1, t2)`
 
    `return total`
 
-`def Extract_rference_index_from_text(text,file_name):`  
-   `words = []`  
-   `for word in text.split(" "):`  
-       `if word not in words:`  
-           `words.append(word)`  
-   `open("uploads/"+file_name.split(".")[0]+".json","w").write(json.dumps(dict(zip(words,range(0,len(words))))))`
+`# ------------------------------`  
+`# Text utilities`  
+`# ------------------------------`  
+`def extract_reference_index(text, file_name):`  
+   `words = list(dict.fromkeys(text.split()))`  
+   `mapping = {w: i for i, w in enumerate(words)}`
 
-`def Extract_tokens_from_text(text,file_name):`  
-   `if file_name.split(".")[0]+".json" not in os.listdir("uploads/"):`  
-       `Extract_rference_index_from_text(text,file_name)`  
-   `Reference_index = json.load(open("uploads/"+file_name.split(".")[0]+".json"))`  
-   `Sequence = ",".join([str(Reference_index[word]) for word in text.split(" ")])`  
-   `return Sequence`
+   `with open(f"uploads/{file_name.split('.')[0]}.json", "w") as f:`  
+       `json.dump(mapping, f)`
 
-`def Compare_texts(text,file_name,text_two,file_name_two):`  
-   `return Calculate_egregore_strength(Extract_tokens_from_text(text,file_name),file_name,Extract_tokens_from_text(text_two,file_name_two),file_name_two)`
+`def extract_tokens(text, file_name):`  
+   `path = f"uploads/{file_name.split('.')[0]}.json"`  
+   `if not os.path.exists(path):`  
+       `extract_reference_index(text, file_name)`
 
-`text_one = open("text_one.txt",encoding="UTF8").read()`  
-`text_two = open("text_two.txt",encoding="UTF8").read()`  
-`print(Compare_texts(text_one, "text_one.txt", text_two, "text_two.txt"))`  
+   `ref = load_json(path)`  
+   `return ",".join(str(ref[w]) for w in text.split())`
+
+`def compare_texts(text1, file1, text2, file2):`  
+   `return calculate_egregore_strength(`  
+       `extract_tokens(text1, file1),`  
+       `file1,`  
+       `extract_tokens(text2, file2),`  
+       `file2,`  
+   `)`
+
