@@ -1,4 +1,5 @@
-**Expansion of speculative ontology**  
+# Expansion of speculative ontology
+
 In this new speculative ontology our current methodology aligns with the inverse memes → memes translation segment specifically for digital media. We can expand this by embedding digital representations of cortical columns and what I call the simulatrix.
 
 The next step after the basic tagger implementation is to be able to internalise egregore tensors as patterns then we can pass in prompts which create anti-patterns and the internalised patterns of the files sort of bend to the anti-patterns to synthesise information such as asking for information about data.
@@ -13,22 +14,17 @@ In the brain we have a sense of direction using cells called place cells. They d
 
 In a way we can consider our egregore tensors as discrete bounded place fields \- the problem is that there is no inherent sense of travel between these fields however by calculating strengths between egregores we effectively create a sense of relative space.
 
-The task is now to remember these place fields to create the cognitive maps as mentioned.   
-10\. Future Vision: The Simulatrix  
-In the long term, the tagger will be extended with:  
-1\. Bidirectional interaction  
-Input media → ask questions about it  
-Input text → generate media  
-2\. Research assistant capabilities  
-A system capable of analysing, synthesising, and generating structured knowledge.  
-3\. Computational physics  
-A speculative goal: using structural extraction to identify patterns in physical systems.  
-Final Notes  
-This specification defines the theoretical foundation of the tagger component.  
- It is intentionally modular, allowing future improvements in:  
-tokenisation  
-graph construction  
-perceptual modelling  
-tensor algebra  
-semantic grounding  
-The tagger is the first step toward a general system for extracting, comparing, and generating form across all media.
+The task is now to remember these place fields to create the cognitive maps as mentioned. 
+
+# 
+
+# Future Vision
+
+* In the long term, the tagger will be extended with:  
+  * Bidirectional interaction  
+  * Input media → ask questions about it  
+  * Input text → generate media  
+* Research assistant capabilities  
+  * A system capable of analysing, synthesising, and generating structured knowledge.  
+  * Computational physics  
+* A speculative goal: using structural extraction to identify patterns in physical systems.
