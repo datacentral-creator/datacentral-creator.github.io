@@ -60,7 +60,7 @@ A speculative ontological framework that synthesises "Are ideas alive? How histo
 ### [7. Simulatrix](Simulatrix.md)
 **Status**: In progress
 
-*Document type**: Essay
+**Document type**: Essay
 
 An implementation of the simulatrix combining the tagger component with the speculative ontological framework.
 
