@@ -1,6 +1,6 @@
-Speculative ontological framework
+# Speculative ontological framework
 
-1 Overview  
+## 1 Overview  
 The tagger component is designed to extract structural patterns—egregores—from media.  
  This section proposes a speculative ontology that situates these structures within a broader theory of how ideas, minds, and physical systems interact.  
 The goal is not to assert metaphysical truth, but to provide a conceptual scaffold that:  
@@ -8,7 +8,7 @@ explains why egregores behave like living systems
 clarifies how users interact with them  
 motivates the design of the tagger as a tool for conscious memetic agency
 
-2 Ideas as Bidirectional Structures  
+## 2 Ideas as Bidirectional Structures  
 In the memetic framework developed earlier, ideas propagate through minds by inducing stable neural configurations of cortical columns.  
  However, fundamentally cortical columns model external structures—physical systems, cultural artefacts, and technological environments.  
 This suggests a dual ontology:
@@ -30,8 +30,10 @@ Inverse memes: Quantised external patterns
 Egregores: networks of internalised memes  
 Inverse egregores: networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits.
 
-3 The youtube experiment analysis  
-Videos as memetic structures  
+## 3 The youtube experiment analysis 
+ 
+### Videos as memetic structures  
+
 Every video on YouTube ultimately expresses some kind of idea.  
  Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content—gaming, lifestyle vlogs, reaction videos—encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.  
 In memetic terms, each video is a bundle of memes: reproducible units of culture that can be internalised, imitated, remixed, or resisted. When a user watches a video, these memes are not just “seen”—they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
@@ -47,7 +49,8 @@ Taken together, these components form a self‑organising network of memes that 
 For YouTube, one core thoughtform is engagement. Videos, thumbnails, titles, creator identities, and trends orbit this thoughtform: they persist and proliferate insofar as they capture and sustain attention. The pilot experiment we conducted on recommendation behaviour shows this egregoric nature empirically: the system tends toward stable attractors of content homogeneity and reduced social chaos, regardless of the user’s starting point.  
 In this sense, YouTube can be conceived as an inverse egregore—an egregore instantiated in a technological and social substrate rather than inside a single human mind.
 
-Social interaction  
+### Social interaction 
+ 
 We usually imagine “social interaction” as people talking to people. But if culture is ultimately an exchange of memes, we can generalise: any interaction where memes move, are transformed, or stabilised is social in a structural sense, even if the “partner” is not a biological person.  
 In a human conversation:  
 Person A speaks → induces memes in Person B  
@@ -95,12 +98,15 @@ The speculative question that follows is: can this movement be accelerated?
 What is tulpamancy and how does it relate to this framework?  
 Something briefly mentioned in Text A was a “tulpa” \- an intentional thoughtform created for sustained interaction. This idea comes from the same branch of esotericism as egregores and survives to this day in a practice called “tulpamancy”. It seamlessly integrates with the question asked above as we can see the practice of tulpamancy as turning an internalised egregore into an external egregore for a new recursive neurological subsystem. This section will take a deep dive into the practices of tulpamancy from an ethnographical perspective to explore how this happens. 
 
-Contemporary tulpamancy research review  
+## Contemporary tulpamancy research review  
+
 One of the most influential empirical studies in tulpamancy is Jacob J. Isler’s “Tulpas and Mental Health: A Study of Non-Traumagenic Plural Experiences”. Isler’s work is grounded in a survey-based methodology, targeting registered users of tulpa-specific forums and IRC channels. The survey, distributed to 365 users, yielded 63 responses (17% response rate), with 62 valid entries. The questionnaire comprised 58 questions across four domains: relationship to the tulpa community, experiences in tulpamancy, mental health, and demographic information. The survey design included Likert scales, polar questions, and open-ended fields for elaboration  
 Isler’s research objectives were threefold: to investigate associations between tulpamancy and mental health, to identify stabilization techniques and their perceived effects, and to examine alternate causation hypotheses such as the role of meditation and community involvement. The study’s exclusion of Reddit and Discord communities is a notable limitation, as these platforms host large and active tulpa populations.  
 Samuel Veissière’s “Varieties of Tulpa Experiences” represents a landmark in ethnographic research, employing ten months of experimental cyberethnography. Veissière’s methodology included large-scale surveys (sample sizes ranging from n=74 to n=141), qualitative interviews, forum analysis, and psychological testing (e.g., Theory of Mind, Empathy Quotient, Tellegen Absorption Scale). The study received Research Ethics Board approval from McGill University, with explicit attention to the anonymity and protection of both hosts and tulpas.  
 Elizabeth Hale’s comparative ethnography draws on participant observation and content analysis of the r/Tulpas subreddit, integrating Tanya Luhrmann’s theory of “attentional learning” as a comparative framework. Hale’s work situates tulpamancy alongside evangelical Christian prayer practices, highlighting parallels in mental imagery and internal conversation.  
-Tulpamancy practitioner demographics  
+
+### Tulpamancy practitioner demographics  
+
 Demographic analysis reveals that tulpamancy is predominantly practiced by young, educated, urban individuals, with a notable overrepresentation of males and neurodiverse populations.  
 Age and Gender  
 Isler (2017): 88% of participants were aged 16–25, with an average age of 21\. Gender distribution was 59% male, 29% female, and 12% other.  
@@ -115,30 +121,46 @@ Participants score above average on theory of mind and empathy tests, even among
 These demographic trends suggest that tulpamancy is especially attractive to imaginative, cerebral, and socially shy individuals, many of whom seek companionship and self-improvement.   
 We can interpret these demographics in terms of our three tiered system created in Text B.  
 There is high LGBT representation in tulpa users \- this suggests a large representation of sexual minority groups. On the other hand, there is a high representation of ethnic majority groups for their geographic distributions. This suggests a high variation in social normative patterns implying high levels of social chaos placing tulpamancers as a demographic in the upper strata (social architects). This is reinforced by the high representation of neurodivergence.  
-Documented Stabilization Techniques  
-Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources.  
-Meditation and Hypnosis  
+
+### Documented Stabilization Techniques  
+Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
+ 
+*Meditation and Hypnosis*
+
 Meditation is the most frequently reported technique, used by 54% of Isler’s respondents. Hypnosis is employed by 25%, with 21% using both practices. These practices are designed to focus attention, facilitate tulpa interaction, and deepen suggestibility.  
-Visualization  
-Visualization involves creating vivid mental images of the tulpa, often in a “wonderland” or mindscape. Veissière’s ethnography and community guides emphasize both “hallucinatory visualization” (perceiving the tulpa as a solid object in physical space) and “mind’s eye visualization” (overlaying the tulpa’s image in imagination).  
-Sensory Immersion and Imposition  
+
+*Visualization*
+
+Visualization involves creating vivid mental images of the tulpa, often in a “wonderland” or mindscape. Veissière’s ethnography and community guides emphasize both “hallucinatory visualization” (perceiving the tulpa as a solid object in physical space) and “mind’s eye visualization” (overlaying the tulpa’s image in imagination). 
+ 
+*Sensory Immersion and Imposition* 
+
 Sensory immersion engages multiple senses—auditory, tactile, visual, olfactory—to enhance the realism of the tulpa. Imposition refers to projecting the tulpa into external reality, training the senses to perceive the tulpa as external. Community guides detail exercises for presence imposition, environmental immersion, and endurance training.  
-Narration and Conversational Maintenance  
-Narration is the practice of talking to the tulpa regularly, treating them as present and autonomous. This technique is considered foundational, with guides and ethnographies describing it as the “single most important aspect of tulpa creation”. Parroting—simulating the tulpa’s responses—is sometimes used to train vocality and independence.  
-Forcing  
-Forcing is a general term for intentional creation and interaction practices, encompassing meditation, visualization, narration, and personality development. Active forcing involves direct engagement in imagination; passive forcing refers to maintaining awareness of the tulpa throughout daily life.  
-Possession and Switching  
+
+*Narration and Conversational Maintenance*
+ 
+Narration is the practice of talking to the tulpa regularly, treating them as present and autonomous. This technique is considered foundational, with guides and ethnographies describing it as the “single most important aspect of tulpa creation”. Parroting—simulating the tulpa’s responses—is sometimes used to train vocality and independence. 
+ 
+*Forcing*
+
+Forcing is a general term for intentional creation and interaction practices, encompassing meditation, visualization, narration, and personality development. Active forcing involves direct engagement in imagination; passive forcing refers to maintaining awareness of the tulpa throughout daily life. 
+ 
+*Possession and Switching*
+
 Possession allows the tulpa to temporarily control the host’s body, often starting with a single limb and progressing to full-body control. Switching is a more advanced technique, in which the host dissociates and the tulpa assumes full control, sometimes resulting in the host becoming a passive observer.  
-Wonderland/Mindscape Creation  
+
+*Wonderland/Mindscape Creation*
 Wonderlands are persistent, imagined environments where hosts and tulpas interact. These spaces facilitate immersive experiences, autonomy, and parallel processing.  
-Meditation and Absorption  
-Meditative practices in tulpamancy often draw on mindfulness, focused attention, and trance induction. Absorption—the trait of losing oneself in an activity—is correlated with success in tulpa stabilization. The Tellegen Absorption Scale is used in research to measure hypnotizability and imaginative engagement.  
-Visualization Phases  
+
+*Visualization Phases*
+
 Malfael’s Guide to Visual Imposition outlines a phased approach:  
 Phase One: Still Life—Creating a detailed, static 3D model of the tulpa using reference images and closed-eye visualization.  
 Phase Two: Motion—Animating the tulpa’s form through exercises like “Plug N Chug” and “The Short Film.”  
 Phase Three: Finishing Touches—Enhancing realism by visualizing the tulpa under varied lighting, weather, and focus conditions; endurance training for sustained presence.  
-Sensory Modalities  
+
+*Sensory Modalities*
+
 Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communication (e.g., “raw thought,” “intuitive thinking,” “images, feelings, and music”). Sensory immersion is achieved through exercises that simulate physical sensations, such as feeling warmth when a tulpa places an imaginary coat on the host’s shoulders.  
 Community-authored guides, such as those found on Tulpanomicon, Tulpa.io, and Tulpa.info, provide detailed, fieldwork-style documentation of stabilization techniques. These guides blend instructional and experiential modes, drawing on collective practices and peer feedback.  
 Key Community Practices  
@@ -148,8 +170,10 @@ Motion Integration: Animating the tulpa’s form through collaborative exercises
 Recontextualizing Activities: Involving the tulpa in daily tasks, conversations, and hobbies to reinforce presence.  
 Collaborative Agency: Tulpa involvement in choosing forms, movements, and visualization styles; cognitive flexibility and symbolic transfer.  
 Analysis  
-All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention.  
-8.5 Directed attention \+ Social chaos  
+All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention. 
+ 
+# 8.5 Directed attention \+ Social chaos 
+ 
 So what is so special about crossmodal detected attention and social chaos that can allow it to have such diverse effects? Well \- allow us to introduce a mixed parameter. Stimulation. Returning to a phenomenological/meditational perspective we can regard stimulation as a set of events that occur in the mind crossmodally \- fundamentally when we interpret a physical object we are experiencing sound,colour,texture and smell all within a spatiotemporal context \- these aspects of the object are its mental stimulation. We can see social chaos,stimulation and directed attention as fundamentally linked. Social chaos and attention are both parameters of stimulation \- social chaos refers to how dynamically someone responds to stimulation \- users with high social chaos will internalise new stimulational patterns leading to new patterns of behaviour whereas users with low social chaos will not internalise these patterns. Additionally, directed attention can be seen as how much the user intentionally focuses this stimulation \- in terms of the thousand brains hypothesis we could see this “focus” as scaling the stimulation up to exist in a larger set of cortical columns (thereby taking up a larger portion of our consciousness) or alternatively a change in the way cortical columns are integrated in our mind to form our conscious experience. Either way this “scaling up” of stimulation makes emerging patterns easier to detect thereby effectively increasing the effect of social chaos acting like a catalyst of social chaos.
 
 We can also interpret stimulation in terms of memes \- memes are patterns of stimulation that get internalised (where these patterns themselves are inverse memes). In this context we can say that when focusing on a meme it acts like an egregore \- we “scale up” the meme into it’s component ideas (the underlying cortical columns). 
