@@ -162,14 +162,9 @@ Phase Three: Finishing Touches—Enhancing realism by visualizing the tulpa unde
 *Sensory Modalities*
 
 Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communication (e.g., “raw thought,” “intuitive thinking,” “images, feelings, and music”). Sensory immersion is achieved through exercises that simulate physical sensations, such as feeling warmth when a tulpa places an imaginary coat on the host’s shoulders.  
-Community-authored guides, such as those found on Tulpanomicon, Tulpa.io, and Tulpa.info, provide detailed, fieldwork-style documentation of stabilization techniques. These guides blend instructional and experiential modes, drawing on collective practices and peer feedback.  
-Key Community Practices  
-Presence Imposition: Exercises to maintain awareness of the tulpa’s presence, even when not visually perceived.  
-Visualization Strategies: Top-down (silhouette to detail) and bottom-up (detail to whole) modeling; environmental immersion; endurance training.  
-Motion Integration: Animating the tulpa’s form through collaborative exercises; encouraging tulpa autonomy in movement.  
-Recontextualizing Activities: Involving the tulpa in daily tasks, conversations, and hobbies to reinforce presence.  
-Collaborative Agency: Tulpa involvement in choosing forms, movements, and visualization styles; cognitive flexibility and symbolic transfer.  
-Analysis  
+
+*Analysis*
+  
 All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention. 
  
 # 8.5 Directed attention \+ Social chaos 
