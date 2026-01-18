@@ -48,3 +48,9 @@ During this period, I also discovered the Solid project. Its emphasis on persona
 ## Research papers and datacentral philosopy
 
 After rebuilding datacentral it became grounded in a base level of operation. Once this occured and the system as a whole was at a point where it was usable I wrote a specification file for my add ons which was something I always intended to do. The specification file means that anyone can create the same add on as long as it follows the specification and it will integrate into the datacentral ecosystem exactly the same. I then wrote an essay called "Are ideas alive? How historical civilisations were governed by ideas" which synthesised the disciplines which acted as the ideological precursors of the way I see datacentral into a coherent framework. I also adapted an old research paper I made which analysed the effect technological systems had on social chaos in current society - I adapted the part on reccomendation algorithms into a new research document, repeating the experiment and synthesised both of these documents into a coherent framework for a "tagging component" - the original basis of datacentral tracing back to the kivy era which I then implemented. I then integrated the tagger component and my scheduling project into datacentral. 
+
+---
+
+## Redesign
+
+After analysing datacentral I realised the main reason the development process is so slow is because of the converting changes into images, saving those images and uploading them to Google drive. This process is overkill and largely unnecessary for most use cases. Instead I will simplify this by converting add ons into apps with react native (rewriting them in react native). 
