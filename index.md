@@ -60,13 +60,19 @@ A concept document that synthesises the work of "Are ideas alive? How history wa
 A speculative ontological framework that synthesises "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture?".
 
 ---
+### [7. Historical reference point](Historical_context.md)
+**Status**: First draft released
+
+**Document type**: Literature review
+
+A literature review of multiple sources that details the chronological evolution of the way humans create meaning from the world around them
 
 ### [7. Simulatrix](Simulatrix.md)
 **Status**: In progress
 
 **Document type**: Essay
 
-An implementation of the simulatrix combining the tagger component with the speculative ontological framework.
+An evolution of the tagger component that integrates the historical reference point to bring the tagger component up to the point of being a physics engine.
 
 ---
 
