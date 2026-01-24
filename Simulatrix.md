@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+
 # Precursor knowledge
 
 * The “tagger component” is a program which implemented a methodology to extract egregores (clusters of memes (units of culture)) from text  
