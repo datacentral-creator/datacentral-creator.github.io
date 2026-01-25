@@ -1,6 +1,5 @@
 **Navigation:**  
 [Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
-
 # Precursor knowledge
 
 * The “tagger component” is a program which implemented a methodology to extract egregores (clusters of memes (units of culture)) from text  
@@ -181,33 +180,930 @@ They then apply a learnable weight matrix (which multiplies every element in the
 
 In this case the nodes of the hypergraph are the actual states.
 
-The transformations of the hypergraph we want are effectively **patterns** and **antipatterns** where **patterns** are effectively how the context changes an egregore tensor. An antipattern would be a new egregore tensor where we want the mythemes (pattern behaviours) to now act on these new egregore tensors. Ideally this would mean we could have say a text file and a prompt where we ask about the text file and it could “answer”. 
+### Patterns and antipatterns
 
-This will express the original layer of my historical reference point where the algorithm is “participating in a lived reality”. 
+The transformations we want to perform on a hypergraph fall into two categories:
 
-Here is my proposition that synthesises all of this information:
+* **Patterns**: how the surrounding context modifies an egregore tensor  
+* **Antipatterns**: new egregore tensors that we want to transform using the learned pattern‑behaviours (mythemes)
 
-* Use waves to represent the form of the hypergraph  
-* Use a fourier transform to decompose this wave into their components which we can save   
-* We can combine these with antipatterns to transform the hypergraph of an antipattern achieving the desired result
+If this works correctly, the system should be able to take a text file and a prompt, and then “answer” questions about the text by transforming its internal hypergraph in meaningful ways. This corresponds to the stage in the historical model where the algorithm is no longer just analysing meaning, but *participating* in a lived symbolic reality.
 
-Waves make sense because:
+### Core proposition
 
-* Waves are composed of sine waves and cosine waves  
-* The derivative of sine is cosine and the derivative of cosine is \-sine  
-* This means the second derivative of sine is \-sine and the second derivative of cosine is \-cosine  
-* This is a special property because it means that when df/dx \> 0, d^2f/dx^2 \< 0 and when df/dx \<0, d^2f/dx^2 \> 0 by definition satisfying our elemental phases system  
-* Additionally, whereas neurons are dependent on the scale of the system (a larger scale system needs more neurons as there will be more inputs) waves are scale free plus much less calculations are needed (matrix multiplication etc is computationally expensive whereas a fourier transform is only one calculation).
+* **Represent the hypergraph as a wave**  
+   The structure of the hypergraph is encoded as a continuous signal.   
+* **Decompose the wave into its basic components**  
+   A Fourier transform breaks the wave into simple building blocks.  
+   These components become the stored “mythemes.”  
+* **Use antipatterns to transform the hypergraph**  
+   By applying the stored wave‑components to a new hypergraph, we can generate meaningful transformations — effectively allowing the system to reason about the text.
 
-Luckily there is already a hypergraph fourier transform which does this for us.
+### **Why Waves?**
 
-# Future Vision
+Waves are ideal for this architecture because:
 
-* In the long term, the tagger will be extended with:  
-  * Bidirectional interaction  
-  * Input media → ask questions about it  
-  * Input text → generate media  
-* Research assistant capabilities  
-  * A system capable of analysing, synthesising, and generating structured knowledge.  
-  * Computational physics  
-* A speculative goal: using structural extraction to identify patterns in physical systems.
+* Any wave can be broken down into sine wave components.  
+* Sine has a special property:  
+  * The derivative of sine is cosine  
+  * The second derivative of sine is \-sine  
+* This naturally mirrors the five phase cycle. When the first derivative is positive, the second derivative is negative by definition. 
+
+Waves are also **scale‑free**.  
+ A neural network needs more neurons as the input grows.  
+ A wave‑based system does not — the same wave can stretch or compress to fit any size.
+
+And computationally, a Fourier transform(a mathematical technique to separate a wave into its sine wave components) is far cheaper than the repeated matrix multiplications used in neural networks.
+
+### What is a fourier transform?
+
+A Fourier transform is a method for taking a complicated signal and breaking it into a set of simple waves.
+
+Think of a signal as a function that assigns a value to each point in time.  
+ For example, a function that outputs t2 simply means:
+
+* input 5 → output 25  
+* input 10 → output 100
+
+A Fourier transform takes this entire function and asks:
+
+“What simple waves add up to make this signal?”
+
+The output is another signal that shows which frequencies are present.  
+ If the original signal contains a pure 5hz sine wave the fourier transform will show a peak at t=5.
+
+This is how we extract the “building blocks” of a pattern.
+
+### What is a graph fourier transform?
+
+A graph Fourier transform does the same thing, but instead of analysing a wave over time, it analyses a wave over a **graph**.
+
+Here, the “wave” is the flow of information across the graph’s connections.
+
+To do this, we build a matrix that describes the graph:
+
+* The **adjacency matrix** tells us which nodes are connected.  
+* The **degree matrix** tells us how many connections each node has.  
+* Subtracting these gives the **graph Laplacian**, which captures the structure of the graph.
+
+The Laplacian has special vectors — called eigenvectors — that act like the graph’s natural “vibration modes.”  
+ These are the graph’s equivalent of sine waves.
+
+Projecting our data onto these vibration modes gives us the **graph Fourier transform**.
+
+This tells us the fundamental patterns that live on the graph.
+
+### What is a hypergraph fourier transform?
+
+We can build a **hypergraph Laplacian** in the same way as the graph Laplacian, but extended to handle these multi‑node connections.
+
+The hypergraph Fourier transform then decomposes the hypergraph into its fundamental “vibration modes,” just like the graph version — but now capturing higher‑order relationships.
+
+This is exactly what we need for Simulatrix, because egregores and mythemes are inherently higher‑order structures.
+
+### Code update
+
+`import json`  
+`import os`  
+`import numpy as np`  
+`from functools import lru_cache`
+
+`UPLOAD_DIR = "uploads"`  
+`HG_DIR = "hypergraphs"`
+
+`os.makedirs(UPLOAD_DIR, exist_ok=True)`  
+`os.makedirs(HG_DIR, exist_ok=True)`
+
+`# -------------------------------------------------------`  
+`# Cached file loading`  
+`# -------------------------------------------------------`
+
+`@lru_cache(maxsize=64)`  
+`def load_hypergraph_cached(path):`  
+   `return np.load(path, allow_pickle=True)`
+
+`# -------------------------------------------------------`  
+`# Tokenisation`  
+`# -------------------------------------------------------`
+
+`def extract_reference_index(text, file_name):`  
+   `words = []`  
+   `for word in text.split():`  
+       `if word not in words:`  
+           `words.append(word)`
+
+   `index = dict(zip(words, range(len(words))))`  
+   `with open(f"{UPLOAD_DIR}/{file_name}.json", "w", encoding="utf-8") as f:`  
+       `json.dump(index, f)`  
+   `return index`
+
+`def extract_tokens(text, file_name):`  
+   `index_path = f"{UPLOAD_DIR}/{file_name}.json"`
+
+   `if not os.path.exists(index_path):`  
+       `index = extract_reference_index(text, file_name)`  
+   `else:`  
+       `with open(index_path, "r", encoding="utf-8") as f:`  
+           `index = json.load(f)`
+
+   `return [index[word] for word in text.split()]`
+
+`# -------------------------------------------------------`  
+`# Thoughtforms + egregore sets + tensors`  
+`# -------------------------------------------------------`
+
+`def extract_thoughtforms(tokens):`  
+   `counts = {}`  
+   `for t in tokens:`  
+       `counts[t] = counts.get(t, 0) + 1`  
+   `return [t for t, c in counts.items() if c >= 2]`
+
+`def extract_egregore_sets(tokens, thoughtforms):`  
+   `seq_len = len(tokens)`  
+   `eg_sets = []`
+
+   `for tf in thoughtforms:`  
+       `positions = [i for i, t in enumerate(tokens) if t == tf]`  
+       `if not positions:`  
+           `eg_sets.append([tf])`  
+           `continue`
+
+       `strength = len(positions) / seq_len`  
+       `radius = int(seq_len * strength)`
+
+       `start = max(0, positions[0] - radius)`  
+       `end = min(seq_len, positions[-1] + radius + 1)`
+
+       `window = tokens[start:end]`  
+       `if tf not in window:`  
+           `window.insert(0, tf)`
+
+       `eg_sets.append(window)`
+
+   `return eg_sets`
+
+`def calculate_egregore_tensors(tokens, thoughtforms):`  
+   `eg_sets = extract_egregore_sets(tokens, thoughtforms)`  
+   `seq_len = len(tokens)`
+
+   `tensors = []`  
+   `for eg in eg_sets:`  
+       `anchor = eg[0]`  
+       `strengths = []`
+
+       `for token in eg:`  
+           `if token == anchor:`  
+               `strengths.append(0.0)`  
+               `continue`
+
+           `positions = [i for i, t in enumerate(tokens) if t == token]`  
+           `anchor_positions = [i for i, t in enumerate(tokens) if t == anchor]`
+
+           `if not positions or not anchor_positions:`  
+               `strengths.append(0.0)`  
+               `continue`
+
+           `dist = min(abs(p - a) for p in positions for a in anchor_positions)`  
+           `strengths.append(1.0 / (dist * seq_len))`
+
+       `tensors.append(strengths)`
+
+   `return tensors, eg_sets`
+
+`def extract_context_from_egregore(strengths, eg_set):`  
+   `"""`  
+   *`strengths: list of strengths for an egregore tensor`*  
+   *`eg_set:    list of tokens in the egregore set (same order as strengths)`*
+
+   *`Context = tokens whose strength is within the non-anomalous range:`*  
+     *`> Q1 - 1.5*IQR  and  < Q3 + 1.5*IQR`*  
+   *`(ignoring zeros / anchor)`*  
+   *`"""`*  
+   `non_zero = [s for s in strengths if s > 0]`
+
+   `if len(non_zero) == 0:`  
+       `return []`
+
+   `q1 = float(np.percentile(non_zero, 25))`  
+   `q3 = float(np.percentile(non_zero, 75))`  
+   `iqr = q3 - q1`
+
+   `lower = q1 - 1.5 * iqr`  
+   `upper = q3 + 1.5 * iqr`
+
+   `context_tokens = [`  
+       `token`  
+       `for token, s in zip(eg_set, strengths)`  
+       `if s > 0 and s > lower and s < upper`  
+   `]`
+
+   `return context_tokens`
+
+`# -------------------------------------------------------`  
+`# Hypergraph generation (single source of truth)`  
+`# -------------------------------------------------------`
+
+`def generate_or_load_hypergraph(text, file_name):`  
+   `"""`  
+   *`If hypergraph exists:`*  
+       *`- load tokens, thoughtforms, tensors, nodes, incidence, edge metadata`*  
+   *`If not:`*  
+       *`- compute everything`*  
+       *`- save hypergraph`*  
+       *`- return it`*  
+   *`"""`*
+
+   `hg_path = f"{HG_DIR}/{file_name}_hg.npz"`
+
+   `# ---------------------------------------------------`  
+   `# CASE 1: Hypergraph already exists → load everything`  
+   `# ---------------------------------------------------`  
+   `if os.path.exists(hg_path):`  
+       `hg = load_hypergraph_cached(hg_path)`  
+       `return {`  
+           `"incidence": hg["incidence"],`  
+           `"nodes": hg["nodes"].tolist(),`  
+           `"thoughtforms": hg["thoughtforms"].tolist(),`  
+           `"tensors": hg["tensors"].tolist(),`  
+           `"tokens": hg["tokens"].tolist(),`  
+           `"edge_types": hg["edge_types"].tolist(),`  
+           `"edge_strengths": hg["edge_strengths"].tolist(),`  
+           `"edge_context_flags": hg["edge_context_flags"].tolist(),`  
+       `}`
+
+   `# ---------------------------------------------------`  
+   `# CASE 2: Hypergraph missing → compute everything`  
+   `# ---------------------------------------------------`  
+   `tokens = extract_tokens(text, file_name)`  
+   `thoughtforms = extract_thoughtforms(tokens)`  
+   `tensors, eg_sets = calculate_egregore_tensors(tokens, thoughtforms)`
+
+   `# Build nodes: token IDs + thoughtform nodes (we'll use raw token IDs as TF nodes)`  
+   `token_nodes = sorted(set(tokens))`  
+   `nodes = token_nodes[:]  # thoughtforms are also token IDs`  
+   `node_index = {node: i for i, node in enumerate(nodes)}`
+
+   `edges = []`  
+   `edge_types = []`  
+   `edge_strengths = []`  
+   `edge_context_flags = []`
+
+   `# 1) Sequence edges`  
+   `for i in range(len(tokens) - 1):`  
+       `edges.append([tokens[i], tokens[i + 1]])`  
+       `edge_types.append("sequence")`  
+       `edge_strengths.append(0.0)`  
+       `edge_context_flags.append(False)`
+
+   `# 2) Egregore-set edges and context edges`  
+   `for tf, strengths, eg_set in zip(thoughtforms, tensors, eg_sets):`  
+       `# Egregore-set hyperedge: TF + all tokens in eg_set`  
+       `egset_nodes = [tf] + [tok for tok in eg_set if tok != tf]`  
+       `egset_strengths = [0.0] + [s for tok, s in zip(eg_set, strengths) if tok != tf]`
+
+       `edges.append(egset_nodes)`  
+       `edge_types.append("egset")`  
+       `edge_strengths.append(egset_strengths)`  
+       `edge_context_flags.append(False)  # egset edge itself is not "context"`
+
+       `# Context tokens (computed from strengths + eg_set)`  
+       `context_tokens = extract_context_from_egregore(strengths, eg_set)`
+
+       `if context_tokens:`  
+           `ctx_nodes = [tf] + context_tokens`  
+           `edges.append(ctx_nodes)`  
+           `edge_types.append("context")`  
+           `edge_strengths.append(0.0)      # context edge does not carry strength`  
+           `edge_context_flags.append(True)  # this edge represents context`
+
+   `# Build incidence matrix`  
+   `max_nodes = len(nodes)`  
+   `incidence = np.zeros((len(edges), max_nodes), dtype=np.int8)`
+
+   `for row, edge in enumerate(edges):`  
+       `for node in edge:`  
+           `if node in node_index:`  
+               `incidence[row, node_index[node]] = 1`
+
+   `# Save hypergraph`  
+   `np.savez_compressed(`  
+       `hg_path,`  
+       `incidence=incidence,`  
+       `nodes=np.array(nodes, dtype=object),`  
+       `thoughtforms=np.array(thoughtforms, dtype=object),`  
+       `tensors=np.array(tensors, dtype=object),`  
+       `tokens=np.array(tokens, dtype=object),`  
+       `edge_types=np.array(edge_types, dtype=object),`  
+       `edge_strengths=np.array(edge_strengths, dtype=object),`  
+       `edge_context_flags=np.array(edge_context_flags, dtype=bool),`  
+   `)`
+
+   `# Return the freshly computed hypergraph`  
+   `return {`  
+       `"incidence": incidence,`  
+       `"nodes": nodes,`  
+       `"thoughtforms": thoughtforms,`  
+       `"tensors": tensors,`  
+       `"tokens": tokens,`  
+       `"edge_types": edge_types,`  
+       `"edge_strengths": edge_strengths,`  
+       `"edge_context_flags": edge_context_flags,`  
+   `}`
+
+`def hypergraph_fourier_for_thoughtform(hg, tf):`  
+   `"""`  
+   *`Compute the hypergraph Fourier transform for the sub-hypergraph`*  
+   *`connecting the egregore set and context of a given thoughtform.`*
+
+   *`hg: hypergraph dict returned by generate_or_load_hypergraph`*  
+   *`tf: thoughtform token ID (integer)`*
+
+   *`Returns:`*  
+       *`{`*  
+           *`"nodes": [...],`*  
+           *`"incidence": H_sub,`*  
+           *`"laplacian": L,`*  
+           *`"eigenvalues": eigvals,`*  
+           *`"eigenvectors": eigvecs,`*  
+           *`"signal": signal,`*  
+           *`"fourier_coeffs": coeffs`*  
+       *`}`*  
+   *`"""`*
+
+   `nodes = hg["nodes"]`  
+   `edge_types = hg["edge_types"]`  
+   `edge_strengths = hg["edge_strengths"]`  
+   `edge_context_flags = hg["edge_context_flags"]`
+
+   `# -------------------------------------------------------`  
+   `# 1. Extract the two edges for this thoughtform`  
+   `# -------------------------------------------------------`  
+   `egset_edge = None`  
+   `context_edge = None`
+
+   `for edge, etype, ctx_flag in zip(hg["incidence"], edge_types, edge_context_flags):`  
+       `# Find edges that include the thoughtform`  
+       `edge_nodes = [nodes[i] for i, present in enumerate(edge) if present]`
+
+       `if tf not in edge_nodes:`  
+           `continue`
+
+       `if etype == "egset":`  
+           `egset_edge = edge_nodes`  
+       `elif etype == "context":`  
+           `context_edge = edge_nodes`
+
+   `if egset_edge is None or context_edge is None:`  
+       `raise ValueError(f"No egset/context edges found for thoughtform {tf}")`
+
+   `# -------------------------------------------------------`  
+   `# 2. Build sub-hypergraph node list`  
+   `# -------------------------------------------------------`  
+   `sub_nodes = sorted(set(egset_edge + context_edge))`  
+   `sub_index = {node: i for i, node in enumerate(sub_nodes)}`
+
+   `# -------------------------------------------------------`  
+   `# 3. Build sub-incidence matrix (2 edges × N nodes)`  
+   `# -------------------------------------------------------`  
+   `H = np.zeros((2, len(sub_nodes)), dtype=np.int8)`
+
+   `for row, edge_nodes in enumerate([egset_edge, context_edge]):`  
+       `for node in edge_nodes:`  
+           `H[row, sub_index[node]] = 1`
+
+   `# -------------------------------------------------------`  
+   `# 4. Hypergraph Laplacian L = Hᵀ H`  
+   `# -------------------------------------------------------`  
+   `L = H.T @ H`
+
+   `# -------------------------------------------------------`  
+   `# 5. Compute eigenvalues/eigenvectors`  
+   `# -------------------------------------------------------`  
+   `eigvals, eigvecs = np.linalg.eigh(L)`
+
+   `# -------------------------------------------------------`  
+   `# 6. Build the signal vector`  
+   `# -------------------------------------------------------`  
+   `# Strengths for egset nodes, 1 for context nodes, 0 for TF`  
+   `signal = np.zeros(len(sub_nodes))`
+
+   `# Fill egset strengths`  
+   `for node, strength in zip(egset_edge, edge_strengths[edge_types.index("egset")]):`  
+       `if node in sub_index:`  
+           `signal[sub_index[node]] = strength`
+
+   `# Fill context membership`  
+   `for node in context_edge:`  
+       `if node != tf:`  
+           `signal[sub_index[node]] = 1.0`
+
+   `# Anchor stays 0`
+
+   `# -------------------------------------------------------`  
+   `# 7. Fourier coefficients = projection onto eigenvectors`  
+   `# -------------------------------------------------------`  
+   `coeffs = eigvecs.T @ signal`
+
+   `return {`  
+       `"nodes": sub_nodes,`  
+       `"incidence": H,`  
+       `"laplacian": L,`  
+       `"eigenvalues": eigvals,`  
+       `"eigenvectors": eigvecs,`  
+       `"signal": signal,`  
+       `"fourier_coeffs": coeffs,`  
+   `}`
+
+`def compute_and_save_fourier_signature(hg, tf, file_name):`  
+   `"""`  
+   *`Compute and save the hypergraph Fourier signature for a given thoughtform.`*
+
+   *`hg: hypergraph dict returned by generate_or_load_hypergraph`*  
+   *`tf: thoughtform token ID (integer)`*  
+   *`file_name: base name of the text file (e.g. "text_one")`*
+
+   *`Saves:`*  
+       *`hypergraphs/{file_name}_fourier_tf_{tf}.npz`*
+
+   *`Returns:`*  
+       *`dict with:`*  
+           *`nodes`*  
+           *`incidence`*  
+           *`laplacian`*  
+           *`eigenvalues`*  
+           *`eigenvectors`*  
+           *`signal`*  
+           *`fourier_coeffs`*  
+   *`"""`*
+
+   `# -------------------------------------------------------`  
+   `# 1. Extract edges for this thoughtform`  
+   `# -------------------------------------------------------`  
+   `nodes = hg["nodes"]`  
+   `incidence = hg["incidence"]`  
+   `edge_types = hg["edge_types"]`  
+   `edge_strengths = hg["edge_strengths"]`  
+   `edge_context_flags = hg["edge_context_flags"]`
+
+   `egset_edge = None`  
+   `context_edge = None`  
+   `egset_strengths = None`
+
+   `for row_idx, (row, etype, ctx_flag) in enumerate(`  
+       `zip(incidence, edge_types, edge_context_flags)`  
+   `):`  
+       `edge_nodes = [nodes[i] for i, present in enumerate(row) if present]`
+
+       `if tf not in edge_nodes:`  
+           `continue`
+
+       `if etype == "egset":`  
+           `egset_edge = edge_nodes`  
+           `egset_strengths = edge_strengths[row_idx]`
+
+       `elif etype == "context":`  
+           `context_edge = edge_nodes`
+
+   `if egset_edge is None or context_edge is None:`  
+       `raise ValueError(f"No egset/context edges found for thoughtform {tf}")`
+
+   `# -------------------------------------------------------`  
+   `# 2. Build sub-hypergraph node list`  
+   `# -------------------------------------------------------`  
+   `sub_nodes = sorted(set(egset_edge + context_edge))`  
+   `sub_index = {node: i for i, node in enumerate(sub_nodes)}`
+
+   `# -------------------------------------------------------`  
+   `# 3. Build sub-incidence matrix (2 edges × N nodes)`  
+   `# -------------------------------------------------------`  
+   `H = np.zeros((2, len(sub_nodes)), dtype=np.int8)`
+
+   `for row, edge_nodes in enumerate([egset_edge, context_edge]):`  
+       `for node in edge_nodes:`  
+           `H[row, sub_index[node]] = 1`
+
+   `# -------------------------------------------------------`  
+   `# 4. Hypergraph Laplacian L = Hᵀ H`  
+   `# -------------------------------------------------------`  
+   `L = H.T @ H`
+
+   `# -------------------------------------------------------`  
+   `# 5. Eigen-decomposition (hypergraph Fourier basis)`  
+   `# -------------------------------------------------------`  
+   `eigenvalues, eigenvectors = np.linalg.eigh(L)`
+
+   `# -------------------------------------------------------`  
+   `# 6. Build the signal vector`  
+   `# -------------------------------------------------------`  
+   `signal = np.zeros(len(sub_nodes))`
+
+   `# Strengths for egset nodes`  
+   `for node, strength in zip(egset_edge, egset_strengths):`  
+       `signal[sub_index[node]] = strength`
+
+   `# Context nodes get value 1 (semantic activation)`  
+   `for node in context_edge:`  
+       `if node != tf:`  
+           `signal[sub_index[node]] = 1.0`
+
+   `# Anchor TF stays 0`
+
+   `# -------------------------------------------------------`  
+   `# 7. Fourier coefficients = projection onto eigenvectors`  
+   `# -------------------------------------------------------`  
+   `fourier_coeffs = eigenvectors.T @ signal`
+
+   `# -------------------------------------------------------`  
+   `# 8. Save Fourier signature`  
+   `# -------------------------------------------------------`  
+   `out_path = f"{HG_DIR}/{file_name}_fourier_tf_{tf}.npz"`
+
+   `np.savez_compressed(`  
+       `out_path,`  
+       `nodes=np.array(sub_nodes, dtype=object),`  
+       `incidence=H,`  
+       `laplacian=L,`  
+       `eigenvalues=eigenvalues,`  
+       `eigenvectors=eigenvectors,`  
+       `signal=signal,`  
+       `fourier_coeffs=fourier_coeffs,`  
+   `)`
+
+   `# -------------------------------------------------------`  
+   `# 9. Return signature`  
+   `# -------------------------------------------------------`  
+   `return {`  
+       `"nodes": sub_nodes,`  
+       `"incidence": H,`  
+       `"laplacian": L,`  
+       `"eigenvalues": eigenvalues,`  
+       `"eigenvectors": eigenvectors,`  
+       `"signal": signal,`  
+       `"fourier_coeffs": fourier_coeffs,`  
+   `}`
+
+`def update_hypergraph_registry(file_name, hg, signature_paths):`  
+   `"""`  
+   *`Create or update a registry file linking:`*  
+       *`- reference index`*  
+       *`- hypergraph file`*  
+       *`- Fourier signature files`*  
+       *`- tokens`*  
+       *`- thoughtforms`*
+
+   *`file_name: base name of the text (e.g. "text_one")`*  
+   *`hg: hypergraph dict returned by generate_or_load_hypergraph`*  
+   *`signature_paths: dict mapping tf -> signature file path`*  
+   *`"""`*
+
+   `registry_path = f"{HG_DIR}/registry.json"`
+
+   `# Load existing registry or create new one`  
+   `if os.path.exists(registry_path):`  
+       `with open(registry_path, "r", encoding="utf-8") as f:`  
+           `registry = json.load(f)`  
+   `else:`  
+       `registry = {}`
+
+   `# Build entry for this file`  
+   `entry = {`  
+       `"reference_index": f"{UPLOAD_DIR}/{file_name}.json",`  
+       `"hypergraph": f"{HG_DIR}/{file_name}_hg.npz",`  
+       `"signatures": signature_paths,  # {tf: path}`  
+       `"tokens": hg["tokens"],`  
+       `"thoughtforms": hg["thoughtforms"],`  
+   `}`
+
+   `# Update registry`  
+   `registry[file_name] = entry`
+
+   `# Save registry`  
+   `with open(registry_path, "w", encoding="utf-8") as f:`  
+       `json.dump(registry, f, indent=2)`
+
+   `return entry`
+
+`def load_fourier_signature(path):`  
+   `"""Load a saved Fourier signature."""`  
+   `data = np.load(path, allow_pickle=True)`  
+   `return {`  
+       `"nodes": data["nodes"].tolist(),`  
+       `"laplacian": data["laplacian"],`  
+       `"eigenvalues": data["eigenvalues"],`  
+       `"eigenvectors": data["eigenvectors"],`  
+       `"signal": data["signal"],`  
+       `"fourier_coeffs": data["fourier_coeffs"],`  
+   `}`
+
+`def align_signature_to_unified_index(sig, unified_nodes):`  
+   `"""`  
+   *`Align a Fourier signature's node vector to the unified node index.`*  
+   *`Missing nodes get 0.`*  
+   *`"""`*  
+   `old_nodes = sig["nodes"]`  
+   `old_index = {n: i for i, n in enumerate(old_nodes)}`
+
+   `aligned_signal = np.zeros(len(unified_nodes))`  
+   `for i, node in enumerate(unified_nodes):`  
+       `if node in old_index:`  
+           `aligned_signal[i] = sig["signal"][old_index[node]]`
+
+   `return aligned_signal`
+
+`def mix_signatures(sigA, sigB, alpha=1.0, beta=1.0):`  
+   `"""`  
+   *`Mix two Fourier signatures in spectral space.`*  
+   *`F_mix = alpha * F_A + beta * F_B`*  
+   *`"""`*  
+   `F_A = sigA["fourier_coeffs"]`  
+   `F_B = sigB["fourier_coeffs"]`
+
+   `# Ensure same length`  
+   `L = min(len(F_A), len(F_B))`  
+   `F_mix = alpha * F_A[:L] + beta * F_B[:L]`
+
+   `return F_mix`
+
+`def update_and_mix_hypergraphs(fileA, fileB, tf, alpha=1.0, beta=1.0):`  
+   `"""`  
+   *`Main function:`*  
+   *`- loads hypergraphs A and B`*  
+   *`- builds unified node index`*  
+   *`- loads Fourier signatures for thoughtform tf`*  
+   *`- aligns them`*  
+   *`- mixes them`*  
+   *`- reconstructs mixed signal`*  
+   *`- saves mixed hypergraph signature`*  
+   *`"""`*
+
+   `# -------------------------------------------------------`  
+   `# Load registry`  
+   `# -------------------------------------------------------`  
+   `registry_path = f"{HG_DIR}/registry.json"`  
+   `with open(registry_path, "r", encoding="utf-8") as f:`  
+       `registry = json.load(f)`
+
+   `entryA = registry[fileA]`  
+   `entryB = registry[fileB]`
+
+   `# -------------------------------------------------------`  
+   `# Load hypergraphs`  
+   `# -------------------------------------------------------`  
+   `hgA = load_hypergraph_cached(entryA["hypergraph"])`  
+   `hgB = load_hypergraph_cached(entryB["hypergraph"])`
+
+   `nodesA = hgA["nodes"].tolist()`  
+   `nodesB = hgB["nodes"].tolist()`
+
+   `# -------------------------------------------------------`  
+   `# Build unified node index`  
+   `# -------------------------------------------------------`  
+   `unified_nodes = sorted(set(nodesA + nodesB))`
+
+   `# -------------------------------------------------------`  
+   `# Load Fourier signatures for this thoughtform`  
+   `# -------------------------------------------------------`  
+   `sigA_path = entryA["signatures"][str(tf)]`  
+   `sigB_path = entryB["signatures"][str(tf)]`
+
+   `sigA = load_fourier_signature(sigA_path)`  
+   `sigB = load_fourier_signature(sigB_path)`
+
+   `# -------------------------------------------------------`  
+   `# Align signals to unified node index`  
+   `# -------------------------------------------------------`  
+   `alignedA = align_signature_to_unified_index(sigA, unified_nodes)`  
+   `alignedB = align_signature_to_unified_index(sigB, unified_nodes)`
+
+   `# -------------------------------------------------------`  
+   `# Mix in spectral space`  
+   `# -------------------------------------------------------`  
+   `F_mix = mix_signatures(sigA, sigB, alpha, beta)`
+
+   `# -------------------------------------------------------`  
+   `# Reconstruct mixed signal`  
+   `# -------------------------------------------------------`  
+   `V = sigA["eigenvectors"]  # assume same Laplacian basis`  
+   `signal_mix = V @ F_mix`
+
+   `# -------------------------------------------------------`  
+   `# Save mixed signature`  
+   `# -------------------------------------------------------`  
+   `out_path = f"{HG_DIR}/mixed_{fileA}_{fileB}_tf_{tf}.npz"`
+
+   `np.savez_compressed(`  
+       `out_path,`  
+       `nodes=np.array(unified_nodes, dtype=object),`  
+       `eigenvalues=sigA["eigenvalues"],`  
+       `eigenvectors=sigA["eigenvectors"],`  
+       `fourier_coeffs=F_mix,`  
+       `signal=signal_mix,`  
+   `)`
+
+   `return {`  
+       `"nodes": unified_nodes,`  
+       `"fourier_coeffs": F_mix,`  
+       `"signal": signal_mix,`  
+       `"path": out_path,`  
+   `}`
+
+`def process_all_local_texts():`  
+   `"""`  
+   *`Reads all .txt files in ./local, generates hypergraphs,`*  
+   *`computes Fourier signatures for each thoughtform,`*  
+   *`and updates the registry accordingly.`*  
+   *`"""`*
+
+   `local_dir = "./local"`  
+   `registry_path = f"{HG_DIR}/registry.json"`
+
+   `# Load or create registry`  
+   `if os.path.exists(registry_path):`  
+       `with open(registry_path, "r", encoding="utf-8") as f:`  
+           `registry = json.load(f)`  
+   `else:`  
+       `registry = {}`
+
+   `# Iterate over all .txt files in ./local`  
+   `for fname in os.listdir(local_dir):`  
+       `if not fname.endswith(".txt"):`  
+           `continue`
+
+       `base = fname.replace(".txt", "")`  
+       `text_path = os.path.join(local_dir, fname)`
+
+       `print(f"Processing {fname}...")`
+
+       `# Load text`  
+       `with open(text_path, "r", encoding="utf-8") as f:`  
+           `text = f.read()`
+
+       `# Generate hypergraph`  
+       `hg = generate_or_load_hypergraph(text, base)`
+
+       `# Generate Fourier signatures`  
+       `signature_paths = {}`  
+       `for tf in hg["thoughtforms"]:`  
+           `sig = compute_and_save_fourier_signature(hg, tf, base)`  
+           `sig_path = f"{HG_DIR}/{base}_fourier_tf_{tf}.npz"`  
+           `signature_paths[tf] = sig_path`
+
+       `# Update registry entry`  
+       `entry = {`  
+           `"reference_index": f"{UPLOAD_DIR}/{base}.json",`  
+           `"hypergraph": f"{HG_DIR}/{base}_hg.npz",`  
+           `"signatures": signature_paths,`  
+           `"tokens": hg["tokens"],`  
+           `"thoughtforms": hg["thoughtforms"],`  
+       `}`
+
+       `registry[base] = entry`
+
+   `# Save updated registry`  
+   `with open(registry_path, "w", encoding="utf-8") as f:`  
+       `json.dump(registry, f, indent=2)`
+
+   `print("All texts processed and registry updated.")`
+
+`def mix_string_with_all_signatures(input_text, file_name="input_mix", top_k=50):`  
+   `"""`  
+   *`Takes a raw string, builds a temporary hypergraph for it,`*  
+   *`computes its Fourier signature, mixes it with all saved signatures,`*  
+   *`reconstructs a mixed signal, converts that back into a token sequence,`*  
+   *`and finally reconstructs text.`*
+
+   *`Returns:`*  
+       *`{`*  
+           *`"mixed_signal": ...,`*  
+           *`"token_sequence": ...,`*  
+           *`"text": ...`*  
+       *`}`*  
+   *`"""`*
+
+   `# -------------------------------------------------------`  
+   `# 1. Load registry`  
+   `# -------------------------------------------------------`  
+   `registry_path = f"{HG_DIR}/registry.json"`  
+   `with open(registry_path, "r", encoding="utf-8") as f:`  
+       `registry = json.load(f)`
+
+   `# -------------------------------------------------------`  
+   `# 2. Build hypergraph for the input string`  
+   `# -------------------------------------------------------`  
+   `hg_input = generate_or_load_hypergraph(input_text, file_name)`
+
+   `# Pick the first thoughtform as anchor (or compute all)`  
+   `if len(hg_input["thoughtforms"]) == 0:`  
+       `raise ValueError("Input text has no repeated tokens → no thoughtforms → cannot mix.")`
+
+   `tf_input = hg_input["thoughtforms"][0]`
+
+   `sig_input = compute_and_save_fourier_signature(hg_input, tf_input, file_name)`
+
+   `# -------------------------------------------------------`  
+   `# 3. Build unified node index across ALL hypergraphs`  
+   `# -------------------------------------------------------`  
+   `all_nodes = set(hg_input["nodes"])`
+
+   `for entry in registry.values():`  
+       `hg = load_hypergraph_cached(entry["hypergraph"])`  
+       `all_nodes.update(hg["nodes"].tolist())`
+
+   `unified_nodes = sorted(all_nodes)`  
+   `unified_index = {n: i for i, n in enumerate(unified_nodes)}`
+
+   `# -------------------------------------------------------`  
+   `# 4. Align input signature to unified index`  
+   `# -------------------------------------------------------`  
+   `def align(sig):`  
+       `old_nodes = sig["nodes"]`  
+       `old_index = {n: i for i, n in enumerate(old_nodes)}`  
+       `aligned = np.zeros(len(unified_nodes))`  
+       `for node, idx in unified_index.items():`  
+           `if node in old_index:`  
+               `aligned[idx] = sig["signal"][old_index[node]]`  
+       `return aligned`
+
+   `aligned_input = align(sig_input)`
+
+   `# -------------------------------------------------------`  
+   `# 5. Load and align all saved signatures`  
+   `# -------------------------------------------------------`  
+   `aligned_sigs = []`
+
+   `for entry in registry.values():`  
+       `for tf, sig_path in entry["signatures"].items():`  
+           `sig = load_fourier_signature(sig_path)`  
+           `aligned_sigs.append(align(sig))`
+
+   `# -------------------------------------------------------`  
+   `# 6. Mix them in signal space`  
+   `# -------------------------------------------------------`  
+   `mixed_signal = aligned_input.copy()`
+
+   `for sig in aligned_sigs:`  
+       `mixed_signal += sig`
+
+   `# -------------------------------------------------------`  
+   `# 7. Convert mixed signal back into a token sequence`  
+   `# -------------------------------------------------------`  
+   `# Pick top-K activated tokens`  
+   `top_indices = np.argsort(mixed_signal)[::-1][:top_k]`  
+   `token_sequence = [unified_nodes[i] for i in top_indices]`
+
+   `# -------------------------------------------------------`  
+   `# 8. Convert tokens back to words`  
+   `# -------------------------------------------------------`  
+   `# Find any reference index (they all share the same mapping)`  
+   `any_entry = next(iter(registry.values()))`  
+   `ref_path = any_entry["reference_index"]`
+
+   `with open(ref_path, "r", encoding="utf-8") as f:`  
+       `ref_index = json.load(f)`
+
+   `# Reverse mapping`  
+   `inv_index = {v: k for k, v in ref_index.items()}`
+
+   `words = []`  
+   `for tok in token_sequence:`  
+       `if tok in inv_index:`  
+           `words.append(inv_index[tok])`  
+       `else:`  
+           `words.append(f"[UNK_{tok}]")`
+
+   `text_out = " ".join(words)`
+
+   `return {`  
+       `"mixed_signal": mixed_signal,`  
+       `"token_sequence": token_sequence,`  
+       `"text": text_out,`  
+   `}`
+
+# Logos vs mythos in the current day
+
+Mythos still play a large role in the current day. Even right now, we still participate in mythemes \- in today's world these are our collaborative social narrative and this is the layer of our perception that is felt. An example of this might be brands or the narrative of effectively “Go to school, get a job, buy a house, start a family, retire, enjoy retirement and die”. In this way we can also see how meaning is created on large social scales and people who fail to conform to this mytheme are labelled as “weird”/”weirdos”.   
+In terms of actual argumentative for this we create a circular loop- these modern mythemes are social egregors. Mythos is the layer of our perception in which our ideas are “living” referring back to my first essay “Are ideas alive?How historical civilisations were governed by ideas” in a perfect loop. 
+
+Logos also continues to exist in modern life. In modern life, logos presents itself as logical reasoning and often manifests itself through our internal monologue. We could argue that intelligent individuals experience a larger proportion of good compared to mythos (as per the conventional understanding of intelligence). This is why studies show there seems to be a correlation between intelligence and depression \- as individuals experience a higher proportion of Logos they become detached from lived/felt reality and by extension detached from meaning. 
+
+We can also argue that social chaos ultimately comes from the proportion of Logos a person experiences \- a higher proportion of logos means they are effectively “remixing” ideas more which suggests they will behave in a higher variety of ways. 
+
+This creates a tiered system of human thought where there is effectively speech in the form of our inner monologue or for some people images and then on top of this exists the layer of mythos and on top of that logos. 
+
+Our algorithm provides a way to reproduce mythos however in the human brain there is effectively some kind of algorithm that turns the new thought into legible text (or a comprehensible image) which my algorithm lacks. 
+
+In terms of actually adding logos to my algorithm this is the clever part \- I don't need to. I said before that the point of datacentral is to extract form from meaning and push social chaos onto the user. It can do this by making the user perform the logos aspect. 
+
+This might appear rather abstract but all it means in practice is that the algorithm will stick to what it can do now \- effectively, if you were to give it a text and say for example “What does … do?” it would just give you all the information on … in the form of a bundle of words. What this means is all I need to do is implement an algorithm to make this text intelligible. Originally I was thinking of a diffusion based neural network however the problem of imposing correct grammar is it erodes fringe cases where the actual text file is making a point using grammar for example a joke such as “There's a huge difference between let's eat grandma and let's eat, grandma” might become “There's a huge difference between let's eat, grandma and let's eat, grandma” so it has now lost its meaning. The second option I thought of was to preserve markov chains between non thoughtforms and thoughtforms however this also wouldn't make sense because even in an ideal scenario “Balloons are red” could become “A balloon are red” (due to mixing the prompt and the text) but this also doesn't make sense. 
+
+This also begs the question \- what's the point of this?
+
+Well I firstly must mention one major change I plan to make to my algorithm. Instead of tokenising based on words defined by splitting text using spaces it should tokenise based on characters \- this might seem redundant as you might think there are only 26 characters however this is only for English, logographic languages like Chinese have a number of potential characters equivalent to the number of words in the English language. Additionally, even in the case of English that isn't accounting for punctuation and fringe characters like fractions. Plus this method could be adopted for other media such as images/videos where the hex value of each pixel acts as the new thing being tokenised. 
+
+Additionally, thoughtforms should be defined in terms of token clusters under this new scheme but also tokens should be embedded in hypergraphs from as soon as they are extracted. This also creates structure, for example a token hypergraph for text or sound will be linear but for an image it will be planar or for a video it will be 3D. 
+
+My future Vision for simulatrix is that you could upload a video- for example a video of a falling piece of paper and you could ask simulatrix about the velocity of the paper and it could give you a table of the velocity of data over time if you upload files like image recognition files of paper and text files explaining what velocity actually is.
+
+This might seem incredibly inefficient however within datacentral I would like those files to be generated procedurally. What I mean by this is you would only need to upload the video of the falling paper and ask for the papers velocity \- simulatrix would realise that it doesn't know what paper or velocity is and outsource this to a source like perplexity to generate the files needed. It will then process these files similar to what its doing now with the text files and extract information from it, like in this case its velocity. This gives you a powerful tool however demands maximum intention \- you can really do pretty much whatever you want with it but everything you want it to do you have to make it do by telling it exactly what you want. 
+
+In terms of making the text coherent perhaps I will retrieve the original text and copy it verbatim. 
