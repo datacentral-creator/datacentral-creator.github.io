@@ -7,7 +7,7 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 
 ---
 
-## History(History/index.md)
+## [History](History/index.md)
 
 ---
 ## Tagger component
