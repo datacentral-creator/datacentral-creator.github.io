@@ -1,5 +1,5 @@
 **Navigation:**  
-[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](History/history.md)
 
 # Research Papers
 
@@ -9,7 +9,7 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 
 ## Texts
 
-### [1. A Brief History of Datacentral](history.md)
+### [1. A Brief History of Datacentral](History/history.md)
 
 **Status:** Live  
 
