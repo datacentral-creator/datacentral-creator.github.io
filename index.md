@@ -6,7 +6,6 @@
 This archive presents my ongoing work on social chaos theory, algorithmic culture, hermeneutics, ancient textual systems, and the design of self‑hosted knowledge infrastructures. The papers collected here examine how humans create, interpret, and transform information across historical, technological, and computational contexts in chronological order.
 
 ---
-
 ## [History](History/index.md)
 A brief overview of the history of datacentral
 
@@ -14,8 +13,11 @@ A brief overview of the history of datacentral
 ## [Tagger component](Tagger_component/index.md)
 A series of essays, research papers and literature reviews that detail the formation of and the implementation of the tagger component
 
-### [2. Datacentral specifications](specs.md)
-**Status:** Live  
+---
+## [Project implementations](Project_imlementations/index.md)
+A description of the building blocks of datacentral
+
+---
 
 **Document type**: Specification document
 A specification for datacentral
