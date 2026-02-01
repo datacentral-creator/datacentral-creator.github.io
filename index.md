@@ -19,11 +19,6 @@ A description of the building blocks of datacentral
 
 ---
 
-**Document type**: Specification document
-A specification for datacentral
-
----
-
 
 
 ## About This Archive
