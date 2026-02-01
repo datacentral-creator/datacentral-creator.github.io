@@ -41,7 +41,7 @@ A literature review of multiple sources that details the chronological evolution
 
 ---
 
-### [1. The tagger component](tagger.md)
+### [5. The tagger component](tagger.md)
 **Status**: First draft released
 
 **Document type**: Conceptual
