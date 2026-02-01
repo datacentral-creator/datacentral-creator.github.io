@@ -49,7 +49,7 @@ A concept document that synthesises the work of "Are ideas alive? How history wa
 
 ---
 
-### [5. Simulatrix](Simulatrix.md)
+### [6. Simulatrix](Simulatrix.md)
 **Status**: In progress
 
 **Document type**: Essay
