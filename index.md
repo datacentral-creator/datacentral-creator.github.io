@@ -7,16 +7,10 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 
 ---
 
-## Texts
-
-### [1. A Brief History of Datacentral](History/history.md)
-
-**Status:** Live  
-
-**Document type**: Record 
-A historical and conceptual overview of Datacentral, outlining its origins, motivations, and the intellectual trajectory that led to its development. 
+## History(History/index.md)
 
 ---
+## Tagger component
 
 ### [2. Datacentral specifications](specs.md)
 **Status:** Live  
