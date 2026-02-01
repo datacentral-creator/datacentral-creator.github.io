@@ -8,9 +8,11 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 ---
 
 ## [History](History/index.md)
+A brief overview of the history of datacentral
 
 ---
 ## Tagger component
+A series of essays, research papers and literature reviews that detail the formation of and the implementation of the tagger component
 
 ### [2. Datacentral specifications](specs.md)
 **Status:** Live  
