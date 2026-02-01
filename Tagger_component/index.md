@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](../index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](../History/history.md)
+
 ### [1. The tagger component](tagger.md)
 **Status**: First draft released
 
