@@ -14,7 +14,7 @@ A brief overview of the history of datacentral
 A series of essays, research papers and literature reviews that detail the formation of and the implementation of the tagger component
 
 ---
-## [Project implementations](Project_imlementations/index.md)
+## [Project implementations](Project_implementations/index.md)
 A description of the building blocks of datacentral
 
 ---
