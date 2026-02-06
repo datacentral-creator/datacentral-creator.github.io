@@ -2,11 +2,10 @@
 ### [Datacentral specifications](specs.md)
 **Status:** Live  
 
-**Description**: A document that details and classifies the components of datacentral 
+**Description**: A specification for datacentral
 
 **Document type**: Specification document
 
-A specification for datacentral
 
 ### [History](History.md)
 **Status:** Live
