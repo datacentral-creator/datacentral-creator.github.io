@@ -48,12 +48,3 @@ A literature review of multiple sources that details the chronological evolution
 A concept document that synthesises the work of "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture" to synthesise a new kind of reccomendation algorithm that reccomends meaning
 
 ---
-
-### [6. Simulatrix](Simulatrix.md)
-**Status**: In progress
-
-**Document type**: Essay
-
-An evolution of the tagger component that integrates the historical reference point to bring the tagger component up to the point of being a physics engine.
-
----
