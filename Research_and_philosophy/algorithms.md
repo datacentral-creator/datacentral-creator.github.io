@@ -1,6 +1,5 @@
 **Navigation:**  
 [Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
-
 # 1\. Abstract
 
 ## Introduction
@@ -117,6 +116,8 @@ This means that overall there is a gradient towards the lowest strata of this st
 
 ## 4.3 Algorithmic analysis
 
+Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion
+
 The source for this section is: [How do recommender systems work on digital platforms?](https://www.brookings.edu/articles/how-do-recommender-systems-work-on-digital-platforms-social-media-recommendation-algorithms/)  
 From the article, we learn that recommendation algorithms have five steps.
 
@@ -132,7 +133,7 @@ Something else which is important to consider when analysing the algorithm is a 
 
 ## 4.4 Social analysis
 
-Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion.
+Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion.  
 This results in the following framework. 
 
 1. **Upper Strata – The Domain of Cultural Architects:**  
