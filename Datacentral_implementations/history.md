@@ -55,4 +55,4 @@ After rebuilding datacentral it became grounded in a base level of operation. On
 
 After analysing datacentral I realised the main reason the development process is so slow is because of the converting changes into images, saving those images and uploading them to Google drive. This process is overkill and largely unnecessary for most use cases. Instead I will simplify this by converting add ons into apps with react native (rewriting them in react native) and electron natively.
 
-I have mainly been working on implementing the tagger component as per my research. It was implemented however it was frankly subsatisfactory.
+I implemented the tagger component in react native. I realised that the solid project had become irrelevant in this new paradigm where my addons would connect to my server component. I also decided to redesign my server component to be able to be user controlled for example the user could now connect computers directly inside of the server component.
