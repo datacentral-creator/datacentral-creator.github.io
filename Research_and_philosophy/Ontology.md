@@ -1,3 +1,6 @@
+**Navigation:**  
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+
 # Speculative ontological framework
 
 ## 1 Overview  
