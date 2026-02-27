@@ -23,6 +23,7 @@
 **Description:** A research paper that analyses how reccomendation algorithms effect the formation of culture through the parameter of "social chaos" which effects the divergence in a person's habits over time
 
 **Orientation within datacentral:** This document allows us to discuss how technology as an interface effects living ideas and the relationship between living ideas and users
+
 ---
 
 ### [3. A speculative ontological framework](Ontology.md)
