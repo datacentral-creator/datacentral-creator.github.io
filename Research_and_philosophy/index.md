@@ -45,3 +45,8 @@
 **Orientation within datacentral:** This document details the history of the interface of human conciousness allowing us to better interpret the human level of the datacentral methodology for more meaningful interactions with data
 
 ---
+### [5. Datacentral thesis](Datacentral_thesis.md)
+**Status:** First draft released
+**Document type:** Essay
+**Description:** The foundational thesis of datacentral
+
