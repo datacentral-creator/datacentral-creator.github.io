@@ -22,69 +22,6 @@ A side project I created as an add on however it ended up becoming an extension 
 ## My tagger component
 The basis of my simulatrix system which intends to act as a multimodal AI for bidirectional media interaction and potentially a new approach to computational physics in the future. It is the brain that extracts form from information.
 
-## Add ons
-
-Add ons (aka packages) are typically docker images that are run by the Server.exe component through the docker extension however in the future I will introduce the capability to run add ons on a kubernete instead. Conceptually add ons are such that they aren't neccessarily open source however the specification of a given add on should be provided such that you can create a new add on with the same specification and it will work the same within the datacentral ecosystem. 
-
-### File_edit
-An add on that allows you to edit text files. It is chunked under the hood meaning you can make infinite edits with a constant amount of lag (because each chunk has a small size and adding edits just adds more chunks)
-
-Specification:
-
-/CreateChunk/{file_name]
-Type: GET
-Description: Creates a new chunk
-
-/Edit_uploads/{file_name}
-Type: POST(Accepts a request with form data attatched with a file object included in the form data in "file")
-Description: Adds the file to the local directory
-
-/Get_file/{file_name}
-Type: GET
-Description: Returns a file from the local directory
-
-/Get_files
-Type: GET
-Description: Returns a list of files from the local directory
-
-/Recieve_file/{file_name}
-Type: POST(with the file embedded in the post request directly)
-Description: Adds the file to the local directory
-
-### File_read
-
-An add on that allows you to upload files to the solid database 
-
-Specification:
-/Download_files/chunks
-Type: POST(with the file embedded in form data)
-Description: Uploads the file to the local directory
-
-/Get_files
-Type: GET
-Description: Returns a list of files in the local directory
-
-/Reference_index/{file_name}
-Type: GET
-Description: Returns a list of reference indices of a file (Basically if you choose to "encrypt" a file the file is actually stored within solid in an encrypted form and a reference index is generated which is a list of all the words in the file and this is required to de-encrypt the file providing an extra layer of security however reference indices are going to have a special use in the future as well). 
-
-/Reference_index/{file_name}/{Chunk_no}
-Type: GET 
-Description: Returns the file index of a given chunk
-
-### File_set
-
-An add on that allows you to view the files in your solid database and send them to the text editor add on
-
-Specification:
-
-/download/{file_name}
-Type: GET
-Description: Returns the corresponding file from the local directory
-
-/sendFile/{file_name}
-Type: GET
-Description: Sends the file from solid to the text editor
 
 ### Package_manager
 
