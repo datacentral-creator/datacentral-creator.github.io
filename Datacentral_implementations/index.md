@@ -28,3 +28,10 @@
 **Status**: Live
 
 **Description:** Pipelines build upon the tagger component to perform more complex semantic operations
+
+---
+
+### [Add ons](./Add_ons.md)
+**Status**: Live
+
+**Description:** Add ons within datacentral
