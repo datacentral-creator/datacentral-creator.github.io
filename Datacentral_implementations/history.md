@@ -58,3 +58,8 @@ After analysing datacentral I realised the main reason the development process i
 I implemented the tagger component in react native. I realised that the solid project had become irrelevant in this new paradigm where my addons would connect to my server component. I also decided to redesign my server component to be able to be user controlled for example the user could now connect computers directly inside of the server component.
 
 In a similiar vein, I decided to make yggdrasil and kubernetes legacy and switch to tailscale as my peer to peer encrypted bridge. Both yggdrasil and tailscale ve flaws however the flaws of tailscale were more manageable at the time.
+
+---
+
+## Dual system
+I designed one central react native app which connects to a server component. The server component consists of a main exe which runs other exes. This continues the add on architecture where each exe is it's own add on (the main exe has no extensions per se and only installs the add ons as directed by the user through a simple input menu). The app is ready to be uploaded to google playstore and the exe is ready to be signed using a certificate from certum.
