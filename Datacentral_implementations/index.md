@@ -25,3 +25,10 @@
 **Status**: Live
 
 **Description:** Add ons within datacentral
+
+---
+
+### [Tagger component](./tagger.md)
+**Status**: Live
+
+**Description:** An overview of the methodology and philosophy of the tagger component (the core of datacentral)
