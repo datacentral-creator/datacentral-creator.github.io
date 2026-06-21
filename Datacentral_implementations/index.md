@@ -14,21 +14,8 @@
 
 ---
 
-### [Pipelines](Pipelines/index.md)
-**Status**: Live
-
-**Description:** Pipelines build upon the tagger component to perform more complex semantic operations
-
----
-
 ### [Add ons](./Add_ons.md)
 **Status**: Live
 
 **Description:** Add ons within datacentral
 
----
-
-### [Tagger component](./tagger.md)
-**Status**: Live
-
-**Description:** An overview of the methodology and philosophy of the tagger component (the core of datacentral)
