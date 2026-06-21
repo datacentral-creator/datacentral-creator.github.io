@@ -1,13 +1,3 @@
-
-### [Datacentral specifications](specs.md)
-**Status:** Live  
-
-**Description**: A specification for datacentral
-
-**Document type**: Specification document
-
----
-
 ### [History](History.md)
 **Status:** Live
 
