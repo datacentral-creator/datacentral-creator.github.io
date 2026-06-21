@@ -6,7 +6,7 @@ The tagger component is designed to answer a single question:
 
 It synthesises the theoretical framework developed in:
 
-* **Text A:** [*Are ideas alive? How historical civilisations were governed by ideas*](../Research_and_philosophy/essay.md)
+* **Text A:** [Are ideas alive? How historical civilisations were governed by ideas](../Research_and_philosophy/essay.md)
 * **Text B:** [*How recommendation algorithms affect the formation of culture*](../Research_and_philosophy/algorithms.md)
 
 The goal is to build a system capable of identifying structural patterns—*egregores*—within any medium (text, image, video), representing them mathematically, and using them to compare, classify, and recommend content.
