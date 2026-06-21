@@ -4,7 +4,7 @@
 # What are add ons?
 Add ons are extra pieces of data that expand a programs function. One of the iterations of datacentral was entirely focused on privacy and data sovereignty and security. Because of this, I split my codebase into "add ons" and a main installer which installs the prequisite requirements onto the system and adds the add ons. This has remained as a permanent design choice for the server component. 
 
-#Contemporary add ons list
+# Contemporary add ons list
 
 ### File_server
 The file server add on facilitates communication between the server component and the mobile app. It does this by exposing a specific subsection of the filesystem of the system running the server component which the mobile app connects to (this connection is cryptographically encrypted with credentials set by the user). Likewise it also facilitates the transfer of project metadata between the mobile device and the server component. 
@@ -15,7 +15,7 @@ The projects add on lets you interact with your projects and connect them to tas
 ### Schematic_pipeline
 The schematic pipeline has all the functionality of the scheduling component but it also processes custom schematics. This can be any data formatted in two rows of numbers seperated by commas. You can get information about row one, row two or data about correlation and association between the rows (with integrated hypothesis testing). 
 
-#Legacy add ons specifications
+# Legacy add ons specifications
 
 ### File_edit
 An add on that allows you to edit text files. It is chunked under the hood meaning you can make infinite edits with a constant amount of lag (because each chunk has a small size and adding edits just adds more chunks)
