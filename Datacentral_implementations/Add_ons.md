@@ -9,11 +9,8 @@ Add ons are extra pieces of data that expand a programs function. One of the ite
 ### File_server
 The file server add on facilitates communication between the server component and the mobile app. It does this by exposing a specific subsection of the filesystem of the system running the server component which the mobile app connects to (this connection is cryptographically encrypted with credentials set by the user). Likewise it also facilitates the transfer of project metadata between the mobile device and the server component. 
 
-### Projects
-The projects add on lets you interact with your projects and connect them to tasks and local files.
-
-### Schematic_pipeline
-The schematic pipeline has all the functionality of the scheduling component but it also processes custom schematics. This can be any data formatted in two rows of numbers seperated by commas. You can get information about row one, row two or data about correlation and association between the rows (with integrated hypothesis testing). 
+### Projects/schematic pipeline
+This add on allows you to view the details of projects and connect links to database entries. It also allows you to specify how you want to interact with the parameters of the database entry.
 
 # Legacy add ons specifications
 
