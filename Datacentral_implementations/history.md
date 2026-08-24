@@ -63,3 +63,7 @@ In a similiar vein, I decided to make yggdrasil and kubernetes legacy and switch
 
 ## Dual system
 I designed one central react native app which connects to a server component. The server component consists of a main exe which runs other exes. This continues the add on architecture where each exe is it's own add on (the main exe has no extensions per se and only installs the add ons as directed by the user through a simple input menu). The app is ready to be uploaded to google playstore and the exe is ready to be signed using a certificate from certum.
+
+---
+#Backend upgrade
+I replaced all the WSL functionality with qemu. This took a lot of time and I had to rewrite a lot of code but it made my code more robust and meant that it can run on tacos,windows and Linux. It also gave me more control over the environment
