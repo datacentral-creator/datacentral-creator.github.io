@@ -66,13 +66,14 @@ The exchange repeats, but with an overwhelming asymmetry
 Where a human conversation can, in principle, be balanced, the YouTube interaction structurally favours the platform. The platform has an enormous memetic inventory and an optimising algorithm; the user has finite attention and limited visibility into the system’s logic. The memetic flow is thus heavily top‑down: YouTube induces memes; the user mainly internalises.  
 From this perspective, watching YouTube is a form of social interaction between a human egregore (a person) and a large‑scale inverse egregore (the platform)—one in which the latter typically dominates.  
 
-## What this means for the findings  
+## What this means for the findings of the Youtube experiment
 We can now describe the parameter of our experiment - "social chaos" in terms of this new model. Social chaos is the divergence of the users behaviours. This indicates that their internal egregores - the clusters of memes they have internalised of time are mobile and dynamic. This means users with higher social chaos tend to internalise memes easier and the experiment showed that these people also create their own memes and cultures. 
 
-The pilot experiment in Text B shows that this conversation tends to:  
-decrease the user’s social chaos over time  
-stabilise their viewing into narrower bands of content  
-nudge them toward the lower‑strata role of passive absorber  
+The pilot experiment in Text B shows that interacting with Youtube tends to:  
+* decrease the user’s social chaos over time  
+* stabilise their viewing into narrower bands of content  
+* nudge them toward the lower‑strata role of passive watcher
+  
 In memetic terms, the YouTube egregore is doing most of the thinking. It is generating, selecting, and sequencing memes; the user is largely receiving and internalising. Parasocial relationships are an extreme case of this: the user’s internal egregores become tightly coupled to specific external memetic personas, often with minimal reciprocity.  
 The core idea of Datacentral—and specifically the tagger component—is to reverse this asymmetry. Instead of the platform dictating which egregores dominate the user’s attention, the tagger:  
 extracts structural form (egregores) from information  
