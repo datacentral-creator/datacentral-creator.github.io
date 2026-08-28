@@ -3,7 +3,7 @@
 
 # Section 1 \- What are ideas
 
-## Introduction
+## Abstract
 
 Ideas are often treated as abstractions—passive contents of thought or linguistic units. Yet across disciplines, from evolutionary theory to hermeneutics and cognitive science, a different picture emerges: ideas behave like dynamic, adaptive structures that persist, mutate, and organise themselves across minds. This section synthesises several perspectives to develop a working model of “living ideas,” which will serve as the foundation for the rest of the essay.
 
@@ -27,7 +27,7 @@ Chaos theory describes systems that are highly sensitive to initial conditions, 
 
 # Section 2 \- the history of the idea of living ideas
 
-## Introduction
+## Abstract
 
 Long before memetics or cognitive science, human cultures imagined ideas, symbols, and deities as possessing life and agency. Ancient religions, esoteric traditions, and philosophical systems all described ideas as forces that act upon the world. This section traces those traditions and shows how they anticipated, prefigured, or parallel the framework developed in Section 1\.
 
@@ -87,7 +87,7 @@ The Sapir‑Whorf hypothesis suggests that words shape how people conceptualise 
 
 # Section 3 \- Modelling: A deep dive evaluation 
 
-## Introduction
+## Abstract
 
 In this section the conceptual framework developed so far—memetic replication, interpretation, archetypes, and historical dynamics—is synthesised into a formal model which we can then implement as a program and use to test our hypothesis.
 
