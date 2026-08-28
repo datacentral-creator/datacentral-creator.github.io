@@ -48,10 +48,3 @@
 
 ---
 
-### [5. Datacentral thesis](Datacentral_thesis.md)
-**Status:** First draft released
-
-**Document type:** Essay
-
-**Description:** The foundational thesis of datacentral
-
