@@ -111,6 +111,27 @@ The meaning of the numbers is irrelevant; what matters is the **pattern of recur
 
 1 → 2 → 3 → 4 → 5 → 6 → 4 → 7 → 8\.
 
+Revision:
+A major problem with this representation is that whilst in the medium of English text you can easily generate these symbols by separating words using spaces this is not the case for other mediums. To combat this reference indexes in the future tokenise text on a character by character basis then do the same to the sequence generated iteratively creating high level token structures. This method is better on all mediums because it can also recognise connections between words with different roots or prefixes. 
+
+An example of this here would be as shown below
+
+"I have an apple. The apple is red."
+
+becomes
+
+1, 2, 3, 4, 5, 6, 2, 4, 7, 2, 4, 8, 8, 9, 6, 10, 2, 11, 3, 6, 2, 4, 8, 8, 9, 6, 2, 12, 13, 2, 14, 7, 15, 10
+
+{"I":1," ":2,"h":3","a":4,"v":5,"e":6,"n":7","p":8,"l":9".".":10","T":11","i":12,"s":13,"r":14,"d":15}
+
+We can then detect recurring patterns in this sequence and use them as tokens
+
+This would give us
+
+1, 2, 3, 4, 5, 6, 4, 5, 6, 2, 4, 7, 2, 8, 10, 2, 9, 3, 6, 2, 8, 2, 10, 11, 2, 12, 13
+
+{1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 4 → 8 → 8 → 9: 8, 11: 9, 12: 10, 13: 11, 14: 12, 15: 13}
+
 ### Thoughtforms as Cycles
 
 A *thoughtform* can be defined as a token that participates in a cycle within the sequence graph.  
