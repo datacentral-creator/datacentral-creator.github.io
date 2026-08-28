@@ -78,24 +78,9 @@ Whilst YouTube cannot "think" in the neurological sense this data suggests that 
 
 This can be seen as problematic and whilst the experiment conducted was specific to YouTube this would suggest that perhaps the "brainrot" effect of YouTube is an inherent structural flaw of recommendation algorithms themselves as the explanation I have postulated in this document where social chaos is lowered as the user effectively relegates the agency of their brain in selecting which memes to internalise to an external egregore (the recommendation algorithm) would apply more generally to any platform which uses a recommendation algorithm. This is why in the program Datacentral I have made the design choice to make everything as intentional as possible in order to combat this efect. 
 
-The core idea of Datacentral—and specifically the tagger component—is to reverse this asymmetry. Instead of the platform dictating which egregores dominate the user’s attention, the tagger:  
-extracts structural form (egregores) from information  
-makes the user’s own pattern landscape visible  
-enables the user to generate, manipulate, and recombine memes intentionally  
-In other words, the tagger aims to push the act of meme generation onto the user.  
- Rather than being passively shaped by inverse egregores like YouTube, the user gains tools to actively shape their own memetic ecosystem.  
-Reality as a hierarchy of physical systems  
-This line of thought connects to a recent theory referred to as breeze theory: the idea that reality possesses an inescapable recursive nature. Although not a peer‑reviewed academic source, breeze theory is philosophically compelling because it echoes themes found in gnostic traditions—cycles, emanations, and self‑similar structures—while emerging independently of them. I treat it here as a philosophical argument rather than an empirical claim.  
-The resonance with my own framework is striking. As discussed in Text A, cortical columns evolved to model external reality. Ideas, in this biological sense, are internalised expressions of external qualities. They are not arbitrary abstractions but structured reflections of the world’s recursive organisation. Breeze theory provides a language for this: the same recursive dynamics that shape physical systems also shape the mental systems that internalise them.  
-From this perspective, we can sketch a hierarchy:  
-Complex inverse egregores (external systems such as platforms, institutions, ecosystems)  
-→ Qualities (emergent properties of those systems)  
-→ Internalised qualities (patterns absorbed into cortical columns and cognitive structures)  
-→ Internal egregores (stable networks of memes within the mind)  
-This hierarchy suggests a symmetry between external and internal domains. Biological life may function as a catalyst of entropy, accelerating the transformation of external complexity into internal models. Over time, the balance appears to shift toward the mental side: minds increasingly reorganise and reinterpret the structures they internalise.  
-The speculative question that follows is: can this movement be accelerated?  
- If ideas are recursive models of external systems, and egregores are higher‑order stabilisations of those models, then a methodology like the tagger might serve as a technological catalyst—making the recursive flow visible, manipulable, and consciously directed rather than passively absorbed.  
-8.4 Tulpamancy  
+So the question becomes, how can we create a program that interacts with the user without this assymetry?
+
+# Tulpamancy  
 What is tulpamancy and how does it relate to this framework?  
 Something briefly mentioned in Text A was a “tulpa” \- an intentional thoughtform created for sustained interaction. This idea comes from the same branch of esotericism as egregores and survives to this day in a practice called “tulpamancy”. It seamlessly integrates with the question asked above as we can see the practice of tulpamancy as turning an internalised egregore into an external egregore for a new recursive neurological subsystem. This section will take a deep dive into the practices of tulpamancy from an ethnographical perspective to explore how this happens. 
 
