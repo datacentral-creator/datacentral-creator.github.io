@@ -49,11 +49,10 @@ It is a superstructure composed of:
 * platform norms and affordances (what is easy, what is rewarded, what is suppressed)  
 Taken together, these components form a self‑organising network of memes that adapts to user behaviour and shapes it in return. This is exactly the definition of an egregore used earlier: a network of mutually reinforcing memes organised around one or more thoughtforms.  
 For YouTube, one core thoughtform is engagement. Videos, thumbnails, titles, creator identities, and trends orbit this thoughtform: they persist and proliferate insofar as they capture and sustain attention. The pilot experiment we conducted on recommendation behaviour shows this egregoric nature empirically: the system tends toward stable attractors of content homogeneity and reduced social chaos, regardless of the user’s starting point.  
-In this sense, YouTube can be conceived as an inverse egregore — an egregore instantiated in a technological and social substrate rather than inside a single human mind.
+In this sense, YouTube can be conceived as an inverse egregore instantiated in a technological and social substrate rather than inside a single human mind.
 
 ### Social interaction 
- 
-We usually imagine “social interaction” as people talking to people. But if culture is ultimately an exchange of memes, we can generalise: any interaction where memes move, are transformed, or stabilised is social in a structural sense, even if the “partner” is not a biological person.  
+We usually imagine “social interaction” as people talking to people but if culture is ultimately an exchange of memes, we can generalise: any interaction where memes move, are transformed, or stabilised is social in a structural sense, even if the “partner” is not a biological person.  
 In a human conversation:  
 Person A speaks → induces memes in Person B  
 Person B responds → induces memes in Person A  
@@ -61,20 +60,15 @@ The conversation is a bidirectional memetic flow, but not necessarily balanced
 Memetically, the dominant speaker is the dominant source of memes.  
 They generate new meme configurations; the listener primarily internalises them. Over time, this shapes the listener’s internal egregores—their stable clusters of ideas and narratives.  
 Now consider YouTube:  
-The user “speaks” to the system through engagement patterns (clicks, watch time, likes, skips)  
-YouTube “replies” through recommendations — curated configurations of memes  
+* The user “speaks” to the system through engagement patterns (clicks, watch time, likes, skips)  
+* YouTube “replies” through recommendations — curated configurations of memes  
 The exchange repeats, but with an overwhelming asymmetry  
 Where a human conversation can, in principle, be balanced, the YouTube interaction structurally favours the platform. The platform has an enormous memetic inventory and an optimising algorithm; the user has finite attention and limited visibility into the system’s logic. The memetic flow is thus heavily top‑down: YouTube induces memes; the user mainly internalises.  
 From this perspective, watching YouTube is a form of social interaction between a human egregore (a person) and a large‑scale inverse egregore (the platform)—one in which the latter typically dominates.  
 
-## Egregore interaction  
-We can now describe YouTube interaction explicitly as egregore–egregore conversation:  
-On one side: the user’s internal egregores (belief systems, aesthetic preferences, identities, archetypes)  
-On the other: the YouTube egregore (the platform’s memetic superstructure)  
-The “language” of this conversation is engagement:  
-The user provides engagement patterns → an externalised trace of their internal egregores  
-The platform decodes this trace using its algorithms, and then  
-It “speaks back” by recommending content that fits or slightly perturbs the inferred structure  
+## What this means for the findings  
+We can now describe the parameter of our experiment - "social chaos" in terms of this new model. Social chaos is the divergence of the users behaviours. This indicates that their internal egregores - the clusters of memes they have internalised of time are mobile and dynamic. This means users with higher social chaos tend to internalise memes easier and the experiment showed that these people also create their own memes and cultures. 
+
 The pilot experiment in Text B shows that this conversation tends to:  
 decrease the user’s social chaos over time  
 stabilise their viewing into narrower bands of content  
