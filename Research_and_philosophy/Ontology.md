@@ -34,21 +34,22 @@ This suggests a dual ontology:
  
 ### Videos as memetic structures  
 
-Following this framework, every video on YouTube ultimately expresses some kind of idea.  
-Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content: gaming, lifestyle vlogs, reaction videos or even just plain videos encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.  
-Each video is a bundle of memes. When a user watches a video, these memes are not just “seen”, they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
+Following this framework, every video on YouTube ultimately expresses some kind of idea or inverse idea.  
+Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content: gaming, lifestyle vlogs, reaction videos encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.   
+Even just plain videos without text or speech are ultimately expressing some kind of visual system or aesthetic. 
+Thus ultimately, each video is a bundle of memes. When a user watches a video, these memes are not just “seen”, they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
 The YouTube platform thus becomes a dense archive of memetic structures: each video a local configuration, all of them participating in a larger, evolving pattern  
 
 ## Youtube as an egregore  
 YouTube is not simply a collection of independent videos.  
- It is a superstructure composed of:  
-user‑generated videos (memetic artefacts)  
-interaction patterns (likes, watch time, comments, shares)  
-recommendation algorithms (selection and reinforcement mechanisms)  
-platform norms and affordances (what is easy, what is rewarded, what is suppressed)  
+It is a superstructure composed of:  
+* user‑generated videos (memetic artefacts)  
+* interaction patterns (likes, watch time, comments, shares)  
+* recommendation algorithms (selection and reinforcement mechanisms)  
+* platform norms and affordances (what is easy, what is rewarded, what is suppressed)  
 Taken together, these components form a self‑organising network of memes that adapts to user behaviour and shapes it in return. This is exactly the definition of an egregore used earlier: a network of mutually reinforcing memes organised around one or more thoughtforms.  
 For YouTube, one core thoughtform is engagement. Videos, thumbnails, titles, creator identities, and trends orbit this thoughtform: they persist and proliferate insofar as they capture and sustain attention. The pilot experiment we conducted on recommendation behaviour shows this egregoric nature empirically: the system tends toward stable attractors of content homogeneity and reduced social chaos, regardless of the user’s starting point.  
-In this sense, YouTube can be conceived as an inverse egregore—an egregore instantiated in a technological and social substrate rather than inside a single human mind.
+In this sense, YouTube can be conceived as an inverse egregore — an egregore instantiated in a technological and social substrate rather than inside a single human mind.
 
 ### Social interaction 
  
