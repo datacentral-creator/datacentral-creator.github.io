@@ -3,7 +3,7 @@
 
 # Speculative ontological framework
 
-## 1 Overview  
+## Overview  
 The tagger component is designed to extract structural patterns—egregores—from media.  
  This section proposes a speculative ontology that situates these structures within a broader theory of how ideas, minds, and physical systems interact.  
 The goal is not to assert metaphysical truth, but to provide a conceptual scaffold that:  
@@ -11,7 +11,7 @@ explains why egregores behave like living systems
 clarifies how users interact with them  
 motivates the design of the tagger as a tool for conscious memetic agency
 
-## 2 Ideas as Bidirectional Structures  
+## Ideas as Bidirectional Structures  
 In the memetic framework developed earlier, ideas propagate through minds by inducing stable neural configurations of cortical columns.  
  However, fundamentally cortical columns model external structures—physical systems, cultural artefacts, and technological environments.  
 This suggests a dual ontology:
@@ -30,7 +30,7 @@ Inverse memes: Quantised external patterns
 Egregores: networks of internalised memes  
 Inverse egregores: networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits.
 
-## 3 The youtube experiment analysis 
+## The youtube experiment analysis 
  
 ### Videos as memetic structures  
 
@@ -167,7 +167,7 @@ Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communi
   
 All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention. 
  
-# 8.5 Directed attention \+ Social chaos 
+# Directed attention \+ Social chaos 
  
 So what is so special about crossmodal detected attention and social chaos that can allow it to have such diverse effects? Well \- allow us to introduce a mixed parameter. Stimulation. Returning to a phenomenological/meditational perspective we can regard stimulation as a set of events that occur in the mind crossmodally \- fundamentally when we interpret a physical object we are experiencing sound,colour,texture and smell all within a spatiotemporal context \- these aspects of the object are its mental stimulation. We can see social chaos,stimulation and directed attention as fundamentally linked. Social chaos and attention are both parameters of stimulation \- social chaos refers to how dynamically someone responds to stimulation \- users with high social chaos will internalise new stimulational patterns leading to new patterns of behaviour whereas users with low social chaos will not internalise these patterns. Additionally, directed attention can be seen as how much the user intentionally focuses this stimulation \- in terms of the thousand brains hypothesis we could see this “focus” as scaling the stimulation up to exist in a larger set of cortical columns (thereby taking up a larger portion of our consciousness) or alternatively a change in the way cortical columns are integrated in our mind to form our conscious experience. Either way this “scaling up” of stimulation makes emerging patterns easier to detect thereby effectively increasing the effect of social chaos acting like a catalyst of social chaos.
 
