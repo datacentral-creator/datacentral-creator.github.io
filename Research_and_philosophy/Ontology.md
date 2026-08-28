@@ -4,15 +4,10 @@
 # Speculative ontological framework
 
 ## Overview  
-The tagger component is designed to extract structural patterns—egregores—from media.  
- This section proposes a speculative ontology that situates these structures within a broader theory of how ideas, minds, and physical systems interact.  
-The goal is not to assert metaphysical truth, but to provide a conceptual scaffold that:  
-explains why egregores behave like living systems  
-clarifies how users interact with them  
-motivates the design of the tagger as a tool for conscious memetic agency
+This document synthesises the findings of my (essay)[https://datacentral-creator.github.io/Research_and_philosophy/essay.html] and (an experiment into the effect of the YouTube recommendation algorithm in creating culture)[https://datacentral-creator.github.io/Research_and_philosophy/algorithms.html] to dive deeper into the way the YouTube recommendation algorithm exchanges memes with users. It then uses this to investigate how to facilitate an optimal memetic exchange with a recommendation algorithm program. 
 
 ## Ideas as Bidirectional Structures  
-In the memetic framework developed in my [earlier research](https://datacentral-creator.github.io/Research_and_philosophy/essay.html), ideas propagate through minds by inducing stable neural configurations of cortical columns. However, fundamentally cortical columns model external structures: physical systems, cultural artefacts, and technological environments.  
+In the memetic framework developed in my essay, ideas propagate through minds by inducing stable neural configurations of cortical columns. However, fundamentally cortical columns model external structures: physical systems, cultural artefacts, and technological environments.  
 This suggests a dual ontology:
 
 | Internal domain | External domain |
