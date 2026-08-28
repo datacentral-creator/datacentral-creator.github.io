@@ -12,8 +12,7 @@ clarifies how users interact with them
 motivates the design of the tagger as a tool for conscious memetic agency
 
 ## Ideas as Bidirectional Structures  
-In the memetic framework developed earlier, ideas propagate through minds by inducing stable neural configurations of cortical columns.  
- However, fundamentally cortical columns model external structures—physical systems, cultural artefacts, and technological environments.  
+In the memetic framework developed in (earlier research)[https://datacentral-creator.github.io/Research_and_philosophy/essay.html], ideas propagate through minds by inducing stable neural configurations of cortical columns. However, fundamentally cortical columns model external structures: physical systems, cultural artefacts, and technological environments.  
 This suggests a dual ontology:
 
 | Internal domain | External domain |
@@ -22,13 +21,14 @@ This suggests a dual ontology:
 | Memes | Inverse memes |  
 | Egregores | Inverse egregores |
 
-Definition:  
-Ideas: internalised patterns encoded in cortical columns  
-Inverse ideas: externalised patterns encoded in physical or social systems  
-Memes: Quantitised ideas \- units of culture  
-Inverse memes: Quantised external patterns  
-Egregores: networks of internalised memes  
-Inverse egregores: networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits.
+| Term | Definition |
+| :---- | :---- |
+| Ideas | internalised patterns encoded in cortical columns |
+| Inverse ideas | externalised patterns encoded in physical or social systems |  
+| Memes | Quantitised ideas \- units of culture |   
+| Inverse memes | Quantised external patterns |
+| Egregores | networks of internalised memes |  
+| Inverse egregores | networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits. |
 
 ## The youtube experiment analysis 
  
