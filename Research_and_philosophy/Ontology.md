@@ -36,9 +36,10 @@ This suggests a dual ontology:
 
 Following this framework, every video on YouTube ultimately expresses some kind of idea.  
 Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content: gaming, lifestyle vlogs, reaction videos or even just plain videos encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.  
-In memetic terms, each video is a bundle of memes: reproducible units of culture that can be internalised, imitated, remixed, or resisted. When a user watches a video, these memes are not just “seen”—they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
+Each video is a bundle of memes. When a user watches a video, these memes are not just “seen”, they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
 The YouTube platform thus becomes a dense archive of memetic structures: each video a local configuration, all of them participating in a larger, evolving pattern  
-Youtube as an egregore  
+
+## Youtube as an egregore  
 YouTube is not simply a collection of independent videos.  
  It is a superstructure composed of:  
 user‑generated videos (memetic artefacts)  
