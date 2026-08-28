@@ -23,13 +23,13 @@ Ideas replicate by inducing new neural configurations in another mind. Interpret
 
 ## 1.3 A Simple Model of Intelligence
 
-Chaos theory describes systems that are highly sensitive to initial conditions, where small changes in input can produce large changes in output.Intelligent behaviour can be understood as an emergent property of such systems—patterns of stability that arise from complex, nonlinear interactions rather than from the behaviour of individual components. For the purposes of this essay intelligence is defined as the capacity of a chaotic system to stabilise patterns against disruption by responding adaptively to internal and external changes.This might seem arbitrary however this definition captures the essence of a system that internalises external patterns—a primitive form of learning. Additionally, replicators can be seen as primitive implementations of this stabilising intelligence. If memes are replicators, then memes can be understood as a form of proto‑intelligence or proto‑life: structures that maintain themselves by shaping the systems that host them.
+Chaos theory describes systems that are highly sensitive to initial conditions: where small changes in input can produce large changes in output. Intelligent behaviour can be understood as an emergent property of such systems: patterns of stability that arise from complex, nonlinear interactions rather than from the behaviour of individual components. For the purposes of this essay intelligence is defined as the capacity of a chaotic system to stabilise patterns against disruption by responding adaptively to internal and external changes. This might seem arbitrary however this definition captures the essence of a system that internalises external patterns—a primitive form of learning. Additionally, replicators can be seen as primitive implementations of this stabilising intelligence. If memes are replicators, then memes can be understood as a form of proto‑intelligence or proto‑life: structures that maintain themselves by shaping the systems that host them.
 
 # Section 2 \- the history of the idea of living ideas
 
 ## Abstract
 
-Long before memetics or cognitive science, human cultures imagined ideas, symbols, and deities as possessing life and agency. Ancient religions, esoteric traditions, and philosophical systems all described ideas as forces that act upon the world. This section traces those traditions and shows how they anticipated, prefigured, or parallel the framework developed in Section 1\.
+Long before memetics or cognitive science, human cultures imagined ideas, symbols, and deities as possessing life and agency. Ancient religions, esoteric traditions, and philosophical systems all described ideas as forces that act upon the world. This section traces those traditions and compares them to the model used in section 1.
 
 ## 2.1 Historical background: Rosicrucianism and gnosticism
 
