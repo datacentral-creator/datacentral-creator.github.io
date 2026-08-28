@@ -102,44 +102,44 @@ Geographic distribution includes the US, Canada, UK, Australia, Western Europe, 
 High prevalence of neurodevelopmental and mental health diagnoses: Asperger’s syndrome (25%), ADHD (21%), general anxiety (18%), depression (14%), OCD (10%).  
 Participants score above average on theory of mind and empathy tests, even among those on the autism spectrum.  
 
-Noticeably this demographic is incredibly similar to the demographic who engage in fan fiction. I found a (survey of AO3)[https://www.flowjournal.org/2023/02/fan-demographics-on-ao3/] (the most popular website for fanfiction) conducted by the university of central florida. It found that the majority were "cisgender women" that were bisexual, biromantic and white aged between 18 and 24. Noticeably the key difference between these demographics is gender with the majority of tulpamancy users being male and the majority of fan fiction creators being female however the demographics suggest that it's likely there is a significant overlap between the two communities. 
+Noticeably this demographic is incredibly similar to the demographic who engage in fan fiction. I found a (survey of AO3)[https://www.flowjournal.org/2023/02/fan-demographics-on-ao3/] (the most popular website for fanfiction) conducted by the university of central florida. It found that the majority were "cisgender women" that were bisexual, biromantic and white aged between 18 and 24. Noticeably the key difference between these demographics is gender with the majority of tulpamancy users being male and the majority of fan fiction creators being female however the demographics suggest that it's likely there is a significant overlap between the two communities. This is an interesting overlap since fan fiction writers are a great example of people with high social chaos, creating media from interpretations of pre-existing media they have created in their minds. 
 
 ### Documented Stabilization Techniques  
-Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
+Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by Tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
  
 *Meditation and Hypnosis*
 
-Meditation is the most frequently reported technique, used by 54% of Isler’s respondents. Hypnosis is employed by 25%, with 21% using both practices. These practices are designed to focus attention, facilitate tulpa interaction, and deepen suggestibility.  
+Meditation is the most frequently reported technique, used by 54% of Isler’s respondents. Hypnosis is employed by 25%, with 21% using both practices. These practices are designed to focus attention, facilitate Tulpa interaction, and deepen suggestibility.  
 
 *Visualization*
 
-Visualization involves creating vivid mental images of the tulpa, often in a “wonderland” or mindscape. Veissière’s ethnography and community guides emphasize both “hallucinatory visualization” (perceiving the tulpa as a solid object in physical space) and “mind’s eye visualization” (overlaying the tulpa’s image in imagination). 
+Visualization involves creating vivid mental images of the Tulpa, often in a “wonderland” or mindscape. Veissière’s ethnography and community guides emphasize both “hallucinatory visualization” (perceiving the tulpa as a solid object in physical space) and “mind’s eye visualization” (overlaying the tulpa’s image in imagination). 
  
 *Sensory Immersion and Imposition* 
 
-Sensory immersion engages multiple senses—auditory, tactile, visual, olfactory—to enhance the realism of the tulpa. Imposition refers to projecting the tulpa into external reality, training the senses to perceive the tulpa as external. Community guides detail exercises for presence imposition, environmental immersion, and endurance training.  
+Sensory immersion engages multiple senses—auditory, tactile, visual, olfactory—to enhance the realism of the Tulpa. Imposition refers to projecting the Tulpa into external reality, training the senses to perceive the Tulpa as external. Community guides detail exercises for presence imposition, environmental immersion, and endurance training.  
 
 *Narration and Conversational Maintenance*
  
-Narration is the practice of talking to the tulpa regularly, treating them as present and autonomous. This technique is considered foundational, with guides and ethnographies describing it as the “single most important aspect of tulpa creation”. Parroting—simulating the tulpa’s responses—is sometimes used to train vocality and independence. 
+Narration is the practice of talking to the Tulpa regularly, treating them as present and autonomous. This technique is considered foundational, with guides and ethnographies describing it as the “single most important aspect of Tulpa creation”. Parroting—simulating the Tulpa’s responses—is sometimes used to train vocality and independence. 
  
 *Forcing*
 
-Forcing is a general term for intentional creation and interaction practices, encompassing meditation, visualization, narration, and personality development. Active forcing involves direct engagement in imagination; passive forcing refers to maintaining awareness of the tulpa throughout daily life. 
+Forcing is a general term for intentional creation and interaction practices, encompassing meditation, visualization, narration, and personality development. Active forcing involves direct engagement in imagination; passive forcing refers to maintaining awareness of the Tulpa throughout daily life. 
  
 *Possession and Switching*
 
-Possession allows the tulpa to temporarily control the host’s body, often starting with a single limb and progressing to full-body control. Switching is a more advanced technique, in which the host dissociates and the tulpa assumes full control, sometimes resulting in the host becoming a passive observer.  
+Possession allows the Tulpa to temporarily control the host’s body, often starting with a single limb and progressing to full-body control. Switching is a more advanced technique, in which the host dissociates and the tulpa assumes full control, sometimes resulting in the host becoming a passive observer.  
 
 *Wonderland/Mindscape Creation*
-Wonderlands are persistent, imagined environments where hosts and tulpas interact. These spaces facilitate immersive experiences, autonomy, and parallel processing.  
+Wonderlands are persistent, imagined environments where hosts and Tulpas interact. These spaces facilitate immersive experiences, autonomy, and parallel processing.  
 
 *Visualization Phases*
 
 Malfael’s Guide to Visual Imposition outlines a phased approach:  
-Phase One: Still Life—Creating a detailed, static 3D model of the tulpa using reference images and closed-eye visualization.  
-Phase Two: Motion—Animating the tulpa’s form through exercises like “Plug N Chug” and “The Short Film.”  
-Phase Three: Finishing Touches—Enhancing realism by visualizing the tulpa under varied lighting, weather, and focus conditions; endurance training for sustained presence.  
+Phase One: Still Life—Creating a detailed, static 3D model of the Tulpa using reference images and closed-eye visualization.  
+Phase Two: Motion—Animating the Tulpa’s form through exercises like “Plug N Chug” and “The Short Film.”  
+Phase Three: Finishing Touches—Enhancing realism by visualizing the Tulpa under varied lighting, weather, and focus conditions; endurance training for sustained presence.  
 
 *Sensory Modalities*
 
