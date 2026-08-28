@@ -183,7 +183,7 @@ An egregore set can therefore be defined as a set of memes such that at least on
 Interpretation can be modelled as the interaction between two egregore sets, E1 and E2:
 
 * If they have the same anchoring thoughtform then:  
-1. For each element of E1 if it is a member of E2 the strength between the element and the anchor of E1 (a1) and the strength between the element and the anchor of E2 (a2) are both updated to new values b1 and b2 such that a1\<b1,b2\<b2 to reflect the reconciliation of meaning between these thoughtforms  
+1. For each element of E1 if it is a member of E2 the strength between the element and the anchor of E1 (a1) and the strength between the element and the anchor of E2 (a2) are both updated to new values b1 and b2 such that a1\<b1,a2\<b2 to reflect the reconciliation of meaning between these thoughtforms  
 2. If the element is not a member of E2 it is added as a member of E2  
 * If they have different anchoring thoughtforms:  
 1. If the anchoring thoughtform of E1 is a member of E2(or vice versa):
