@@ -59,14 +59,15 @@ Person A speaks → induces memes in Person B
 Person B responds → induces memes in Person A  
 The conversation is a bidirectional memetic flow, but not necessarily balanced  
 Memetically, the dominant speaker is the dominant source of memes.  
- They generate new configurations; the listener primarily internalises them. Over time, this shapes the listener’s internal egregores—their stable clusters of ideas and narratives—as described in Text A in terms of internalising patterns.  
+They generate new meme configurations; the listener primarily internalises them. Over time, this shapes the listener’s internal egregores—their stable clusters of ideas and narratives.  
 Now consider YouTube:  
 The user “speaks” to the system through engagement patterns (clicks, watch time, likes, skips)  
-YouTube “replies” through recommendations—curated configurations of memes  
+YouTube “replies” through recommendations — curated configurations of memes  
 The exchange repeats, but with an overwhelming asymmetry  
 Where a human conversation can, in principle, be balanced, the YouTube interaction structurally favours the platform. The platform has an enormous memetic inventory and an optimising algorithm; the user has finite attention and limited visibility into the system’s logic. The memetic flow is thus heavily top‑down: YouTube induces memes; the user mainly internalises.  
 From this perspective, watching YouTube is a form of social interaction between a human egregore (a person) and a large‑scale inverse egregore (the platform)—one in which the latter typically dominates.  
-Egregore interaction  
+
+## Egregore interaction  
 We can now describe YouTube interaction explicitly as egregore–egregore conversation:  
 On one side: the user’s internal egregores (belief systems, aesthetic preferences, identities, archetypes)  
 On the other: the YouTube egregore (the platform’s memetic superstructure)  
