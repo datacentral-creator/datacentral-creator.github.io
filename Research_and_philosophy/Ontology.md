@@ -28,14 +28,14 @@ This suggests a dual ontology:
 | Memes | Quantitised ideas \- units of culture |   
 | Inverse memes | Quantised external patterns |
 | Egregores | Networks of internalised memes |  
-| Inverse egregores | Networks of inverse memes \- these correspond to actual systems and in ancient times these would have been internalised as deities, gods and spirits. |
+| Inverse egregores | Networks of inverse memes \- these are the systems "Inverse ideas" would be coded within |
 
 ## The youtube experiment analysis 
  
 ### Videos as memetic structures  
 
-Every video on YouTube ultimately expresses some kind of idea.  
-Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content—gaming, lifestyle vlogs, reaction videos—encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.  
+Following this framework, every video on YouTube ultimately expresses some kind of idea.  
+Documentaries and commentary videos do this explicitly, but even seemingly “non‑ideational” content: gaming, lifestyle vlogs, reaction videos or even just plain videos encodes implicit values, narratives, and behavioural templates. A game video expresses the design logic, reward structures, and aesthetics of the game; a vlog expresses norms of self‑presentation, aspiration, and identity.  
 In memetic terms, each video is a bundle of memes: reproducible units of culture that can be internalised, imitated, remixed, or resisted. When a user watches a video, these memes are not just “seen”—they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
 The YouTube platform thus becomes a dense archive of memetic structures: each video a local configuration, all of them participating in a larger, evolving pattern  
 Youtube as an egregore  
