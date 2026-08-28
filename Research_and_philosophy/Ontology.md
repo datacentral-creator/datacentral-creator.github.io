@@ -101,7 +101,8 @@ Geographic distribution includes the US, Canada, UK, Australia, Western Europe, 
 #### Psychological and Neurodevelopmental Profiles  
 High prevalence of neurodevelopmental and mental health diagnoses: Asperger’s syndrome (25%), ADHD (21%), general anxiety (18%), depression (14%), OCD (10%).  
 Participants score above average on theory of mind and empathy tests, even among those on the autism spectrum.  
-These demographic trends suggest that tulpamancy is especially attractive to imaginative, cerebral, and socially shy individuals, many of whom seek companionship and self-improvement.   
+
+These demographic trends suggest that Tulpamancy is practiced by individuals with high levels of social chaos. 
 
 ### Documented Stabilization Techniques  
 Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
