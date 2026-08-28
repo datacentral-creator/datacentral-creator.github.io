@@ -16,14 +16,11 @@ In the memetic framework developed earlier, ideas propagate through minds by ind
  However, fundamentally cortical columns model external structures—physical systems, cultural artefacts, and technological environments.  
 This suggests a dual ontology:
 
-Internal domain  
-External domain  
-Ideas  
-Inverse ideas  
-Memes  
-Inverse memes  
-Egregores  
-Inverse egregores
+| Internal domain | External domain |
+| :---- | :---- |
+| Ideas | Inverse ideas |  
+| Memes | Inverse memes |  
+| Egregores | Inverse egregores |
 
 Definition:  
 Ideas: internalised patterns encoded in cortical columns  
