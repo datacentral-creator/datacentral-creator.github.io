@@ -74,7 +74,10 @@ The pilot experiment in Text B shows that interacting with Youtube tends to:
 * stabilise their viewing into narrower bands of content  
 * nudge them toward the lower‑strata role of passive watcher
   
-In memetic terms, the YouTube egregore is doing most of the thinking. It is generating, selecting, and sequencing memes; the user is largely receiving and internalising. Parasocial relationships are an extreme case of this: the user’s internal egregores become tightly coupled to specific external memetic personas, often with minimal reciprocity.  
+Whilst YouTube cannot "think" in the neurological sense this data suggests that YouTube is doing the "thinking" of the user in the sense of generating, selecting, and sequencing memes; the user is largely receiving and internalising. Parasocial relationships are an extreme case of this: the user’s internal egregores become tightly coupled to specific external memetic personas, often with minimal reciprocity.
+
+This can be seen as problematic and whilst the experiment conducted was specific to YouTube this would suggest that perhaps the "brainrot" effect of YouTube is an inherent structural flaw of recommendation algorithms themselves as the explanation I have postulated in this document where social chaos is lowered as the user effectively relegates the agency of their brain in selecting which memes to internalise to an external egregore (the recommendation algorithm) would apply more generally to any platform which uses a recommendation algorithm. This is why in the program Datacentral I have made the design choice to make everything as intentional as possible in order to combat this efect. 
+
 The core idea of Datacentral—and specifically the tagger component—is to reverse this asymmetry. Instead of the platform dictating which egregores dominate the user’s attention, the tagger:  
 extracts structural form (egregores) from information  
 makes the user’s own pattern landscape visible  
