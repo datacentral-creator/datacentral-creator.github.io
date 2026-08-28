@@ -148,5 +148,9 @@ Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communi
 *Parallel to authors*
 
 Some of these practices are similar to practices writers use to create stories - for example when writing a story it is common for writers to draw their characters in different scenes and environments to get a vivid picture of what they are writing. The key difference is the extra set of practices used to get authors ideas of these characters to act autonomously. 
- 
+
+## An analysis of the structure of tulpamancy
+
+From these practices we can acquire a memetic structure of Tulpamancy similar to how we acquired a memetic structure of YouTube in previous research. 
+
 
