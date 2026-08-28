@@ -151,6 +151,5 @@ Some of these practices are similar to practices writers use to create stories -
 
 ## An analysis of the structure of tulpamancy
 
-From these practices we can acquire a memetic structure of Tulpamancy similar to how we acquired a memetic structure of YouTube in previous research. 
-
+From these practices we can acquire a memetic structure of Tulpamancy similar to how we acquired a memetic structure of YouTube in previous research. Noticeably a common theme amongst these practices is the use of high levels of focus onto a specific set of stimulation in a given field. In terms of memes and ideas when you are focusing on a specific piece of stimulation you are allowing the idea of that stimulation to reproduce in your mind effectively making the idea into a thoughtform temporarily. 
 
