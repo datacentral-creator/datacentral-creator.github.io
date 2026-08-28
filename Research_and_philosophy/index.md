@@ -31,9 +31,9 @@
 
 **Document type**: Essay
 
-**Description:** A speculative ontological framework that synthesises "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture?".
+**Description:** This document synthesises the findings of my [essay](https://datacentral-creator.github.io/Research_and_philosophy/essay.html) and [an experiment into the effect of the YouTube recommendation algorithm in creating culture](https://datacentral-creator.github.io/Research_and_philosophy/algorithms.html) to dive deeper into the way the YouTube recommendation algorithm exchanges memes with users. It then uses this to investigate how to facilitate an optimal memetic exchange with a recommendation algorithm program. 
 
-**Orientation within datacentral:** This document allows us to apply "living ideas" to external systems expandind the domain of the methodology so far
+**Orientation within Datacentral:** This document allows investigates how we can reverse the negative effects of recommendation algorithms when using recommendation algorithms or similiar systems within Datacentral 
 
 ---
 
