@@ -31,45 +31,33 @@ Chaos theory describes systems that are highly sensitive to initial conditions: 
 
 Long before memetics or cognitive science, human cultures imagined ideas, symbols, and deities as possessing life and agency. Ancient religions, esoteric traditions, and philosophical systems all described ideas as forces that act upon the world. This section traces those traditions and compares them to the model used in section 1.
 
-## 2.1 Historical background: Rosicrucianism and gnosticism
+## 2.1 Egregores 
 
-Early Christianity was a diverse landscape of competing interpretations. Among these were Gnostic traditions, which described a cosmology of emanations from a transcendent source (the Monad), culminating in a lesser creator—the Demiurge—responsible for the material world. Though suppressed by emerging orthodoxy, Gnostic themes resurfaced in later esoteric movements.
+The term *egregore* originates in the Book of Enoch, where the Greek *egregoroi* refers to “the watchers”: angels tasked with observing humanity. In this text, some watchers become corrupted, presenting themselves as gods and teaching forbidden knowledge, including magical practices .This story shaped early Christian attitudes toward pagan deities and magic, associating egregores with powerful, idea‑like entities. In later esoteric traditions, the egregore evolved into a symbol of collective psychic energy—an entity formed by the shared beliefs and emotions of a group. Detached from its mythological origins, the egregore became a metaphor for how ideas can acquire autonomy and exert influence independent of any single individual similiar to the modern idea of a social construct.
 
-Rosicrucianism, emerging in the early modern period, blended the traditions of Christian mysticism, Neoplatonism, Hermeticism, and Kabbalah. While not a direct continuation of Gnosticism, it inherited similar symbolic structures: layered realities, emanations, and the transformative power of hidden knowledge. These traditions expanded the notion of a “spiritual plane” and introduced conceptual layers—such as the “mental plane”—that framed ideas as active forces within a metaphysical hierarchy.
+In this essay, I would like to use the term "egregore" to describe a specific type of memetic complex which exhibits intelligent behaviour as described in section 1.
 
-These esoteric systems treated ideas not merely as static abstractions but as dynamic agents—entities capable of influencing behaviour, shaping perception, and interacting with human consciousness. This anticipates the memetic notion of ideas as active participants in cultural evolution.
+### 2.2 Thoughtforms, Godforms, and Tulpas
 
-## 2.2 Egregores 
+A similar offshoot of esotericism introduced more related concepts which similarly originated as mythological entities and became a utility to describe a somatic concept over time (although it can be noted that these ideas are still seen as entities which exist in occultism). 
 
-### Origins in the Book of Enoch
-
-The term *egregore* originates in the Book of Enoch, where the Greek *egregoroi* refers to “the watchers”—angels tasked with observing humanity.In this text, some watchers become corrupted, presenting themselves as gods and teaching forbidden knowledge, including magical practices.This story shaped early Christian attitudes toward pagan deities and magic, associating egregores with powerful, idea‑like entities.
-
-### Transformation in Western Esotericism
-
-In later esoteric traditions, the egregore evolved into a symbol of collective psychic energy—an entity formed by the shared beliefs and emotions of a group. Detached from its mythological origins, the egregore became a metaphor for how ideas can acquire autonomy and exert influence independent of any single individual.
-
-In this essay, the egregore is abstracted further: the egregore is treated as a memetic structure: a network of mutually reinforcing memes that behaves like a living system.
-
-### Thoughtforms, Godforms, and Tulpas
-
-Theosophy introduced related concepts:
-
-* **Thoughtforms**: Thoughtforms: self‑reinforcing ideas that form stable cognitive loops.  
-* **Godforms**:symbolic interfaces through which individuals interact with an egregore (e.g., the Bible as a godform of the Christian egregore).  
+* **Thoughtforms**: self‑reinforcing ideas that form stable cognitive loops.  
+* **Godforms**:symbolic interfaces through which individuals interact with an egregore (e.g., a sacred text as a godform of a religion).  
 * **Tulpas**: intentionally created thoughtforms designed for sustained interaction.
 
-These concepts differ in “geometry”—the structure of relationships between the memes that constitute them.
+Thoughtforms can be similarly to egregores - where egregores are groups of memes that reinforce each other to propagate thoughtforms are ideas that propagate themselves (e.g., an "earworm": a song which you can't get out of your head).
+
+It's important to note that these terms are being used in this essay to describe specific types of ways ideas can interact and will be used in my future works to create models of ideas in media.
 
 ## 2.3 Carl Jung: Archetypes and the Inner Life of Ideas
 
-Carl Jung offers a psychological counterpart to the esoteric and memetic frameworks discussed earlier. In *The Red Book* and his later theoretical writings, Jung explores the idea that the human psyche contains recurring symbolic patterns he called *archetypes*. These archetypes are inherited *forms*—structural tendencies that shape how humans imagine, narrate, and interpret the world. They manifest in myths, dreams, religious symbols, and cultural narratives, giving rise to recurring motifs such as the Hero, the Shadow, the Mother, and the Trickster.
+Carl Jung offers a psychological counterpart to the esoteric and memetic frameworks discussed earlier. In *The Red Book* and his later theoretical writings, Jung explores the idea that the human psyche contains recurring symbolic patterns he called *archetypes*. These archetypes are inherited *forms*: structural tendencies that shape how humans imagine, narrate, and interpret the world. They manifest in myths, dreams, religious symbols, and cultural narratives, giving rise to recurring motifs such as the Hero, the Shadow, the Mother, and the Trickster.
 
-For Jung, these archetypes arise from what he termed the *collective unconscious*: a shared layer of the psyche that transcends individual experience. Although the collective unconscious is not a literal shared mind, it reflects the deep structural similarities in how human brains organise meaning.Archetypes can therefore be understood as cognitive attractors—stable patterns in the architecture of the mind that guide interpretation and behaviour. Within the model developed in Section 1.3, archetypes function as the deep patterns that shape how minds stabilise meaning.
+For Jung, these archetypes arise from what he termed the *collective unconscious*: a shared layer of the psyche that transcends individual experience. Although the collective unconscious is not a literal shared mind, it reflects the deep structural similarities in how human brains organise meaning. Archetypes can therefore be understood as cognitive attractors—stable patterns in the architecture of the mind that guide interpretation and behaviour. Within the model developed in Section 1, archetypes function as the deep patterns that shape how minds stabilise meaning.
 
 This perspective aligns naturally with the memetic framework. If memes are units of cultural transmission, archetypes are the deep templates that shape which memes resonate, replicate, and endure. Mythology becomes, in Jung’s view, the outward expression of these internal attractors. Thus, Jung provides a model in which **living symbols** are not supernatural beings but emergent structures arising from the dynamics of the psyche. They behave like autonomous agents because they influence thought, emotion, and action in ways that appear independent of conscious intention.
 
-Jung therefore offers a way to understand memetic entities—egregores, thoughtforms, gods—not as literal beings but as expressions of deep psychological structures: the inner life of ideas.
+Jung therefore offers a way to understand memetic entities: egregores, thoughtforms, godforms not as literal beings but as expressions of deep psychological structures: the inner life of ideas.
 
 ## 2.4 Hegel: History as the Outer Life of Ideas
 
