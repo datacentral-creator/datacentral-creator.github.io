@@ -28,7 +28,7 @@ This suggests a dual ontology:
 | Memes | Quantitised ideas \- units of culture |   
 | Inverse memes | Quantised external patterns |
 | Egregores | Networks of internalised memes |  
-| Inverse egregores | Networks of inverse memes \- these are the systems "Inverse ideas" would be coded within |
+| Inverse egregores | Networks of inverse memes \- these are the systems "Inverse ideas" would be coded within e.g an aesthetic would be an example of a visual inverse egregore |
 
 ## The youtube experiment analysis 
  
