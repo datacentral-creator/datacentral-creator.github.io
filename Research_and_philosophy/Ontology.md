@@ -80,7 +80,7 @@ This can be seen as problematic and whilst the experiment conducted was specific
 
 So the question becomes, how can we create a program that interacts with the user without this assymetry?
 
-# Tulpamancy  
+## Tulpamancy  
 What is tulpamancy and how does it relate to this framework?  
 Something briefly mentioned in Text A was a “tulpa” \- an intentional thoughtform created for sustained interaction. This idea comes from the same branch of esotericism as egregores and survives to this day in a practice called “tulpamancy”. It seamlessly integrates with the question asked above as we can see the practice of tulpamancy as turning an internalised egregore into an external egregore for a new recursive neurological subsystem. This section will take a deep dive into the practices of tulpamancy from an ethnographical perspective to explore how this happens. 
 
