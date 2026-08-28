@@ -2,7 +2,7 @@
 [Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
 
 # Abstract
-This is an essay where I discuss ideas as "living" and "intelligent" then create a naïve model to extract the structures of ideas which behave intelligently from a textual medium. 
+This is an essay where I discuss ideas as "living" and "intelligent" then create a naïve model to extract the structures of ideas which behave intelligently from a textual medium and test it on textual media of varying thematic similiarity.
 
 # Section 1 \- What are ideas
 
