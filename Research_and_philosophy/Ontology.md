@@ -145,14 +145,7 @@ Phase Three: Finishing Touches—Enhancing realism by visualizing the Tulpa unde
 
 Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communication (e.g., “raw thought,” “intuitive thinking,” “images, feelings, and music”). Sensory immersion is achieved through exercises that simulate physical sensations, such as feeling warmth when a tulpa places an imaginary coat on the host’s shoulders.  
 
-*Analysis*
-  
-All of these practices fundamentally involve directed intention through a given medium \- for example, narration can be seen as directed attention through language and visualisation involves directed attention through imagery. Additionally, meditation works through directed attention and this “absorption” factor of hypnosis can also be seen as a type of directed attention. 
+*Parallel to authors*
+Some of these practices are similar to practices writers use to create stories - for example when writing a story it is common for writers to draw their characters in different scenes and environments to get a vivid picture of what they are writing. The key difference is the extra set of practices used to get authors ideas of these characters to act autonomously. 
  
-# Directed attention \+ Social chaos 
- 
-So what is so special about crossmodal detected attention and social chaos that can allow it to have such diverse effects? Well \- allow us to introduce a mixed parameter. Stimulation. Returning to a phenomenological/meditational perspective we can regard stimulation as a set of events that occur in the mind crossmodally \- fundamentally when we interpret a physical object we are experiencing sound,colour,texture and smell all within a spatiotemporal context \- these aspects of the object are its mental stimulation. We can see social chaos,stimulation and directed attention as fundamentally linked. Social chaos and attention are both parameters of stimulation \- social chaos refers to how dynamically someone responds to stimulation \- users with high social chaos will internalise new stimulational patterns leading to new patterns of behaviour whereas users with low social chaos will not internalise these patterns. Additionally, directed attention can be seen as how much the user intentionally focuses this stimulation \- in terms of the thousand brains hypothesis we could see this “focus” as scaling the stimulation up to exist in a larger set of cortical columns (thereby taking up a larger portion of our consciousness) or alternatively a change in the way cortical columns are integrated in our mind to form our conscious experience. Either way this “scaling up” of stimulation makes emerging patterns easier to detect thereby effectively increasing the effect of social chaos acting like a catalyst of social chaos.
 
-We can also interpret stimulation in terms of memes \- memes are patterns of stimulation that get internalised (where these patterns themselves are inverse memes). In this context we can say that when focusing on a meme it acts like an egregore \- we “scale up” the meme into it’s component ideas (the underlying cortical columns). 
-
-This scaling mechanism is the key answer to our question.  
