@@ -102,7 +102,7 @@ Geographic distribution includes the US, Canada, UK, Australia, Western Europe, 
 High prevalence of neurodevelopmental and mental health diagnoses: Asperger’s syndrome (25%), ADHD (21%), general anxiety (18%), depression (14%), OCD (10%).  
 Participants score above average on theory of mind and empathy tests, even among those on the autism spectrum.  
 
-These demographic trends suggest that Tulpamancy is practiced by individuals with high levels of social chaos. 
+Noticeably this demographic is incredibly similar to the demographic who engage in fan fiction. I found a (survey of AO3)[https://www.flowjournal.org/2023/02/fan-demographics-on-ao3/] (the most popular website for fanfiction) conducted by the university of central florida. It found that the majority were "cisgender women" that were bisexual, biromantic and white aged between 18 and 24. Noticeably the key difference between these demographics is gender with the majority of tulpamancy users being male and the majority of fan fiction creators being female however the demographics suggest that it's likely there is a significant overlap between the two communities. 
 
 ### Documented Stabilization Techniques  
 Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
