@@ -4,13 +4,13 @@
 ---
 
 ### [1. Are ideas alive? How history was governed by ideas](essay.md)  
-**Status:** First edition released
+**Status:** Second edition released
 
 **Document type:** Essay
 
-**Description:** An essay proposing a theoretical structure of ideas as intelligent agents and exploring their role in shaping history
+**Description:** I discuss ideas as "living" and "intelligent" then create a naïve model to extract the structures of ideas which behave intelligently from a textual medium and test the model on textual media of varying thematic similarity. 
 
-**Orientation within datacentral:** Living ideas are the base form found in data
+**Orientation within datacentral:** This is the foundational research of my current implementation of datacentral. 
 
 ---
 
