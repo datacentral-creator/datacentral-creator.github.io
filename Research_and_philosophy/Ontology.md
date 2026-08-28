@@ -146,6 +146,7 @@ Phase Three: Finishing Touches—Enhancing realism by visualizing the Tulpa unde
 Tulpamancers report auditory, tactile, visual, olfactory, and non-verbal communication (e.g., “raw thought,” “intuitive thinking,” “images, feelings, and music”). Sensory immersion is achieved through exercises that simulate physical sensations, such as feeling warmth when a tulpa places an imaginary coat on the host’s shoulders.  
 
 *Parallel to authors*
+
 Some of these practices are similar to practices writers use to create stories - for example when writing a story it is common for writers to draw their characters in different scenes and environments to get a vivid picture of what they are writing. The key difference is the extra set of practices used to get authors ideas of these characters to act autonomously. 
  
 
