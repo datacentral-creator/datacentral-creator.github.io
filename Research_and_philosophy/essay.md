@@ -15,11 +15,11 @@ Dawkins extends this logic to culture through the concept of the meme; a unit of
 
 ## 1.2 Interpretation as the Mechanism of Replication
 
-The study of interpretation—*hermeneutics*—offers a framework for understanding how ideas replicate. A central concept is the *hermeneutic circle*: understanding moves between parts and wholes, shaped by the interpreter’s prior assumptions. These assumptions, or “prejudices” in Gadamer’s sense, guide interpretation but are also revised by it. Meaning is therefore not static; it is continually reconstructed.
+The study of interpretation(*hermeneutics*) offers a framework for understanding how ideas replicate. A central concept is the *hermeneutic circle*: understanding moves between parts and wholes, shaped by the interpreter’s prior assumptions. These assumptions, or “prejudices”, guide interpretation but are also revised by it. Meaning is therefore not static; it is continually reconstructed.
 
 Neuroscience provides a complementary model. The Thousand Brains Hypothesis suggests that the neocortex consists of many parallel columns of neurons (*cortical columns)*, each learning partial models of the world. Ideas correspond to specific configurations of these cortical columns, and new experiences update both the columns themselves and the patterns of interaction between them.
 
-Ideas replicate by inducing new neural configurations in another mind. Interpretation is therefore the mechanism through which ideas mutate, stabilise, and propagate.
+Ideas replicate by inducing new neural configurations in another mind. Interpretation is therefore the mechanism through which ideas mutate, stabilise, and propagate creating selective pressures for which ideas can persist over time. 
 
 ## 1.3 A Simple Model of Intelligence
 
