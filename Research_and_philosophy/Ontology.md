@@ -80,27 +80,28 @@ So the question becomes, how can we create a program that interacts with the use
 Something briefly mentioned in Text A was a “tulpa” \- an intentional thoughtform created for sustained interaction. Tulpamancy is a cultural practice where users aim to facilitate the creation of tulpas and manage their interactions with them. We can see this as an opposite situation where an individual consciously creates and manages their own egregore. This gives us an insight into how a program could facilitate intentional egregore generation. 
 
 ## Contemporary Tulpamancy research review  
-One of the most influential empirical studies in tulpamancy is Jacob J. Isler’s “Tulpas and Mental Health: A Study of Non-Traumagenic Plural Experiences”. Isler’s work is grounded in a survey-based methodology, targeting registered users of tulpa-specific forums and IRC channels. The survey, distributed to 365 users, yielded 63 responses (17% response rate), with 62 valid entries. The questionnaire comprised 58 questions across four domains: relationship to the tulpa community, experiences in tulpamancy, mental health, and demographic information. The survey design included Likert scales, polar questions, and open-ended fields for elaboration  
-Isler’s research objectives were threefold: to investigate associations between tulpamancy and mental health, to identify stabilization techniques and their perceived effects, and to examine alternate causation hypotheses such as the role of meditation and community involvement. The study’s exclusion of Reddit and Discord communities is a notable limitation, as these platforms host large and active tulpa populations.  
+One of the most influential empirical studies in Tulpamancy is Jacob J. Isler’s “Tulpas and Mental Health: A Study of Non-Traumagenic Plural Experiences”. Isler’s work is grounded in a survey-based methodology, targeting registered users of tulpa-specific forums and IRC channels. The survey, distributed to 365 users, yielded 63 responses (17% response rate), with 62 valid entries. The questionnaire comprised 58 questions across four domains: relationship to the tulpa community, experiences in Tulpamancy, mental health, and demographic information. The survey design included Likert scales, polar questions, and open-ended fields for elaboration  
+Isler’s research objectives were threefold: to investigate associations between Tulpamancy and mental health, to identify stabilization techniques and their perceived effects, and to examine alternate causation hypotheses such as the role of meditation and community involvement. The study’s exclusion of Reddit and Discord communities is a notable limitation, as these platforms host large and active tulpa populations.  
 Samuel Veissière’s “Varieties of Tulpa Experiences” represents a landmark in ethnographic research, employing ten months of experimental cyberethnography. Veissière’s methodology included large-scale surveys (sample sizes ranging from n=74 to n=141), qualitative interviews, forum analysis, and psychological testing (e.g., Theory of Mind, Empathy Quotient, Tellegen Absorption Scale). The study received Research Ethics Board approval from McGill University, with explicit attention to the anonymity and protection of both hosts and tulpas.  
 Elizabeth Hale’s comparative ethnography draws on participant observation and content analysis of the r/Tulpas subreddit, integrating Tanya Luhrmann’s theory of “attentional learning” as a comparative framework. Hale’s work situates tulpamancy alongside evangelical Christian prayer practices, highlighting parallels in mental imagery and internal conversation.  
 
 ### Tulpamancy practitioner demographics  
 
 Demographic analysis reveals that tulpamancy is predominantly practiced by young, educated, urban individuals, with a notable overrepresentation of males and neurodiverse populations.  
-Age and Gender  
+##### Age and Gender  
+
 Isler (2017): 88% of participants were aged 16–25, with an average age of 21\. Gender distribution was 59% male, 29% female, and 12% other.  
 Veissière (2015): Age range 14–34, majority between 19–23. Gender: \~75% male, \~25% female, \~10% gender-fluid.  
 Tulpa Census 2015: Age range 16–24 is most common; gender and sexuality are notably diverse, with high LGBT representation.  
-Ethnicity and Socioeconomic Status  
+
+#### Ethnicity and Socioeconomic Status  
 Predominantly white, middle to upper-middle class, urban youth. Few participants identified as African American or Asian.  
 Geographic distribution includes the US, Canada, UK, Australia, Western Europe, and Russia. Russian-speaking communities have in-person meetups.  
-Psychological and Neurodevelopmental Profiles  
+
+#### Psychological and Neurodevelopmental Profiles  
 High prevalence of neurodevelopmental and mental health diagnoses: Asperger’s syndrome (25%), ADHD (21%), general anxiety (18%), depression (14%), OCD (10%).  
 Participants score above average on theory of mind and empathy tests, even among those on the autism spectrum.  
 These demographic trends suggest that tulpamancy is especially attractive to imaginative, cerebral, and socially shy individuals, many of whom seek companionship and self-improvement.   
-We can interpret these demographics in terms of our three tiered system created in Text B.  
-There is high LGBT representation in tulpa users \- this suggests a large representation of sexual minority groups. On the other hand, there is a high representation of ethnic majority groups for their geographic distributions. This suggests a high variation in social normative patterns implying high levels of social chaos placing tulpamancers as a demographic in the upper strata (social architects). This is reinforced by the high representation of neurodivergence.  
 
 ### Documented Stabilization Techniques  
 Empirical and ethnographic studies, as well as community guides, consistently identify a core set of techniques used by tulpamancers to stabilize and maintain tulpa presence. These techniques are often adapted and personalized, but several recurring practices emerge across sources. 
