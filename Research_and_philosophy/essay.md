@@ -9,9 +9,9 @@ Ideas are often treated as abstractions—passive contents of thought or linguis
 
 ## 1.1 The selfish gene
 
-Richard Dawkins’ The Selfish Gene (1976) reframed evolution by shifting the locus of selection from organisms to genes. Genes, in this view, are replicators—entities that persist through time by making copies of themselves. Organisms are “survival machines” constructed by genes to ensure their continued replication.
+Richard Dawkins’ The Selfish Gene (1976) reframed evolution by shifting the locus of selection from organisms to genes. Genes, in this view, are replicators: entities that persist through time by making copies of themselves. Organisms are “survival machines” constructed by genes to ensure their continued replication.
 
-Dawkins extends this logic to culture through the concept of the meme: a unit of cultural transmission that spreads through imitation. Memes do not replicate perfectly; each mind interprets and reshapes them. What persists is not the exact form of an idea, but a pattern stable enough to survive repeated reinterpretation. If ideas behave like replicators—transmitted, transformed, and preserved across minds—then they can be studied as dynamic participants in cultural evolution, competing for limited cognitive and social resources. Additionally, similar to genes memes evolve in complexes—clusters of mutually reinforcing ideas that stabilise one another. Throughout this essay, I argue that just as genes create organisms as survival machines, memes create their own higher‑order memetic structures.
+Dawkins extends this logic to culture through the concept of the meme; a unit of cultural transmission that spreads through imitation. Memes do not replicate perfectly: each mind interprets and reshapes them. What persists is a pattern stable enough to survive repeated reinterpretation. Under this model, ideas can be studied as dynamic participants in cultural evolution, competing for limited cognitive and social resources. Additionally, similar to genes, memes evolve in complexes: clusters of mutually reinforcing ideas that stabilise one another. Throughout this essay, I argue that just as genes create organisms as survival machines, memes create their own higher‑order memetic structures.
 
 ## 1.2 Interpretation as the Mechanism of Replication
 
