@@ -3,6 +3,9 @@
 
 ---
 
+### Overview
+These documents constitute my research for Datacentral - a program for extracting and managing symbols, ideas and meaning from data. The document are ordered numerically in the order that they were created. Reading them in this order would provide the best experience however prerequisite reading of one document is not required to make sense of other documents within the series.
+
 ### [1. Are ideas alive? How history was governed by ideas](essay.md)  
 **Status:** Second edition released
 
@@ -10,7 +13,7 @@
 
 **Description:** I discuss ideas as "living" and "intelligent" then create a naïve model to extract the structures of ideas which behave intelligently from a textual medium and test the model on textual media of varying thematic similarity. 
 
-**Orientation within datacentral:** This is the foundational research of my current implementation of datacentral. 
+**Orientation within datacentral:** This essay is the origin of the philosophy of datacentral. 
 
 ---
 
@@ -26,7 +29,7 @@
 
 ---
 
-### [3. A speculative ontological framework](Ontology.md)
+### [3. Memetic structures and programs](Ontology.md)
 **Status**: First draft released
 
 **Document type**: Essay
