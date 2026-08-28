@@ -165,7 +165,7 @@ To measure the strength of a thoughtform, we consider:
 
 A simple measure is:
 
-\[ \\text{strength} \= \\frac{\\text{frequency}}{\\text{sequence length} \\cdot \\text{average return distance}} \]
+strength \= frequency\(sequence length *average return distance)
 
 Which gives us:
 
