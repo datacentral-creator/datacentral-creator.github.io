@@ -40,7 +40,7 @@ Even just plain videos without text or speech are ultimately expressing some kin
 Thus ultimately, each video is a bundle of memes. When a user watches a video, these memes are not just “seen”, they are offered to the user’s internal egregores as potential updates, additions, or reinforcements.  
 The YouTube platform thus becomes a dense archive of memetic structures: each video a local configuration, all of them participating in a larger, evolving pattern  
 
-## Youtube as an egregore  
+### Youtube as an egregore  
 YouTube is not simply a collection of independent videos.  
 It is a superstructure composed of:  
 * user‑generated videos (memetic artefacts)  
