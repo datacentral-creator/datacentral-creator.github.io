@@ -34,6 +34,7 @@
 **Description:** A speculative ontological framework that synthesises "Are ideas alive? How history was governed by ideas" and "How do reccomendation algorithms effect the formation of culture?".
 
 **Orientation within datacentral:** This document allows us to apply "living ideas" to external systems expandind the domain of the methodology so far
+
 ---
 
 ### [4. Historical reference point](Historical_context.md)
