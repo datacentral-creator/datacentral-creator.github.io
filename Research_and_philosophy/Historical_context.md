@@ -3,7 +3,7 @@
 
 # Abstract
 
-This paper examines the evolutionary and cultural development of human meaning‑making through a literature review spanning anthropology, cognitive science, mythology studies, and early philosophy. It evaluates the hypothesis that human cognition evolved through successive symbolic interfaces, each enabling increasingly abstract interaction with external patterns (“reverse ideas” and “reverse egregores”). The review first explores the emergence of early religion, shaped by symbolic language, ritual cooperation, and innate cognitive biases such as agency detection and Theory of Mind. It then analyses mythology as a higher‑order symbolic system structured by mythemes, archetypes, and ritual practices, forming coherent narrative worlds that mediated social order and cosmology. Finally, it investigates the transition from mythos to logos across ancient civilisations, showing how increasingly abstract symbols gave rise to philosophical reasoning, ethical principles, and metaphysical systems. Drawing on research in cultural evolution, cognitive anthropology, and evolutionary linguistics, the paper argues that philosophy emerged when symbolic systems became self‑referential, enabling reflection on concepts rather than participation in narratives. The findings support the broader hypothesis that human cognition developed through layered symbolic mediation, each stage producing more abstract and powerful egregoric structures. This framework provides a conceptual foundation for the future evolution of Simulatrix, suggesting how computational systems might extract and model philosophical structures from text by building on the same cognitive trajectory that shaped religion, mythology, and philosophy.
+This paper examines the evolutionary and cultural development of human meaning‑making through a literature review spanning anthropology, cognitive science, mythology studies, and early philosophy. It evaluates the hypothesis that human cognition evolved through successive symbolic interfaces, each enabling increasingly abstract interaction with external patterns. The review first explores the emergence of early religion, shaped by symbolic language, ritual cooperation, and innate cognitive biases such as agency detection and Theory of Mind. It then analyses mythology as a higher‑order symbolic system structured by mythemes, archetypes, and ritual practices, forming coherent narrative worlds that mediated social order and cosmology. Finally, it investigates the transition from mythos to logos across ancient civilisations, showing how increasingly abstract symbols gave rise to philosophical reasoning, ethical principles, and metaphysical systems. Drawing on research in cultural evolution, cognitive anthropology, and evolutionary linguistics, the paper argues that philosophy emerged when symbolic systems became self‑referential, enabling reflection on concepts rather than participation in narratives. The findings support the broader hypothesis that human cognition developed through layered symbolic mediation, each stage producing more abstract and powerful memetic structures. 
 
 # Introduction
 
@@ -12,26 +12,18 @@ This document is a part of a line of research I have conducted. The following ke
 Key terms:
 
 * Meme \- a unit of culture  
-* Egregore \- a network of memes  
-* Reverse idea \- A pattern in an external system which corresponds to an idea when internalised   
-* Reverse egregore \- A pattern in an external system that corresponds to an egregore when internalised, these are often systems such as social or physical systems or corporations   
-* Hermeneutics \- the study of interpretation 
+* Hermeneutics \- the study of interpretation
+* Archetypes - primitive patterns in the human psyche
 
-The other documents in my line of research fail in a coherent timeline of historic context however the timeline I would hypothesise from the information acquired so far is:
+In the (essay I wrote)[https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Research_and_philosophy/essay.md] as my first piece of research I discussed how in Hegel's "phenomenology of the spirit" the "Geist" (which translates to "spirit") of a society changes over time and history is the process by which this happens and that this is the "outer life" of memes where they are shaped by and according to Hegel, in turn shape the "spirit" of a society. I compared this to the work of Carl Jung where I suggested that archetypes select what memes can propagate inside a persons mind. 
 
-* I discussed Hegel's theory that the collective “geist” or spirit/philosophy of a society changes over time however perhaps over much larger periods of time the same is true for our fundamental conscious experience  
-  * In hermeneutics interpretation is an active process involving fundamental “prejudices” \- these can be thought to be the constituent of Hegel's “geist”  
-  * In hermeneutics, interpretation is also posited as a fundamental aspect of perception which in turn is a rudimentary aspect of our conscious experience hence we can reason that as the “geist” of a society changes so does the actual conscious experience of the individuals within it   
-* My hypothesis would be the following:  
-* Early humans evolved language (spoken language,art and music) as an interface to interact with reverse ideas \- this provided humans with an evolutionary advantage as it allowed them to actively manipulate their environment instead of just responding to it creating conditions that are beneficial to their survival and reproductive success and also creating the basis of conscious thought   
-* Early humans experienced the “flow” or "rhythm" or ideas and experienced this idea as “god” creating the basis of religion   
-* Religion acted as the second framework humans had to interact with ideas (after language) and culture began to develop as a way to interact with reverse egregores   
-* Mythology began to emerge and then eventually philosophy began to emerge as the next way to interact with reverse egregores
+I also performed a piece of (research)[https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Research_and_philosophy/algorithms.md] on the effect of the YouTube recommendation algorithm on the formation of culture which found that the algorithm causes user behaviours to converge over time supressing and fragmenting the formation of new culture. If the formation and culture is linked to the expression of the human psyche perhaps the structural effect of the YouTube recommendation algorithm on the formation of culture also effects the expression of archetypes within the human psyche and/or an individuals fundamental somatic experience. 
 
-This document is going to be a literature review to analyse whether my hypothesis is correct.
+YouTube and likewise technological systems have only existed for a recent part of human history. This would suggest that before YouTube the memetic landscape was different and perhaps the memetic landscape of society has been linked to it's development with the development of YouTube and recommendation algorithms being an example of this emerging from technological development. 
 
-To do this I will examine:
+This document traces the development of fundamental human somatic experience throughout history and it's relationship with the development of civilisation in order to investigate this hypothesis. 
 
+This will be achieved by investigating the following:
 * The first religions across the world  
   * How they formed  
   * Why they formed  
