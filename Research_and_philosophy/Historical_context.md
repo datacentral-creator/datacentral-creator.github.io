@@ -250,6 +250,8 @@ Across civilisations, this transition appears when mythological symbols become s
 
 # Conclusion
 
+This literature review suggests that symbolic language and morality like systems emerged in humans as a way to create and enforce fictitious realities in order to promote cooperation for long term evolutionary strategies. It was perhaps these fictitious realities that persisted over time as the foundations of myths which became degraded and recombined over time in fundamental units (mythemes). Religions emerged as we ascribed agency to these symbols  
+
 The literature reviewed in this document supports the hypothesis that human meaning‑making evolved through a sequence of increasingly abstract symbolic interfaces. Early humans first developed language, art, and music as tools for interacting with reverse ideas — patterns in the external world that became internalised as ideas, symbols, and proto‑concepts. Religion emerged as the second major interface, shaped by agency detection, ritual synchronisation, and the cooperative demands of early societies. These systems organised symbolic meaning into stable networks of narratives and practices, forming the memetic networks.
 
 Mythology represents the next stage in this trajectory. Through mythemes, archetypes, and ritual structures, mythological systems created coherent symbolic worlds that mediated social order, cosmology, and identity. Mythos provided a narrative grammar for organising meaning, and its symbolic density increased over time as stories were recombined, reinterpreted, and abstracted.
