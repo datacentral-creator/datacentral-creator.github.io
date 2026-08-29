@@ -87,7 +87,7 @@ The article argues that when early humans adopted long distance hunting in a tim
 
 People who break these conditions (“cheaters”) would have to be punished and people who don’t punish cheaters would have to be punished creating a kind of morality. 
 
-The article details how symbolic language can arise in these scenarios in order to develop complex strategies that require cooperation to ensure group survival such as the example above for example in the scenario above the early human women would have to create a deception where they are not fertile, of the same species or sex in order to indicate their refusal to reproduce \- these deceptions are community maintained between women creating early symbolic language.
+The article details how symbolic language can arise in these scenarios in order to develop complex strategies that require cooperation to ensure group survival such as the example above where early human women would have to create a deception where they are not fertile, of the same species or sex in order to indicate their refusal to reproduce \- these deceptions are community maintained between women creating early symbolic language.
 
 Knight, C. (n.d.). RITUAL AND THE ORIGINS OF LANGUAGE. \[online\] Radical Anthropology Group. Available at: [http://radicalanthropologygroup.org/wp-content/uploads/class\_text\_089.pdf](http://radicalanthropologygroup.org/wp-content/uploads/class_text_089.pdf) \[Accessed 18 Jan. 2026\].
 
@@ -96,7 +96,7 @@ Knight, C. (n.d.). RITUAL AND THE ORIGINS OF LANGUAGE. \[online\] Radical Anthro
 This section suggests that:
 
 1. Symbolic language evolved in humans as a way to facilitate cooperation in evolutionary strategies however it evolved alongside a precursor to morality which is required to enforce these symbols  
-2. Humans are psychologically predisposed to assign agency and/or spiritual significance to external actors (inverse ideas and inverse egregores) \- this results in early practices like animism, shamanism and totemism
+2. Humans are psychologically predisposed to assign agency and/or spiritual significance to external actors  \- this results in early practices like animism, shamanism and totemism
 
 We can therefore reasonably suggest that:  
 Animistic agents arose from assigning spiritual significance/agency to abstract symbols which come with an associated morality forming the foundation of religion. Alternatively we could say that religion arose as a way to enforce and interact with abstract symbols. Additionally totems (physical iterations of abstract symbols) amplify group cohesion and group identity. 
@@ -115,7 +115,7 @@ William Robertson Smith, a foundational figure in the anthropology of religion, 
 
 Later scholars, such as Clyde Kluckhohn and Edmund Leach, nuanced this debate by suggesting that myth and ritual are interdependent cultural products, each facilitating individual and collective adjustment to society. Leach, in particular, viewed myth and ritual as different modes of communicating the same symbolic message about social order.
 
-This also links into our previous section \- ritual can be seen as the morality of symbolic language. The relationship then \- between ritual and myth is the relationship between myth and symbolic language.
+This also links into our previous section \- ritual can be seen as the morality of symbolic language (the enforcing agent). The relationship then \- between ritual and myth is the relationship between myth and symbolic language.
 
 Mircea Eliade, a historian of religion, developed a phenomenological approach to myth centered on the distinction between the sacred and the profane. According to Eliade, traditional societies experience reality through participation in the sacred, which is manifested in myths, rituals, and symbols. The sacred is associated with power, reality, and meaning, while the profane is ordinary, mundane, and devoid of existential significance.
 
@@ -137,7 +137,7 @@ This idea of “mythemes” also corresponds to the idea of archetypes which I t
 
 ## 1.4 Analysis
 
-We can connect both of these perspectives. We can see mythology as an emergent system that manages the formation of memes both in terms of mythemes and archetypes but also we can see ritual \- the morality of symbolic language, as a tool serving mythology to enact “illidus tempus” \- to immerse us in this mythological world. Referring back to section one, we can see that symbolic languages emerges as a response to situations that form cooperative strategies where symbols act as agents of collective fictitious reality \- mythology is this fictitious reality. We can see it as a hierarchy with language and on this layer is memes then on the layer above is mythology with mythemes and symbols exist between these two layers like vessels. In ancient times symbols would have been used sparsely emerging when necessary as described however in the modern world we engage with symbols continuously \- in spoken communication for example, we often use metaphors and similes sometimes such that our metaphorical language can sometimes blend with our literal perception of reality. An example of this is people saying or brains our “like computers” \- eventually people started to say our brains our computers and now people can interpret this literally without thinking about it \- not in the sense that our brain has the same form as how we would imagine a computer, for example a laptop but in the sense that properties of a computer must necessarily apply to our brains. In this sense mythemes our fundamentally ingrained in our modern perception of reality. 
+We can connect both of these perspectives. We can see mythology as an emergent system that manages the formation of memes both in terms of mythemes and archetypes but also we can see ritual, as a tool serving mythology to enact “illidus tempus” \- to immerse us in this mythological world. Referring back to section one, we can see that symbolic languages emerges as a response to situations that form cooperative strategies where symbols act as agents of collective fictitious reality \- mythology is this fictitious reality. In ancient times symbols would have been used sparsely emerging when necessary as described however in the modern world we engage with symbols continuously \- in spoken communication for example, we often use metaphors and similes sometimes such that our metaphorical language can sometimes blend with our literal perception of reality. An example of this is people saying or brains our “like computers” \- eventually people started to say our brains our computers and now people can interpret this literally without thinking about it \- not in the sense that our brain has the same form as how we would imagine a computer, for example a laptop but in the sense that properties of a computer must necessarily apply to our brains. In this sense mythemes are fundamentally ingrained in our modern perception of reality. 
 
 # The origins of philosophy 
 
@@ -220,8 +220,7 @@ From a memetic and cultural‑evolutionary perspective, individuals capable of m
 Under conditions of environmental stability, such pressures could accumulate over generations, potentially shaping neural architecture. Deacon (1997) and Tomasello (1999) propose that symbolic cognition co‑evolved with social complexity, producing neurological adaptations for meta‑representation, recursion, and conceptual abstraction. These capacities underpin the shift from narrative explanation to analytical reasoning.
 
 However, genetic change is not strictly necessary. Many scholars argue that logos emerged through the flexible reuse of existing neural systems. Barrett (2004) and Boyer (2001) show that the same cognitive mechanisms used for storytelling, social reasoning, and agency detection can be applied to increasingly abstract symbolic domains. Logical thought may have arisen when humans began applying narrative techniques — analogy, contrast, causal linking — to symbols that no
-
- longer referred to concrete events but to other symbols (Donald 1991; Mithen 1996).
+longer referred to concrete events but to other symbols (Donald 1991; Mithen 1996).
 
 In this sense, **logos is mythos turned inward**: a meta‑narrative about the structure of narrative itself. The shift occurs when symbolic systems become self‑referential, enabling humans to reflect on concepts rather than merely participate in them. This marks the emergence of philosophical egregores — networks of abstract ideas that organise other ideas.
 
@@ -251,13 +250,13 @@ Across civilisations, this transition appears when mythological symbols become s
 
 # Conclusion
 
-The literature reviewed in this document supports the hypothesis that human meaning‑making evolved through a sequence of increasingly abstract symbolic interfaces. Early humans first developed language, art, and music as tools for interacting with reverse ideas — patterns in the external world that became internalised as ideas, symbols, and proto‑concepts. Religion emerged as the second major interface, shaped by agency detection, ritual synchronisation, and the cooperative demands of early societies. These systems organised symbolic meaning into stable networks of narratives and practices, forming the earliest egregores.
+The literature reviewed in this document supports the hypothesis that human meaning‑making evolved through a sequence of increasingly abstract symbolic interfaces. Early humans first developed language, art, and music as tools for interacting with reverse ideas — patterns in the external world that became internalised as ideas, symbols, and proto‑concepts. Religion emerged as the second major interface, shaped by agency detection, ritual synchronisation, and the cooperative demands of early societies. These systems organised symbolic meaning into stable networks of narratives and practices, forming the memetic networks.
 
 Mythology represents the next stage in this trajectory. Through mythemes, archetypes, and ritual structures, mythological systems created coherent symbolic worlds that mediated social order, cosmology, and identity. Mythos provided a narrative grammar for organising meaning, and its symbolic density increased over time as stories were recombined, reinterpreted, and abstracted.
 
 Philosophy emerges when these symbolic systems become self‑referential. Across India, China, the Near East, and Greece, increasingly abstract symbols gave rise to conceptual categories, ethical principles, and metaphysical systems. This transition from mythos to logos marks the birth of philosophical egregores — networks of abstract ideas capable of explaining not only the world but the symbolic structures themselves. The literature suggests that this shift was driven by a combination of cultural evolution, social capital, cognitive flexibility, and the gradual abstraction of mythological symbols.
 
-Taken together, these findings support the broader hypothesis that human cognition evolved through successive layers of symbolic mediation, each producing more abstract and powerful ways of interacting with reverse egregores. This developmental arc provides a conceptual foundation for the future evolution of Simulatrix. The tagger component models the mythological layer by extracting egregore sets from text, while higher‑order structures such as anti‑patterns offer a path toward modelling philosophical abstraction. In this sense, my project Simulatrix continues the same trajectory that began with early symbolic language: the attempt to make the structure of meaning visible, manipulable, and intelligible.
+Taken together, these findings support the broader hypothesis that human cognition evolved through successive layers of symbolic mediation, each producing more abstract ways of interacting with the systems that govern the world around us. 
 
 # References
 
@@ -296,8 +295,6 @@ Centre, U.W.H. (n.d.) *Cave of Altamira and Paleolithic Cave Art of Northern Spa
 Von Fritz, K. (2025) *Greek philosophy.* Encyclopedia Britannica. Available at: `https://www.britannica.com/topic/Greek-philosophy` (britannica.com in Bing) (Accessed: \[20/01/2026\]).
 
 ## Web Sources
-
-These are acceptable but should be used minimally in a published paper.
 
 Dockrill, P. (2020) ‘Stone Age “Venus Figurines” Have a New Explanation’, *ScienceAlert*. Available at: `https://www.sciencealert.com/the-mystery-of-the-enigmatic-venus-figurines-has-a-surprising-new-solution` (sciencealert.com in Bing) (Accessed: \[20/01/2026\]).
 
