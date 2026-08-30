@@ -4,7 +4,7 @@
 ---
 
 ### Overview
-This research seeks to answer the question "How do humans extract and interact with form from data" in order to model this process. [I then turn these models into programs](https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Datacentral_implementations/index.md) which are meant to assist with this process to create a document management and symbolic manipulation system that works in tandem with the human brain which I then merge into Datacentral. The document are ordered numerically in the order that they were created. Reading them in this order would provide the best experience however prerequisite reading of one document is not required to make sense of other documents within the series.
+This research seeks to answer the question "How do humans extract and interact with form from data" in order to model this process. [I then turn these models into programs](../Datacentral_implementations/index.md) which are meant to assist with this process to create a document management and symbolic manipulation system that works in tandem with the human brain which I then merge into Datacentral. The document are ordered numerically in the order that they were created. Reading them in this order would provide the best experience however prerequisite reading of one document is not required to make sense of other documents within the series.
 
 ### [1. Are ideas alive? How history was governed by ideas](essay.md)  
 **Status:** Second edition released
@@ -34,7 +34,7 @@ This research seeks to answer the question "How do humans extract and interact w
 
 **Document type**: Essay
 
-**Description:** This document synthesises the findings of my [essay](https://datacentral-creator.github.io/Research_and_philosophy/essay.html) and [an experiment into the effect of the YouTube recommendation algorithm in creating culture](https://datacentral-creator.github.io/Research_and_philosophy/algorithms.html) to dive deeper into the way the YouTube recommendation algorithm exchanges memes with users. It then uses this to investigate how to facilitate an optimal memetic exchange with a recommendation algorithm program. 
+**Description:** This document synthesises the findings of my [essay](./essay.md) and [an experiment into the effect of the YouTube recommendation algorithm in creating culture](https://datacentral-creator.github.io/Research_and_philosophy/algorithms.html) to dive deeper into the way the YouTube recommendation algorithm exchanges memes with users. It then uses this to investigate how to facilitate an optimal memetic exchange with a recommendation algorithm program. 
 
 **Orientation within Datacentral:** This document allows investigates how we can reverse the negative effects of recommendation algorithms when using recommendation algorithms or similiar systems within Datacentral 
 
