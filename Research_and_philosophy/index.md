@@ -45,9 +45,9 @@ These documents constitute my research for Datacentral - a program for extractin
 
 **Document type**: Literature review
 
-**Description:** A literature review of multiple sources that details the chronological evolution of the way humans create meaning from the world around them
+**Description:** This document synthesises multiple sources to detail the chronology of the way in which humans think and how philosophy and mythology emerged in early human society.
 
-**Orientation within datacentral:** This document details the history of the interface of human conciousness allowing us to better interpret the human level of the datacentral methodology for more meaningful interactions with data
+**Orientation within data central:** This document establishes a relationship between symbols becoming increasingly abstract and detached from external reality and the shift from mythological thinking to logical/philosophical thinking. The previous research document surrounding the way in which recommendation algorithms affect the formation of culture found the same trend at an accelerated rate where the formation of culture becomes fragmented as symbols become increasingly post modern and the people creating culture do so by manipulating and remixing existing memes.
 
 ---
 
