@@ -258,8 +258,6 @@ This reflects that the system is very sensitive to thematic overlap and is worki
 
 [The python code](./Naive_model.py)
 
-## 
-
 # Conclusion
 
 Across biology, psychology, philosophy, and esoteric tradition, a striking pattern emerges: ideas behave less like inert abstractions and more like dynamic, evolving entities. Dawkins’ memes replicate through minds; hermeneutics shows how interpretation continually reshapes them; neuroscience reveals the physical substrate through which they take form. Esoteric systems personified these dynamics as egregores and thoughtforms, while Jung framed them as archetypal attractors structuring the psyche. Hegel extended this logic outward, showing how ideas organise entire epochs of history through dialectical transformation.
