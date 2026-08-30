@@ -7,7 +7,7 @@ This archive presents my ongoing work on social chaos theory, algorithmic cultur
 
 ---
 ## [Research and philosophy](Research_and_philosophy/index.md)
-The folder containing the documents that formalise the philosophical foundations of datacentral and organisations of research behind the creation of the components
+This research seeks to answer the question "How do humans extract and interact with form from data" in order to model this process.
 
 ---
 ## [Datacentral implementations](Datacentral_implementations/index.md)
