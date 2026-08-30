@@ -13,9 +13,6 @@ The folder containing the documents that formalise the philosophical foundations
 ## [Datacentral implementations](Datacentral_implementations/index.md)
 The details of the specific components implemented as a result of the ideological basis
 
-# Overview of content
-The "research and philosophy" section is a list of documents formalising the philosophy of datacentral, and the datacentral implementation section is a list of documents relating to datacentral, the development of it's components and how it works however whilst these two sections have been separated for organisation and for convenience of readers who are only interested in one section or the other however it is important to remember that this seperation is artifical for example the first 4 documents in the Research and philosophy series create the scaffolding for the tagger component and were created in order to establish and analyse the tagger component however in terms of these directories the tagger component and these documents are entirely uncorrelated.
-
 ## About This Archive
 
 This site functions as a central index for my research output. Each paper will be made available here in PDF format, accompanied where appropriate by supplementary notes, diagrams, and extended commentary. Related essays and preliminary explorations may also appear on platforms such as LessWrong or within associated GitHub repositories.
