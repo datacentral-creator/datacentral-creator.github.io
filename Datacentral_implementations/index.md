@@ -12,7 +12,7 @@
 
 ---
 
-### [Tagger_component](https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Datacentral_implementations/tagger.md)
+### [Tagger_component](tagger.md)
 **Status:** Live
 
 **Description**: The tagger component is the crux of datacentral - a component designed to extract primary form from data 
