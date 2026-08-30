@@ -3,7 +3,7 @@
 
 ---
 
-### [History](History.md)
+### [History](history.md)
 **Status:** Live
 
 **Description**: A document detailing the history and evolution of datacentral
