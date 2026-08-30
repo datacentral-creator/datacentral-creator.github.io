@@ -18,12 +18,11 @@ The methodology below describes the complete process.
 The tagger pipeline consists of six major stages:
 
 1. **Tokenisation**  
-2. **Graph Construction**  
-3. **Motif (Thoughtform) Detection**  
-4. **Strength Calculation**  
-5. **Egregore Extraction**  
-6. **Tensor Construction & Comparison**
-
+2. **Motif (Thoughtform) Detection**  
+3. **Strength Calculation**  
+4. **Egregore Extraction**  
+5. **Tensor Construction & Comparison**
+6. **Reference index unification**
 Each stage is described below.
 
 ---
