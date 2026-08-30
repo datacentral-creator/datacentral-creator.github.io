@@ -96,8 +96,8 @@ For this section I will analyse what the results of the youtube recommendation e
 
 In this experiment 3 graphs were obtained:  
 <img src="./Fig1.png" alt="Figure 1" width="500" height="400">
-![][image2]  
-![][image3]  
+<img src="./Fig2.png" alt="Figure 2" width="500" height="400">
+<img src="./Fig3.png" alt="Figure 3" width="500" height="400">
 The graphs show the following trends:
 
 * When only one category was interacted with (low initial social chaos) the recommendation algorithm seemed to cluster at about \~30% of videos recommended are of the same category  
