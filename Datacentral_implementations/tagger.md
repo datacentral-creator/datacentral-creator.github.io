@@ -89,7 +89,7 @@ This ranking determines which motifs act as meaningful anchors.
 
 ---
 
-# 3.5 Egregore Extraction
+# 4 Egregore Extraction
 
 An **egregore** is the contextual neighbourhood around a thoughtform.
 
@@ -110,7 +110,7 @@ This yields a set of token sequences representing the motif’s structural neigh
 
 ---
 
-# 4. Tensor Representation
+# 5 Tensor Representation
 
 Each egregore is embedded as a **tensor**:
 
@@ -121,7 +121,7 @@ This produces a high‑dimensional representation of the egregore’s structure.
 
 ---
 
-# 5. Reference Index Unification
+# 6 Reference Index Unification
 
 To compare egregores across files:
 
@@ -133,7 +133,7 @@ This ensures tensors from different media are directly comparable.
 
 ---
 
-# 6. Comparing Media
+# 7 Comparing Media
 
 To compare two files:
 
@@ -147,7 +147,7 @@ This allows cross‑media comparison of structural patterns.
 You can find the python code for the updates to this pipeline (the move to suffix automatons) [here](./Improved_model.py).
 ---
 
-# 7. Lessons from Early Attempts
+# 8 Lessons from Early Attempts
 
 ### **Word‑level tokenisation failed**  
 Whitespace splitting introduced noise and fragmented cycles.
@@ -174,6 +174,5 @@ The final tagger pipeline is:
 8. **Compare via dot product**
 
 This system generalises across text, images, and video, enabling a unified theory of structural pattern extraction.
-
 
 
