@@ -132,7 +132,7 @@ This would give us
 
 {1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 4 → 8 → 8 → 9: 8, 11: 9, 12: 10, 13: 11, 14: 12, 15: 13}
 
-You can see more about this improved model in the [tagger component implementation.](https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Datacentral_implementations/tagger.md)
+You can see more about this improved model in the [tagger component implementation.](../Datacentral_implementations/tagger.md)
 
 ### Thoughtforms as Cycles
 
