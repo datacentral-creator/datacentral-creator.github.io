@@ -250,15 +250,7 @@ Across civilisations, this transition appears when mythological symbols become s
 
 # Conclusion
 
-This literature review suggests that symbolic language and morality like systems emerged in humans as a way to create and enforce fictitious realities in order to promote cooperation for long term evolutionary strategies. It was perhaps these fictitious realities that persisted over time as the foundations of myths which became degraded and recombined over time in fundamental units (mythemes). Religions emerged as we ascribed agency to these symbols  
-
-The literature reviewed in this document supports the hypothesis that human meaning‑making evolved through a sequence of increasingly abstract symbolic interfaces. Early humans first developed language, art, and music as tools for interacting with reverse ideas — patterns in the external world that became internalised as ideas, symbols, and proto‑concepts. Religion emerged as the second major interface, shaped by agency detection, ritual synchronisation, and the cooperative demands of early societies. These systems organised symbolic meaning into stable networks of narratives and practices, forming the memetic networks.
-
-Mythology represents the next stage in this trajectory. Through mythemes, archetypes, and ritual structures, mythological systems created coherent symbolic worlds that mediated social order, cosmology, and identity. Mythos provided a narrative grammar for organising meaning, and its symbolic density increased over time as stories were recombined, reinterpreted, and abstracted.
-
-Philosophy emerges when these symbolic systems become self‑referential. Across India, China, the Near East, and Greece, increasingly abstract symbols gave rise to conceptual categories, ethical principles, and metaphysical systems. This transition from mythos to logos marks the birth of philosophical egregores — networks of abstract ideas capable of explaining not only the world but the symbolic structures themselves. The literature suggests that this shift was driven by a combination of cultural evolution, social capital, cognitive flexibility, and the gradual abstraction of mythological symbols.
-
-Taken together, these findings support the broader hypothesis that human cognition evolved through successive layers of symbolic mediation, each producing more abstract ways of interacting with the systems that govern the world around us. 
+This literature review suggests that symbolic language and morality like systems emerged in humans as a way to create and enforce fictitious realities in order to promote cooperation for long term evolutionary strategies. It was perhaps these fictitious realities that persisted over time as the foundations of myths which became degraded and recombined over time in fundamental units (mythemes). Religions emerged as we ascribed agency to these symbols making this fictitious reality into a lived experience creating increasingly abstract symbolic interfaces and rituals such as totemism where material objects become a gateway to interacting with this world. As these symbols became increasingly abstract we shifted from mythological thinking (mythos) which is narrative and imaginative to analytical thinking(logos) and shifted from mythology to philosophy. 
 
 # References
 
