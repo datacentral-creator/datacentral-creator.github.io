@@ -95,7 +95,7 @@ For this section I will analyse what the results of the youtube recommendation e
 ## 4.2 Youtube Recommendation algorithm (pilot study)
 
 In this experiment 3 graphs were obtained:  
-[](Fig1.png)
+<img src="./Fig1.png" alt="Figure 1" width="500" height="400">
 ![][image2]  
 ![][image3]  
 The graphs show the following trends:
