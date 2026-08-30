@@ -48,32 +48,25 @@ Procedure:
 
 This produces a reversible, language‑agnostic representation.
 
+You can see a python implementation of this [here](./Encoding.py).
+
 ---
 
-# 3.2 Motif (Thoughtform) Detection
+# 2 Motif (Thoughtform) Detection
 
 A **thoughtform** is defined as a **repeated motif**: a substring that appears at least twice.
 
-To detect motifs efficiently, the system uses:
+To detect motifs efficiently, the system uses the following procedure
 
-### **Suffix Array + LCP Array**
+1. Build a suffix automaton over the encoded data (represents the token sequence efficently)
+2. Go through the encoded sequence token by token and find the shortest length between the token and itself. If this value is greater than or equal to 2 the token is a thoughtform.
+3. Build a new reference index for thoughtforms
 
-1. Build a suffix array over the token sequence.  
-2. Compute the LCP (Longest Common Prefix) array.  
-3. For each LCP value `L ≥ 2`, extract all prefixes of length `2..L`.  
-4. Track all positions where each motif occurs.
-
-This yields:
-
-- all repeated substrings,  
-- their frequencies,  
-- their positions in the sequence.
-
-These motifs are the **thoughtforms**.
+We then append this new reference index to a list of reference indexes and encode the data again using this reference index applying this step again to the newly encoded data repeatedly until no new thoughtforms can be found. This captures thoughtforms of any length. 
 
 ---
 
-# 3.3 Strength Calculation
+# 3 Strength Calculation
 
 Each thoughtform receives a **strength score** based on:
 
@@ -151,6 +144,7 @@ To compare two files:
 
 This allows cross‑media comparison of structural patterns.
 
+You can find the python code for the updates to this pipeline (the move to suffix automatons) [here](./Improved_model.py).
 ---
 
 # 7. Lessons from Early Attempts
@@ -161,15 +155,8 @@ Whitespace splitting introduced noise and fragmented cycles.
 ### **Character‑level tokenisation fixed this**  
 But introduced accidental overlaps (e.g., “practice” vs “malpractice”).
 
-### **Motif‑level detection solved both problems**  
-Suffix arrays allow:
-
-- variable‑length motifs  
-- efficient O(n log n) extraction  
-- precise recurrence detection  
-- robust thoughtform identification
-
-This is the foundation of the updated methodology.
+### **Iterative suffix automaton thoughtform detection and encoding solves both of these problems**  
+Tokens can represent whatever is meaningful within the data. It also allows you to make the data highly compressed which is efficient for transmitting the data between machines and allows you to transmit data in an encrypted format assuming both parties have access to the reference indexes.
 
 ---
 
