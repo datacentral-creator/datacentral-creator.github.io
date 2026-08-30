@@ -256,7 +256,7 @@ To perform this test I selected 3 sets of pairs text for each category:
 
 This reflects that the system is very sensitive to thematic overlap and is working successfully.
 
-(The source code)[./Naive_model.py]
+[The python code](./Naive_model.py)
 
 ## 
 
