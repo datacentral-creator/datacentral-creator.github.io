@@ -66,4 +66,4 @@ I designed one central react native app which connects to a server component. Th
 
 ---
 ## Backend upgrade
-I replaced all the WSL functionality with qemu. This took a lot of time and I had to rewrite a lot of code but it made my code more robust and meant that it can run on tacos,windows and Linux. It also gave me more control over the environment
+I replaced all the WSL functionality with qemu. This took a lot of time and I had to rewrite a lot of code but it made my code more robust and meant that it can run on tacos,windows and Linux. It also gave me more control over the environment.
