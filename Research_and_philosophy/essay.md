@@ -111,7 +111,8 @@ The meaning of the numbers is irrelevant; what matters is the **pattern of recur
 
 1 → 2 → 3 → 4 → 5 → 6 → 4 → 7 → 8\.
 
-Revision:
+###Revision
+
 A major problem with this representation is that whilst in the medium of English text you can easily generate these symbols by separating words using spaces this is not the case for other mediums. To combat this reference indexes in the future tokenise text on a character by character basis then do the same to the sequence generated iteratively creating high level token structures. This method is better on all mediums because it can also recognise connections between words with different roots or prefixes.
 
 An example of this here would be as shown below
