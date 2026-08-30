@@ -11,7 +11,7 @@ This research seeks to answer the question "How do humans extract and interact w
 
 ---
 ## [Datacentral implementations](Datacentral_implementations/index.md)
-The details of the specific components implemented as a result of the ideological basis
+These are the specifications of the models created in the theoretical research above after being turned into programs which are meant to create a document management and symbolic manipulation system that works in tandem with the human brain (Datacentral).
 
 ## About This Archive
 
