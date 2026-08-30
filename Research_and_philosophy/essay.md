@@ -111,7 +111,7 @@ The meaning of the numbers is irrelevant; what matters is the **pattern of recur
 
 1 → 2 → 3 → 4 → 5 → 6 → 4 → 7 → 8\.
 
-###Revision
+#### Revision
 
 A major problem with this representation is that whilst in the medium of English text you can easily generate these symbols by separating words using spaces this is not the case for other mediums. To combat this reference indexes in the future tokenise text on a character by character basis then do the same to the sequence generated iteratively creating high level token structures. This method is better on all mediums because it can also recognise connections between words with different roots or prefixes.
 
@@ -134,6 +134,10 @@ This would give us
 {1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 4 → 8 → 8 → 9: 8, 11: 9, 12: 10, 13: 11, 14: 12, 15: 13}
 
 You can see more about this improved model in the [tagger component implementation.](../Datacentral_implementations/tagger.md)
+
+#### Limitations of revised model
+
+The limitations of the revised model lie with the limitations of the approach of using adjacency as a proxy for semantic linking. An example could be if you had the text "The apple is red and it is also light. The sock is light but it is not red.". This would in the best case scenario create the links apple --> red. it --> light, not red. sock --> light. Naturally this is problematic because both properties of the apple and the sock get merged under the category of "it" however this is mitigated in the actual program of Datacentral by treating each reference as a distinct object which would create "apple --> red. it --> light. it --> not red. sock --> light". I then allow the user to merge the it with the light property onto apple and the it with the not light property onto the sock manually however this is still a limitation since this becomes tenous for the user over large pieces of media. 
 
 ### Thoughtforms as Cycles
 
