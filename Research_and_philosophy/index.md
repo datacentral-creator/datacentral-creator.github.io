@@ -4,7 +4,7 @@
 ---
 
 ### Overview
-This research seeks to answer the question "How do humans extract and interact with form from data" in order to model this process. I then turn these models into programs which are meant to assist with this process to create a document management and symbolic manipulation system that works in tandem with the human brain which I then merge into Datacentral. The document are ordered numerically in the order that they were created. Reading them in this order would provide the best experience however prerequisite reading of one document is not required to make sense of other documents within the series.
+This research seeks to answer the question "How do humans extract and interact with form from data" in order to model this process. [I then turn these models into programs](https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Datacentral_implementations/index.md) which are meant to assist with this process to create a document management and symbolic manipulation system that works in tandem with the human brain which I then merge into Datacentral. The document are ordered numerically in the order that they were created. Reading them in this order would provide the best experience however prerequisite reading of one document is not required to make sense of other documents within the series.
 
 ### [1. Are ideas alive? How history was governed by ideas](essay.md)  
 **Status:** Second edition released
