@@ -1,45 +1,19 @@
-# 🧠 Tagger Methodology  
+# Tagger Methodology  
 *A unified framework for extracting form from information*
 
 The tagger system is designed to answer a single question:
 
 > **How can we extract *form* from information?**
 
-It operationalises the theoretical framework developed in  
-**Text A** (*Are ideas alive?*) and **Text B** (*How recommendation algorithms affect culture*),  
-and provides a general‑purpose pipeline for identifying structural patterns—*egregores*—in any medium.
+It operationalises and improves upon the model developed in my (essay )[../Research_and_philosophy/essay.md] where text is broken down into words which are replaced by numbers (and the map between the number and the word it represents is saved as a "Reference index"). We then turn this into a sequence of numbers and identify thoughtforms (recurring symbols) as cycles within the sequence. We then extract "Egregore sets" as a set of tokens around the thoughtforms and encode these egregore sets into tensors along with values that represent the strengths of the tokens in these sets (how related the token is to the set as a whole). This tenor then represents the form of the text as a whole. 
+
+In the program Datacentral which the tagger component is a part of we can also decode the egregore sets back into text and highlight this text in the original media in order to create an automatic highlighting system saving these egregore sets as reusable objects within the program.
 
 The methodology below describes the complete process.
 
 ---
 
-# 1\. Purpose
-
-The tagger component is designed to answer a single question:
-
-**How can we extract *form* from information?**
-
-It synthesises the theoretical framework developed in:
-
-* **Text A:** [*Are ideas alive? How historical civilisations were governed by ideas*](https://datacentral-creator.github.io/Research_and_philosophy/essay)
-* **Text B:** [*How recommendation algorithms affect the formation of culture*](https://datacentral-creator.github.io/Research_and_philosophy/algorithms)
-
-The goal is to build a system capable of identifying structural patterns—*egregores*—within any medium (text, image, video), representing them mathematically, and using them to compare, classify, and recommend content.
-
-# 2\. Key Concepts
-
-Before describing the methodology, the following terms are essential:  
-\- **Token**: A basic unit of information (word, pixel value, video frame value).  
-\- **Thoughtform**: A token that participates in a cycle—a repeated pattern within a token graph.  
-\- **Egregore**: A network of memes (tokens) organised around a thoughtform, defined by recurrence strength.  
-\- **Anchor**: The thoughtform around which an egregore tensor is constructed.  
-\- **Tensor**: A vector‑like representation encoding the strengths of relationships between a thoughtform and other tokens.  
-\- **Reference Index**: A mapping between raw symbols and token numbers.
-
-
----
-
-# 3. Methodology Overview
+# Methodology Overview
 
 The tagger pipeline consists of six major stages:
 
@@ -54,7 +28,7 @@ Each stage is described below.
 
 ---
 
-# 3.1 Tokenisation
+# 1 Tokenisation
 
 Tokenisation converts raw media into integer sequences.
 
@@ -65,6 +39,7 @@ The system uses **character‑level tokenisation**, not word‑level, because:
 - it avoids fragmentation caused by punctuation,  
 - it produces a small, universal reference index,  
 - it allows motifs of arbitrary length to emerge naturally.
+- it allows us to expand the procedure to images and videos in the future using pixel values as tokens
 
 Procedure:
 
@@ -73,30 +48,9 @@ Procedure:
 
 This produces a reversible, language‑agnostic representation.
 
-## **Images**
-
-A naïve approach maps each pixel’s value to a token in scanline order.  
-(Replaceable with perceptual embeddings in future versions.)
-
-## **Video**
-
-Tokenise each frame as an image, then treat the video as a sequence of 2D grids over time.
-
 ---
 
-# 3.2 Graph Construction
-
-All media are reduced to **1D token sequences** by decomposing their structure:
-
-- Text → 1D sequence  
-- Image → horizontal + vertical sequences  
-- Video → horizontal + vertical + temporal sequences  
-
-This ensures the same motif‑extraction algorithm applies to all media.
-
----
-
-# 3.3 Motif (Thoughtform) Detection
+# 3.2 Motif (Thoughtform) Detection
 
 A **thoughtform** is defined as a **repeated motif**: a substring that appears at least twice.
 
@@ -119,7 +73,7 @@ These motifs are the **thoughtforms**.
 
 ---
 
-# 3.4 Strength Calculation
+# 3.3 Strength Calculation
 
 Each thoughtform receives a **strength score** based on:
 
