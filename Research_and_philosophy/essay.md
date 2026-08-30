@@ -112,7 +112,7 @@ The meaning of the numbers is irrelevant; what matters is the **pattern of recur
 1 → 2 → 3 → 4 → 5 → 6 → 4 → 7 → 8\.
 
 Revision:
-A major problem with this representation is that whilst in the medium of English text you can easily generate these symbols by separating words using spaces this is not the case for other mediums. To combat this reference indexes in the future tokenise text on a character by character basis then do the same to the sequence generated iteratively creating high level token structures. This method is better on all mediums because it can also recognise connections between words with different roots or prefixes. 
+A major problem with this representation is that whilst in the medium of English text you can easily generate these symbols by separating words using spaces this is not the case for other mediums. To combat this reference indexes in the future tokenise text on a character by character basis then do the same to the sequence generated iteratively creating high level token structures. This method is better on all mediums because it can also recognise connections between words with different roots or prefixes.
 
 An example of this here would be as shown below
 
@@ -131,6 +131,8 @@ This would give us
 1, 2, 3, 4, 5, 6, 4, 5, 6, 2, 4, 7, 2, 8, 10, 2, 9, 3, 6, 2, 8, 2, 10, 11, 2, 12, 13
 
 {1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 4 → 8 → 8 → 9: 8, 11: 9, 12: 10, 13: 11, 14: 12, 15: 13}
+
+You can see more about this improved model in the [tagger component implementation.](https://github.com/datacentral-creator/datacentral-creator.github.io/blob/main/Datacentral_implementations/tagger.md)
 
 ### Thoughtforms as Cycles
 
