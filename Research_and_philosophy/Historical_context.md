@@ -1,5 +1,5 @@
 **Navigation:**  
-[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](history.md)
+[Research](index.md) | [Datacentral](https://github.com/datacentral-creator/Datacentral) | [History](../Datacentral_implementations/history.md)
 
 # Abstract
 
