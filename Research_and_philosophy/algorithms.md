@@ -92,7 +92,7 @@ For this section I will analyse what the results of the youtube recommendation e
 
 # 4\. Findings
 
-## 4.2 Youtube Recommendation algorithm (pilot study)
+## 4.1 Youtube Recommendation algorithm (pilot study)
 
 In this experiment 3 graphs were obtained:  
 
@@ -118,7 +118,7 @@ This creates a three tier stratification system:
 
 This means that overall there is a gradient towards the lowest strata of this structure such that the higher up you are the stronger the gradient is. 
 
-## 4.3 Algorithmic analysis
+## 4.2 Algorithmic analysis
 
 Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion
 
@@ -135,7 +135,7 @@ We can say that the upper limit we hit for content of the same category (\~40%) 
 
 Something else which is important to consider when analysing the algorithm is a famous edge case \- echo chambers. My data shows that there is a drift that seems to decrease social chaos proportional to the social chaos a user has. This suggests that all users are in a mild echo chamber. This aligns with the source ([Echo chambers, rabbit holes, and ideological bias: How YouTube recommends content to real users](https://www.brookings.edu/articles/echo-chambers-rabbit-holes-and-ideological-bias-how-youtube-recommends-content-to-real-users/)  ) where the team of researchers investigate the effects of echo chambers purely from the youtube recommendation algorithm. They found that the recommendation algorithm itself does in fact push users into a “mild” echo chamber but the authors of the article suggest that it is user choice and not the algorithm itself which causes users to fall down “rabbit holes” (an increasing state of an echo chamber) to which avail it is significant to reference many psychological effects such as confirmation bias (where people tend to remember facts that agree with what they already believe) which when working in tandem with “mild” echo chambers can lead to more substantial polarisation ((typically political) ideological bias (which typically emerges from echo chambers)).This suggests that as the user experiences sustained decrease social chaos in the recommendation algorithm it actually reduces their social chaos psychologically going beyond their interaction with the recommendation algorithm. 
 
-## 4.4 Social analysis
+## 4.3 Social analysis
 
 Although the pilot experiment is limited in scope, its results can still be interpreted through established sociological frameworks. The purpose of this section is not to generalise statistically, but to explore how the observed algorithmic patterns align with existing theories of cultural stratification, identity performance, and memetic diffusion.  
 This results in the following framework. 
@@ -234,7 +234,7 @@ This source is particularly academically rigorous as it comes from an establishe
 
 # 7\. Appendix
 
-## 7.2 Youtube recommendation algorithm pilot study
+## 7.1 Youtube recommendation algorithm pilot study
 
 Categories: Fitness
 
