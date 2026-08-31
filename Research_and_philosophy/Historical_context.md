@@ -103,13 +103,13 @@ Animistic agents arose from assigning spiritual significance/agency to abstract 
 
 # The formation of culture and mythology
 
-## 1.1 The history of mythological study perspectives
+## 2.1 The history of mythological study perspectives
 
 Nineteenth-century scholars such as Edward Tylor and James Frazer viewed myth as a primitive form of explanation, a way for early humans to make sense of natural phenomena before the advent of science. This intellectualist approach emphasized the explanatory and symbolic functions of myth but was criticized for underestimating the social and emotional dimensions of myth-making.
 
 Functionalist theorists, notably Bronisław Malinowski and A.R. Radcliffe-Brown, shifted the focus to the role of myth in maintaining social cohesion and legitimizing institutions. Malinowski argued that myths serve as "pragmatic charters" for social norms and rituals, providing justification and sanctity for customs and beliefs. In his view, myth is "a reality lived," not merely a symbolic or explanatory narrative.
 
-## 1.2 Ritual vs myth
+## 2.2 Ritual vs myth
 
 William Robertson Smith, a foundational figure in the anthropology of religion, posited the primacy of ritual over myth. He argued that rituals are the original and essential components of religion, with myths emerging later as explanations or rationalizations of ritual practices. This perspective influenced subsequent anthropologists, including Durkheim and Mauss, who emphasized the social and symbolic functions of ritual and myth in creating collective belief and belonging.
 
@@ -127,7 +127,7 @@ The creation of sacred space is equally important. Sacred spaces are centers of 
 
 Wikipedia Contributors (2025). Eternal return (Eliade). \[online\] Wikipedia. Available at: [https://en.wikipedia.org/wiki/Eternal\_return\_%28Eliade%29](https://en.wikipedia.org/wiki/Eternal_return_%28Eliade%29) 
 
-## 1.3 Structuralism
+## 2.3 Structuralism
 
 The structuralist revolution, led by Claude Lévi-Strauss, introduced a new paradigm for the study of myth. Drawing on the linguistic theories of Ferdinand de Saussure, Lévi-Strauss argued that myths, like language, are composed of constituent units (mythemes) whose meaning arises from their relationships and oppositions within a larger structure. Structuralism shifted the focus from the content of myths to their underlying "grammar," revealing universal patterns of binary opposition (e.g., nature/culture, raw/cooked) that mediate cultural contradictions.
 
@@ -135,13 +135,13 @@ Lévi-Strauss's method involved decomposing myths into mythemes, arranging them 
 
 This idea of “mythemes” also corresponds to the idea of archetypes which I talked about in my other essay: “Are ideas alive? How historical civilisations were governed by ideas” \- effectively archetypes are psychological patterns that present themselves in mythological patterns and shape which memes thrive and which ones don’t. 
 
-## 1.4 Analysis
+## 2.4 Analysis
 
 We can connect both of these perspectives. We can see mythology as an emergent system that manages the formation of memes both in terms of mythemes and archetypes but also we can see ritual, as a tool serving mythology to enact “illidus tempus” \- to immerse us in this mythological world. Referring back to section one, we can see that symbolic languages emerges as a response to situations that form cooperative strategies where symbols act as agents of collective fictitious reality \- mythology is this fictitious reality. In ancient times symbols would have been used sparsely emerging when necessary as described however in the modern world we engage with symbols continuously \- in spoken communication for example, we often use metaphors and similes sometimes such that our metaphorical language can sometimes blend with our literal perception of reality. An example of this is people saying or brains our “like computers” \- eventually people started to say our brains our computers and now people can interpret this literally without thinking about it \- not in the sense that our brain has the same form as how we would imagine a computer, for example a laptop but in the sense that properties of a computer must necessarily apply to our brains. In this sense mythemes are fundamentally ingrained in our modern perception of reality. 
 
 # The origins of philosophy 
 
-## 1.1 Mythology as the precursor to philosophy
+## 3.1 Mythology as the precursor to philosophy
 
 Over time, a trend is observed where mythology gives rise to increasingly abstract symbols such as dikē (justice) and moira (fate) in Homer's theogeny.  
 Additionally, the earliest strata of Indian thought are found in the **Vedas** (c. 1500–900 BCE), a vast corpus of hymns, rituals, and speculative texts transmitted orally for centuries. The Vedic hymns are addressed to a pantheon of deities—Indra, Agni, Varuna, and others—who personify natural forces and cosmic functions. Ritual sacrifice (*yajña*) is central, believed to sustain the cosmic order (*rita*) and ensure prosperity.
@@ -209,7 +209,7 @@ While early Hebrew religion retained elements of myth and ritual, the prophetic 
 
 Von Fritz, K. (2025). Greek philosophy. \[online\] Encyclopedia Britannica. Available at: [https://www.britannica.com/topic/Greek-philosophy](https://www.britannica.com/topic/Greek-philosophy). 
 
-## 1.2 Reasons for the shift
+## 3.2 Reasons for the shift
 
 The transition from mythos(mythological thinking) to logos(logical thinking) is one of the most significant developments in human intellectual history, yet its underlying causes remain debated. While no single explanation is universally accepted, research across anthropology, cognitive science, and evolutionary linguistics provides a plausible account of how abstract, conceptual reasoning emerged from mythological cognition.
 
