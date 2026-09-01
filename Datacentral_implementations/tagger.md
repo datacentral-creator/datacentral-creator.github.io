@@ -174,6 +174,8 @@ The final tagger pipeline is:
 
 This system generalises across text, images, and video, enabling a unified theory of structural pattern extraction.
 
+---
+
 # 9. Implementation within datacentral
 
 Within the Datacentral [mobile app](https://github.com/datacentral-creator/Datacentral/blob/main/Mobile_user_manual.md) there is a text editor interface which uses this algorithm to generate thoughtforms which are highlighted automatically. In the app thoughtforms are a class of objects called "links" and the user can save thoughtforms as links or select text and save it as a link manually. This tagger component effectively makes the process more convenient. 
