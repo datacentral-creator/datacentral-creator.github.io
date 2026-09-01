@@ -12,10 +12,17 @@
 
 ---
 
-### [Tagger_component](tagger.md)
+### [Tagger component](tagger.md)
 **Status:** Live
 
 **Description**: The tagger component is the crux of datacentral - a component designed to extract primary form from data 
+
+---
+
+### [Schematic pipeline](Schematic_pipeline.md)
+**Status:** Live
+
+**Description**: The schematic pipeline extends datacentral to include symbolic manipulation faculties
 
 ---
 
