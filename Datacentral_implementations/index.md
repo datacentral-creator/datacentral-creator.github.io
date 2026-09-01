@@ -20,7 +20,7 @@
 ---
 
 ### [Schematic pipeline](Schematic_pipeline.md)
-**Status:** Live
+**Status:** Live but in development
 
 **Description**: The schematic pipeline extends datacentral to include symbolic manipulation faculties
 
