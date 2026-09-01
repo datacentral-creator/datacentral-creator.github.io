@@ -1,3 +1,3 @@
-# Schematic pipeline
+# Schematic pipeline methodology
 
 ---
